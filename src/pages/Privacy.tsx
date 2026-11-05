@@ -13,7 +13,8 @@ export function Privacy() {
 
       <h2>If you don't sign in</h2>
       <p>
-        Your answers and settings are saved only in this browser, on this device. Nothing about you is sent anywhere.
+        Your answers and settings are saved only in this browser, on this device. None of it is sent to the site's
+        database.
       </p>
 
       <h2>If you sign in with Google</h2>
