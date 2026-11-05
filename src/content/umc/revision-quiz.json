@@ -1,0 +1,1816 @@
+[
+  {
+    "id": "umc-001",
+    "topic": "reproduction",
+    "prompt": "The vulva and vagina are interchangeable terms that refer to the same anatomical features, true or false?",
+    "choices": [
+      {
+        "text": "True",
+        "correct": false
+      },
+      {
+        "text": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-002",
+    "topic": "reproduction",
+    "prompt": "The mons pubis is a collection of adipose tissue within female external genitalia, what is its function?",
+    "choices": [
+      {
+        "text": "To increase pleasure and chance of orgasm when stimulated.",
+        "correct": false
+      },
+      {
+        "text": "To protect the symphysis pubis during sexual intercourse.",
+        "correct": true
+      },
+      {
+        "text": "To secrete natural lubricant during sex.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-003",
+    "topic": "reproduction",
+    "prompt": "Which is NOT a female internal reproductive organ?",
+    "choices": [
+      {
+        "text": "Fallopian tubes",
+        "correct": false
+      },
+      {
+        "text": "Clitoris",
+        "correct": true
+      },
+      {
+        "text": "Ovaries",
+        "correct": false
+      },
+      {
+        "text": "Cervix",
+        "correct": false
+      },
+      {
+        "text": "Vagina",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-004",
+    "topic": "reproduction",
+    "prompt": "What is the name given to the female reproductive cell when it is immature?",
+    "choices": [
+      {
+        "text": "Ova",
+        "correct": false
+      },
+      {
+        "text": "Ovum",
+        "correct": false
+      },
+      {
+        "text": "Oocyte",
+        "correct": true
+      },
+      {
+        "text": "Gamete",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-005",
+    "topic": "reproduction",
+    "prompt": "What is the term given to the cell formed once sperm and ova pronuclei bind during fertilisation?",
+    "choices": [
+      {
+        "text": "Diploid zygote",
+        "correct": true
+      },
+      {
+        "text": "Haploid zygote",
+        "correct": false
+      },
+      {
+        "text": "Diploid embryo",
+        "correct": false
+      },
+      {
+        "text": "Haploid embryo",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-006",
+    "topic": "reproduction",
+    "prompt": "How many chromosomes does a sperm cell have?",
+    "choices": [
+      {
+        "text": "23",
+        "correct": true
+      },
+      {
+        "text": "46",
+        "correct": false
+      },
+      {
+        "text": "30",
+        "correct": false
+      },
+      {
+        "text": "21",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-007",
+    "topic": "reproduction",
+    "prompt": "What is the role of the fimbriae structure within the fallopian tubes?",
+    "choices": [
+      {
+        "text": "Keeps the fallopian tube environment warm for the ovum as it travels through.",
+        "correct": false
+      },
+      {
+        "text": "Guides the mature ovum in the direction to the uterus.",
+        "correct": true
+      },
+      {
+        "text": "Protects the inner lining of the fallopian tube form damage as the ovum travels through.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-008",
+    "topic": "reproduction",
+    "prompt": "During the menstrual cycle, a surge in oestrogen results in the maturation of an oocyte to an ovum, true or false?",
+    "choices": [
+      {
+        "text": "True",
+        "correct": false
+      },
+      {
+        "text": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-009",
+    "topic": "reproduction",
+    "prompt": "A surge in luteinising hormone is responsible for the stimulating the process of ovulation, true or false?",
+    "choices": [
+      {
+        "text": "True",
+        "correct": true
+      },
+      {
+        "text": "False",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-010",
+    "topic": "reproduction",
+    "prompt": "Where are luteinising (LH) and follicle stimulating (FSH) hormones released from?",
+    "choices": [
+      {
+        "text": "Hypothalamus",
+        "correct": false
+      },
+      {
+        "text": "Anterior pituitary gland",
+        "correct": true
+      },
+      {
+        "text": "Posterior pituitary gland",
+        "correct": false
+      },
+      {
+        "text": "Pineal gland",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-011",
+    "topic": "reproduction",
+    "prompt": "Which hormone is released by the corpus luteum after ovulation which stimulated the endometrium to prepare for implantation?",
+    "choices": [
+      {
+        "text": "Oestrogen",
+        "correct": false
+      },
+      {
+        "text": "Progesterone",
+        "correct": true
+      },
+      {
+        "text": "Gonadotrophin releasing hormone",
+        "correct": false
+      },
+      {
+        "text": "HCG",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-012",
+    "topic": "cardiovascular",
+    "prompt": "What is NOT a function of the cardiovascular system?",
+    "choices": [
+      {
+        "text": "Regulation of core body temperature.",
+        "correct": false
+      },
+      {
+        "text": "Delivery of nutrients, oxygen, and hormones to body cells.",
+        "correct": false
+      },
+      {
+        "text": "Removal of cell waste products.",
+        "correct": false
+      },
+      {
+        "text": "Creation of red blood cells.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-013",
+    "topic": "cardiovascular",
+    "prompt": "What is the term given to the flow of blood through a vascular bed?",
+    "choices": [
+      {
+        "text": "Perfusion",
+        "correct": true
+      },
+      {
+        "text": "Dispersion",
+        "correct": false
+      },
+      {
+        "text": "Dilation",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-014",
+    "topic": "cardiovascular",
+    "prompt": "The superior vena cava transports deoxygenated blood to the heart, true or false?",
+    "choices": [
+      {
+        "text": "True",
+        "correct": true
+      },
+      {
+        "text": "False",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-015",
+    "topic": "cardiovascular",
+    "prompt": "The right atrium of the heart receives oxygenated blood from the body, true or false?",
+    "choices": [
+      {
+        "text": "True",
+        "correct": false
+      },
+      {
+        "text": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-016",
+    "topic": "cardiovascular",
+    "prompt": "The Aorta carries oxygenated blood away from the body to the heart, true or false?",
+    "choices": [
+      {
+        "text": "True",
+        "correct": false
+      },
+      {
+        "text": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-017",
+    "topic": "cardiovascular",
+    "prompt": "By which percentage does blood circulating volume increase in pregnancy?",
+    "choices": [
+      {
+        "text": "80-90%",
+        "correct": false
+      },
+      {
+        "text": "30-50%",
+        "correct": true
+      },
+      {
+        "text": "40%-60%",
+        "correct": false
+      },
+      {
+        "text": "25%-40%",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-018",
+    "topic": "cardiovascular",
+    "prompt": "What is the name given to describe the increase in heart size during pregnancy?",
+    "choices": [
+      {
+        "text": "Hypertrophy",
+        "correct": true
+      },
+      {
+        "text": "Myotrophy",
+        "correct": false
+      },
+      {
+        "text": "Atrophy",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-019",
+    "topic": "cardiovascular",
+    "prompt": "What hormone stimulated the increase in heart size during pregnancy?",
+    "choices": [
+      {
+        "text": "Oestrogen",
+        "correct": true
+      },
+      {
+        "text": "Progesterone",
+        "correct": false
+      },
+      {
+        "text": "HCG",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-020",
+    "topic": "cardiovascular",
+    "prompt": "Increased circulating blood volume in pregnancy can increase the risk of what condition?",
+    "choices": [
+      {
+        "text": "Haemodilution",
+        "correct": true
+      },
+      {
+        "text": "Haemophilia",
+        "correct": false
+      },
+      {
+        "text": "Haemochromatosis",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-021",
+    "topic": "respiratory",
+    "prompt": "In summary, respiration only involves the gaseous exchange of oxygen to working cells of the body, true or false?",
+    "choices": [
+      {
+        "text": "True",
+        "correct": false
+      },
+      {
+        "text": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-022",
+    "topic": "respiratory",
+    "prompt": "Tidal volume of the lungs decreases in pregnancy to make more space for fetal growth, true or false?",
+    "choices": [
+      {
+        "text": "True",
+        "correct": false
+      },
+      {
+        "text": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-023",
+    "topic": "fetal-skull",
+    "prompt": "What is the name of the fetal skull suture that separates the 2 frontal bones?",
+    "choices": [
+      {
+        "text": "Metopic suture",
+        "correct": true
+      },
+      {
+        "text": "Sagittal suture",
+        "correct": false
+      },
+      {
+        "text": "Lambdoidal suture",
+        "correct": false
+      },
+      {
+        "text": "Coronal suture",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-024",
+    "topic": "fetal-skull",
+    "prompt": "What is the name of the fetal skull suture that separates the 2 parietal bones?",
+    "choices": [
+      {
+        "text": "Metopic suture",
+        "correct": false
+      },
+      {
+        "text": "Sagittal suture",
+        "correct": true
+      },
+      {
+        "text": "Lambdoidal suture",
+        "correct": false
+      },
+      {
+        "text": "Coronal suture",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-025",
+    "topic": "fetal-skull",
+    "prompt": "What is the denominator referred to with a fetal cephalic presentation?",
+    "choices": [
+      {
+        "text": "Sinciput",
+        "correct": false
+      },
+      {
+        "text": "Occiput",
+        "correct": true
+      },
+      {
+        "text": "Mentum",
+        "correct": false
+      },
+      {
+        "text": "Glabella",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-026",
+    "topic": "fetal-skull",
+    "prompt": "What is the name of the fetal skull suture that separates the parietal and occipital bones?",
+    "choices": [
+      {
+        "text": "Metopic suture",
+        "correct": false
+      },
+      {
+        "text": "Sagittal suture",
+        "correct": false
+      },
+      {
+        "text": "Lambdoidal suture",
+        "correct": true
+      },
+      {
+        "text": "Coronal suture",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-027",
+    "topic": "fetal-skull",
+    "prompt": "The bregma is commonly referred to the posterior fontanelle of the neonatal skull, true or false?",
+    "choices": [
+      {
+        "text": "True",
+        "correct": false
+      },
+      {
+        "text": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-028",
+    "topic": "fetal-skull",
+    "prompt": "Which fetal skull diameter is indicative of a flexed head?",
+    "choices": [
+      {
+        "text": "Sub-mento bregmatic 9.5cm",
+        "correct": false
+      },
+      {
+        "text": "Sub-occipito bregmatic 9.5cm",
+        "correct": true
+      },
+      {
+        "text": "Sub-occipito frontal 10cm",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-029",
+    "topic": "fetal-skull",
+    "prompt": "What is the correct biparietal diameter of the fetal skull?",
+    "choices": [
+      {
+        "text": "9cm",
+        "correct": false
+      },
+      {
+        "text": "9.5cm",
+        "correct": true
+      },
+      {
+        "text": "8.2cm",
+        "correct": false
+      },
+      {
+        "text": "10cm",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-030",
+    "topic": "fetal-skull",
+    "prompt": "What is the name given to a collection of blood that can form between the fetal skull bones and periosteum as a result of birth?",
+    "choices": [
+      {
+        "text": "Caput succedaneum",
+        "correct": false
+      },
+      {
+        "text": "Cephalhaemotoma",
+        "correct": true
+      },
+      {
+        "text": "Cranial inflammation",
+        "correct": false
+      },
+      {
+        "text": "Cranial haemorrhagic bruising",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-031",
+    "topic": "pelvis",
+    "prompt": "Which female pelvis structure supports the movement of the coccyx bone during birth?",
+    "choices": [
+      {
+        "text": "Sacral promontory",
+        "correct": false
+      },
+      {
+        "text": "Sacrococcygeal joint",
+        "correct": true
+      },
+      {
+        "text": "The ischial spines",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-032",
+    "topic": "pelvis",
+    "prompt": "The foetus negotiates through the true pelvis in the following order during labour and birth….",
+    "choices": [
+      {
+        "text": "Pelvic brim -> cavity -> outlet",
+        "correct": true
+      },
+      {
+        "text": "Pelvic inlet -> brim -> outlet",
+        "correct": false
+      },
+      {
+        "text": "Pelvic Outlet -> cavity -> inlet",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-033",
+    "topic": "pelvis",
+    "prompt": "The pelvic outlet is circular in shape and incorporates the curve of carus, true or false?",
+    "choices": [
+      {
+        "text": "True",
+        "correct": false
+      },
+      {
+        "text": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-034",
+    "topic": "pelvis",
+    "prompt": "Which type of pelvis is the most commonly found amongst the female population?",
+    "choices": [
+      {
+        "text": "Gynaecoid",
+        "correct": true
+      },
+      {
+        "text": "Android",
+        "correct": false
+      },
+      {
+        "text": "Anthropoid",
+        "correct": false
+      },
+      {
+        "text": "Platypelloid",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-035",
+    "topic": "pelvis",
+    "prompt": "Which hormones encourages pelvic ligaments to relax and stretch to accommodate the mechanisms of labour and birth?\n(Select 3)",
+    "choices": [
+      {
+        "text": "Relaxin",
+        "correct": true
+      },
+      {
+        "text": "Adrenaline",
+        "correct": false
+      },
+      {
+        "text": "Endorphins",
+        "correct": false
+      },
+      {
+        "text": "Oestrogen",
+        "correct": true
+      },
+      {
+        "text": "Progesterone",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-036",
+    "topic": "pelvis",
+    "prompt": "What structure is significant for the fetal head to make contact with to allow appropriate deflexion whilst travelling through the pelvic cavity plan and curve of carus?",
+    "choices": [
+      {
+        "text": "Ischial spines",
+        "correct": false
+      },
+      {
+        "text": "Pelvic floor",
+        "correct": true
+      },
+      {
+        "text": "Vaginal wall",
+        "correct": false
+      },
+      {
+        "text": "Cervix",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-037",
+    "topic": "pelvis",
+    "prompt": "Which part of the pelvis has the same diameter (12cm) across all the anteroposterior, transverse and oblique plans?",
+    "choices": [
+      {
+        "text": "Pelvic inlet",
+        "correct": false
+      },
+      {
+        "text": "Pelvic cavity",
+        "correct": true
+      },
+      {
+        "text": "Pelvic Outlet",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-038",
+    "topic": "pain",
+    "prompt": "Pain is an objective entity and is purely a nervous system response to danger, true or false?",
+    "choices": [
+      {
+        "text": "True",
+        "correct": false
+      },
+      {
+        "text": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-039",
+    "topic": "pain",
+    "prompt": "What are the characteristics of C-type nerve fibres?\n(Select 3)",
+    "choices": [
+      {
+        "text": "Myelinated",
+        "correct": false
+      },
+      {
+        "text": "Most sensitive to pressure",
+        "correct": false
+      },
+      {
+        "text": "Causes a rapid localised pain",
+        "correct": false
+      },
+      {
+        "text": "Most sensitive to chemicals",
+        "correct": true
+      },
+      {
+        "text": "Causes a slow, dull ache pain",
+        "correct": true
+      },
+      {
+        "text": "Non-myelinated",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-040",
+    "topic": "pain",
+    "prompt": "What is the name of the cell endings that initiate the sensation of pain?",
+    "choices": [
+      {
+        "text": "Nociceptors",
+        "correct": true
+      },
+      {
+        "text": "Chemoreceptors",
+        "correct": false
+      },
+      {
+        "text": "Thermoreceptors",
+        "correct": false
+      },
+      {
+        "text": "Mechanoreceptors",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-041",
+    "topic": "pain",
+    "prompt": "In the gate control theory of pain, what examples of types of stimuli can result in the activation of interneurons, resulting in the prevention of neurotransmission across synapses and the ‘closure of the gate’ and no pain signal being sent to the brain?\n(Select all that apply)",
+    "choices": [
+      {
+        "text": "Repetition of the same pain",
+        "correct": false
+      },
+      {
+        "text": "Temperature",
+        "correct": true
+      },
+      {
+        "text": "Pressure",
+        "correct": true
+      },
+      {
+        "text": "Touch",
+        "correct": true
+      },
+      {
+        "text": "Eating and drinking",
+        "correct": false
+      },
+      {
+        "text": "Sleeping",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-042",
+    "topic": "pain",
+    "prompt": "Which hormones have a positive counteractive impact on the sensations of pain? (Select all that apply)",
+    "choices": [
+      {
+        "text": "Endorphins",
+        "correct": true
+      },
+      {
+        "text": "Adrenaline",
+        "correct": false
+      },
+      {
+        "text": "Prolactin",
+        "correct": true
+      },
+      {
+        "text": "Oxytocin",
+        "correct": true
+      },
+      {
+        "text": "Progesterone",
+        "correct": false
+      },
+      {
+        "text": "Cortisol",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-043",
+    "topic": "labour",
+    "prompt": "The latent phase of labour can be defined as when the cervix is dilated 4cm or more; true or false?",
+    "choices": [
+      {
+        "text": "True",
+        "correct": false
+      },
+      {
+        "text": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-044",
+    "topic": "labour",
+    "prompt": "The term homeostasis refers to the state of a steady equilibrium of all internal, physical, and chemical conditions and systems within the human body; true or false?",
+    "choices": [
+      {
+        "text": "True",
+        "correct": true
+      },
+      {
+        "text": "False",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-045",
+    "topic": "labour",
+    "prompt": "The process of childbirth can be referred to as which feedback loop in terms of hormonal control?",
+    "choices": [
+      {
+        "text": "Positive feedback loop",
+        "correct": true
+      },
+      {
+        "text": "Negative feedback loop",
+        "correct": false
+      },
+      {
+        "text": "Neither!",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-046",
+    "topic": "labour",
+    "prompt": "What effect does oxytocin experience when adrenaline and catecholamines surge or increase in labour?",
+    "choices": [
+      {
+        "text": "No effect occurs",
+        "correct": false
+      },
+      {
+        "text": "Oxytocin effect is inhibited",
+        "correct": true
+      },
+      {
+        "text": "Oxytocin effect is exhibited",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-047",
+    "topic": "labour",
+    "prompt": "A full bladder during labour has no effect on fetal descent or the progression of labour, true or false?",
+    "choices": [
+      {
+        "text": "True",
+        "correct": false
+      },
+      {
+        "text": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-048",
+    "topic": "labour",
+    "prompt": "The correct process of the second stage mechanism of labour is….",
+    "choices": [
+      {
+        "text": "Descent -> Flexion -> Crowning -> Extension -> Internal rotation -> Lateral flexion.",
+        "correct": false
+      },
+      {
+        "text": "Descent -> Flexion -> Internal Rotation -> Crowning -> Extension -> Restitution -> Internal rotation -> Lateral flexion.",
+        "correct": true
+      },
+      {
+        "text": "Flexion -> Descent -> Internal rotation -> Crowning ->Extension -> Restitution -> Lateral flexion.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-049",
+    "topic": "labour",
+    "prompt": "During the third stage of labour, the term living ligatures refers to the shortening of muscle fibres around maternal vessels at the placental site to impede blood flow and increase coagulation processes; true or false?",
+    "choices": [
+      {
+        "text": "True",
+        "correct": true
+      },
+      {
+        "text": "False",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-050",
+    "topic": "placenta",
+    "prompt": "What is the name of the placenta shape where there appears to be an accessory lobe attached to the main body of the placenta?",
+    "choices": [
+      {
+        "text": "Circumvallate",
+        "correct": false
+      },
+      {
+        "text": "Succenturiate",
+        "correct": true
+      },
+      {
+        "text": "Bipartite",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-051",
+    "topic": "placenta",
+    "prompt": "What is the name given to describe the event where the umbilical cord in inserted in the fetal membranes and not the placenta?",
+    "choices": [
+      {
+        "text": "Battledore",
+        "correct": false
+      },
+      {
+        "text": "Vasa praevia",
+        "correct": false
+      },
+      {
+        "text": "Velamentous",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-052",
+    "topic": "postnatal",
+    "prompt": "At what stage in the postnatal period would you expect the fundus to be palpated halfway between the pubic bone and umbilicus?",
+    "choices": [
+      {
+        "text": "24 hours postnatal",
+        "correct": false
+      },
+      {
+        "text": "1 week postnatal",
+        "correct": true
+      },
+      {
+        "text": "2 weeks postnatal",
+        "correct": false
+      },
+      {
+        "text": "6-8 weeks postnatal",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-053",
+    "topic": "postnatal",
+    "prompt": "At what stage of the postnatal process of the uterine myometrium returning to its normal state includes the destruction of cells by their own enzymes?",
+    "choices": [
+      {
+        "text": "Ischaemia",
+        "correct": false
+      },
+      {
+        "text": "Autolysis",
+        "correct": true
+      },
+      {
+        "text": "Phagocytosis",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-054",
+    "topic": "postnatal",
+    "prompt": "The decrease in which hormone in the postnatal period allows for the ruggae to reform in the vaginal wall?",
+    "choices": [
+      {
+        "text": "Oestrogen",
+        "correct": false
+      },
+      {
+        "text": "Adrenaline",
+        "correct": false
+      },
+      {
+        "text": "Progesterone",
+        "correct": true
+      },
+      {
+        "text": "Oxytocin",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-055",
+    "topic": "postnatal",
+    "prompt": "At what stage of perineal trauma healing refers to the rapid multiplication of new cells, resulting in the presentation of newly grown, pink tissue?",
+    "choices": [
+      {
+        "text": "Haemostasis",
+        "correct": false
+      },
+      {
+        "text": "Inflammation",
+        "correct": false
+      },
+      {
+        "text": "Proliferation",
+        "correct": true
+      },
+      {
+        "text": "Remodelling",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-056",
+    "topic": "nervous",
+    "prompt": "Which lobe of the brain controls reasoning and thought, problem-solving and emotional expression?",
+    "choices": [
+      {
+        "text": "Frontal",
+        "correct": true
+      },
+      {
+        "text": "Parietal",
+        "correct": false
+      },
+      {
+        "text": "Occipital",
+        "correct": false
+      },
+      {
+        "text": "Temporal",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-057",
+    "topic": "nervous",
+    "prompt": "Which lobe of the brain processes auditory and olfactory information?",
+    "choices": [
+      {
+        "text": "Cerebellum",
+        "correct": false
+      },
+      {
+        "text": "Occipital",
+        "correct": false
+      },
+      {
+        "text": "Parietal",
+        "correct": false
+      },
+      {
+        "text": "Temporal",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-058",
+    "topic": "nervous",
+    "prompt": "Which structure of the brain ensures regulation of heart and blood vessel function, digestion, and respiration?",
+    "choices": [
+      {
+        "text": "Midbrain",
+        "correct": false
+      },
+      {
+        "text": "Cerebellum",
+        "correct": false
+      },
+      {
+        "text": "Pons",
+        "correct": false
+      },
+      {
+        "text": "Medulla Oblongata",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-059",
+    "topic": "nervous",
+    "prompt": "Afferent spinal nerves carry sensory information from the brain to the body; true or false?",
+    "choices": [
+      {
+        "text": "True",
+        "correct": false
+      },
+      {
+        "text": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-060",
+    "topic": "nervous",
+    "prompt": "The peripheral nervous system is made up of the somatic and autonomic systems, which statement about the autonomic nervous system is incorrect:",
+    "choices": [
+      {
+        "text": "The autonomic system comprises of the sympathetic and parasympathetic systems.",
+        "correct": false
+      },
+      {
+        "text": "The autonomic system controls voluntary processes of the body.",
+        "correct": true
+      },
+      {
+        "text": "The autonomic system doesn’t require conscious thought to work.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-061",
+    "topic": "nervous",
+    "prompt": "The parasympathetic nervous system increases the stimulation of emergency and is known for being responsible for the ‘fight or flight’ response in humans; true or false?",
+    "choices": [
+      {
+        "text": "True",
+        "correct": false
+      },
+      {
+        "text": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-062",
+    "topic": "nervous",
+    "prompt": "An action potential is created when there is an imbalance of movement of which 2 ions across the membrane of a nerve cell?",
+    "choices": [
+      {
+        "text": "Sodium",
+        "correct": true
+      },
+      {
+        "text": "Calcium",
+        "correct": false
+      },
+      {
+        "text": "Potassium",
+        "correct": true
+      },
+      {
+        "text": "Magnesium",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-063",
+    "topic": "musculoskeletal",
+    "prompt": "Which category does the musculoskeletal system’s function of mineral storage and red blood cell production belong to?",
+    "choices": [
+      {
+        "text": "Mechanical",
+        "correct": false
+      },
+      {
+        "text": "Protective",
+        "correct": false
+      },
+      {
+        "text": "Metabolic",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-064",
+    "topic": "musculoskeletal",
+    "prompt": "Where does erythropoiesis occur within the musculoskeletal system?",
+    "choices": [
+      {
+        "text": "Bone cells",
+        "correct": false
+      },
+      {
+        "text": "Muscle fibres",
+        "correct": false
+      },
+      {
+        "text": "Bone marrow",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-065",
+    "topic": "digestive",
+    "prompt": "The alimentary canal refer to what in the gastrointestinal (GI) system?",
+    "choices": [
+      {
+        "text": "All the organs of the GI tract",
+        "correct": true
+      },
+      {
+        "text": "Another name for the stomach",
+        "correct": false
+      },
+      {
+        "text": "Another name for the oesophageal tract",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-066",
+    "topic": "digestive",
+    "prompt": "What stage of digestion involves lipase, amylase and trypsin breaking down food in the small intestine?",
+    "choices": [
+      {
+        "text": "Mechanical breakdown",
+        "correct": false
+      },
+      {
+        "text": "Propulsion",
+        "correct": false
+      },
+      {
+        "text": "Chemical breakdown",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-067",
+    "topic": "digestive",
+    "prompt": "What does the stage propulsion during digestion refer to?",
+    "choices": [
+      {
+        "text": "Swallowing",
+        "correct": true
+      },
+      {
+        "text": "Chewing",
+        "correct": false
+      },
+      {
+        "text": "Regurgitating",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-068",
+    "topic": "digestive",
+    "prompt": "Peristalsis involves the voluntary constriction and relaxation of the muscles of the intestine to push food contents through the canal during digestion; true or false?",
+    "choices": [
+      {
+        "text": "True",
+        "correct": false
+      },
+      {
+        "text": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-069",
+    "topic": "digestive",
+    "prompt": "What is the physiological term used for the pregnancy adaptation of excessive saliva production?",
+    "choices": [
+      {
+        "text": "Gingivitis",
+        "correct": false
+      },
+      {
+        "text": "Ptyalism",
+        "correct": true
+      },
+      {
+        "text": "Epistaxis",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-070",
+    "topic": "digestive",
+    "prompt": "What hormone is responsible for GI system adaptations in pregnancy, such as slower peristalsis and increase risk in constipation due to increased water absorption?",
+    "choices": [
+      {
+        "text": "Oestrogen",
+        "correct": false
+      },
+      {
+        "text": "Progesterone",
+        "correct": true
+      },
+      {
+        "text": "Catecholamines",
+        "correct": false
+      },
+      {
+        "text": "Prolactin",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-071",
+    "topic": "digestive",
+    "prompt": "In pregnancy, what hormone produced by the pancreas experiences increased resistance and therefore contributes to raised blood sugar levels?",
+    "choices": [
+      {
+        "text": "Insulin",
+        "correct": true
+      },
+      {
+        "text": "Glucagon",
+        "correct": false
+      },
+      {
+        "text": "Secretin",
+        "correct": false
+      },
+      {
+        "text": "Gastrin",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-072",
+    "topic": "embryology",
+    "prompt": "What does the embryology term gastrulation refer to?",
+    "choices": [
+      {
+        "text": "Formation of the gut",
+        "correct": true
+      },
+      {
+        "text": "Formation of the gall bladder",
+        "correct": false
+      },
+      {
+        "text": "Formation of all the internal organs",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-073",
+    "topic": "embryology",
+    "prompt": "What is the third embryonic layer of the trilaminar disc called?\nEctoderm, mesoderm and ………….",
+    "choices": [
+      {
+        "text": "Myoderm",
+        "correct": false
+      },
+      {
+        "text": "Endoderm",
+        "correct": true
+      },
+      {
+        "text": "Periderm",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-074",
+    "topic": "embryology",
+    "prompt": "What does the embryonic neural tube layer develop into within the foetus?",
+    "choices": [
+      {
+        "text": "Peripheral nervous system",
+        "correct": false
+      },
+      {
+        "text": "Central nervous system",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-075",
+    "topic": "embryology",
+    "prompt": "At what gestational age does the blood vessel which develops into the heart start to pulsate?",
+    "choices": [
+      {
+        "text": "Week 10",
+        "correct": false
+      },
+      {
+        "text": "Week 4",
+        "correct": true
+      },
+      {
+        "text": "Week 24",
+        "correct": false
+      },
+      {
+        "text": "Week 8",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-076",
+    "topic": "renal",
+    "prompt": "During pregnancy, what is the percentage increase of blood flow to the renal system?",
+    "choices": [
+      {
+        "text": "20-30%",
+        "correct": false
+      },
+      {
+        "text": "50-60%",
+        "correct": true
+      },
+      {
+        "text": "70-90%",
+        "correct": false
+      },
+      {
+        "text": "40-50%",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-077",
+    "topic": "renal",
+    "prompt": "The smooth muscle of the renal pelvis and ureters become relaxed and dilated due to progesterone increase in pregnancy, this results in an increase in residual urine volume, what could this increase the risk of for pregnant women?",
+    "choices": [
+      {
+        "text": "Increased risk of urinary tract infection.",
+        "correct": true
+      },
+      {
+        "text": "Increase in diarrhoea and vomiting.",
+        "correct": false
+      },
+      {
+        "text": "Reduction in fetal growth.",
+        "correct": false
+      },
+      {
+        "text": "Increase in the risk of uterine rupture.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-078",
+    "topic": "renal",
+    "prompt": "The renal medulla is the inner part of kidney, what is its function?",
+    "choices": [
+      {
+        "text": "Regulates the concentration of urine by filtering out water salts and acid.",
+        "correct": true
+      },
+      {
+        "text": "Stores urine before it is transported to the bladder.",
+        "correct": false
+      },
+      {
+        "text": "Includes muscular tissue to maintain the kidney’s shape and strength.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-079",
+    "topic": "blood",
+    "prompt": "What percentage of blood is plasma on average?",
+    "choices": [
+      {
+        "text": "45%",
+        "correct": false
+      },
+      {
+        "text": "50%",
+        "correct": false
+      },
+      {
+        "text": "55%",
+        "correct": true
+      },
+      {
+        "text": "60%",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-080",
+    "topic": "blood",
+    "prompt": "What blood group can be universally used for blood transfusion in any patient, despite them having a different blood group?",
+    "choices": [
+      {
+        "text": "O Negative",
+        "correct": true
+      },
+      {
+        "text": "B Negative",
+        "correct": false
+      },
+      {
+        "text": "O Positive",
+        "correct": false
+      },
+      {
+        "text": "A Positive",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-081",
+    "topic": "blood",
+    "prompt": "What immunoglobulin medication would need to be considered post-delivery if the maternal patient has a Rhesus Negative blood group?",
+    "choices": [
+      {
+        "text": "Anti-D",
+        "correct": true
+      },
+      {
+        "text": "Anti-E",
+        "correct": false
+      },
+      {
+        "text": "Anti-C",
+        "correct": false
+      },
+      {
+        "text": "Anti-B",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-082",
+    "topic": "blood",
+    "prompt": "What is the fluid flowing through the lymphatic system called?",
+    "choices": [
+      {
+        "text": "Lymph",
+        "correct": true
+      },
+      {
+        "text": "Lymphoidal fluid",
+        "correct": false
+      },
+      {
+        "text": "Lymphoidal tissue",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-083",
+    "topic": "blood",
+    "prompt": "What does the thymus gland of the immune system do?",
+    "choices": [
+      {
+        "text": "Destroys excess white blood cells",
+        "correct": false
+      },
+      {
+        "text": "Creates T lymphocyte white blood cells",
+        "correct": true
+      },
+      {
+        "text": "Creates and regulations thyroid levels in the blood.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-084",
+    "topic": "blood",
+    "prompt": "What is the name of disease-causing cells?",
+    "choices": [
+      {
+        "text": "Parasites",
+        "correct": false
+      },
+      {
+        "text": "Bacteria",
+        "correct": false
+      },
+      {
+        "text": "Viruses",
+        "correct": false
+      },
+      {
+        "text": "Pathogens",
+        "correct": true
+      },
+      {
+        "text": "Fungi",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-085",
+    "topic": "musculoskeletal",
+    "prompt": "What is the musculoskeletal disorder that refers to the separation of muscles along the midline of the abdomen during pregnancy?",
+    "choices": [
+      {
+        "text": "Diastasis recti",
+        "correct": true
+      },
+      {
+        "text": "Umbilical hernia",
+        "correct": false
+      },
+      {
+        "text": "Symphysis Pubis dysfunction",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-086",
+    "topic": "lactation",
+    "prompt": "What does the term lactogenesis refer to?",
+    "choices": [
+      {
+        "text": "Milk production",
+        "correct": false
+      },
+      {
+        "text": "The ability to secrete milk",
+        "correct": true
+      },
+      {
+        "text": "Inhibiting Milk production and secretion",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-087",
+    "topic": "lactation",
+    "prompt": "Prolactin is the hormone responsible for the milk ejection reflex (MER); true or false?",
+    "choices": [
+      {
+        "text": "True",
+        "correct": false
+      },
+      {
+        "text": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc-088",
+    "topic": "lactation",
+    "prompt": "What structure in the breast is milk produced?",
+    "choices": [
+      {
+        "text": "Alveoli",
+        "correct": true
+      },
+      {
+        "text": "Lactiferous ducts",
+        "correct": false
+      },
+      {
+        "text": "Montgomery tubercles",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-089",
+    "topic": "embryology",
+    "prompt": "What does the term epigenetics refer to?",
+    "choices": [
+      {
+        "text": "Environmental factors can result in alterations to gene expression.",
+        "correct": true
+      },
+      {
+        "text": "The environment cannot result in changing gene expressions.",
+        "correct": false
+      },
+      {
+        "text": "This is term used to describe how genes are created.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc-090",
+    "topic": "digestive",
+    "prompt": "What does the term Mastication refer to in the process of digestion?",
+    "choices": [
+      {
+        "text": "Chewing",
+        "correct": true
+      },
+      {
+        "text": "Swallowing",
+        "correct": false
+      },
+      {
+        "text": "Salivating",
+        "correct": false
+      }
+    ]
+  }
+]
