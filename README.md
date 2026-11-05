@@ -1,8 +1,10 @@
 # Midwifery revision
 
-Revision quizzes for a midwifery degree. Live at https://matthewedwarddavidson.github.io/midwifery-revision/
+A little app I made to help my wife revise for her midwifery degree. It starts with one revision quiz, and I'll add more content as she progresses through her studies.
 
-React + Vite + TypeScript, deployed to GitHub Pages on every push to `main`. Progress is kept in the browser; signing in with Google syncs it across devices through Firebase (Firestore, rules in `firestore.rules`).
+Live at https://matthewedwarddavidson.github.io/midwifery-revision/
+
+It uses the same template as [deutsch-lernen](https://github.com/matthewedwarddavidson/deutsch-lernen), my German learning app: React, Vite and TypeScript, deployed to GitHub Pages on every push to `main`. Progress is kept in the browser, and signing in with Google syncs it across devices through Firebase (Firestore, rules in `firestore.rules`).
 
 ## Adding content
 
