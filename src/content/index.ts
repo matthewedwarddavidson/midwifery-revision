@@ -1,7 +1,13 @@
 // All revision content. To add a module, create a folder under src/content and list it here.
 
 import type { Module, Question } from './types'
+import umcExplanations from './umc/explanations.json'
 import umcRevisionQuiz from './umc/revision-quiz.json'
+
+/** Adds explanations, kept in their own file so re-importing a quiz doesn't overwrite them. */
+function withExplanations(questions: Question[], explanations: Record<string, string>): Question[] {
+  return questions.map((question) => ({ ...question, explanation: explanations[question.id] }))
+}
 
 const umc: Module = {
   id: 'umc',
@@ -33,7 +39,7 @@ const umc: Module = {
       title: 'UMC revision quiz',
       description: 'Multiple choice and true or false questions across the module.',
       source: 'Holly, UMC tutor',
-      questions: umcRevisionQuiz as Question[],
+      questions: withExplanations(umcRevisionQuiz as Question[], umcExplanations),
     },
   ],
 }

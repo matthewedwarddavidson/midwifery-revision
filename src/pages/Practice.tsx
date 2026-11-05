@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Link, useParams, useSearchParams } from 'react-router'
+import { Explanation, EXPLANATION_NOTE } from '../components/Explanation'
 import { Icon } from '../components/Icon'
 import { ProgressBar } from '../components/ProgressBar'
 import { findModule, moduleQuestions, topicTitle } from '../content'
@@ -192,7 +193,7 @@ export function Practice() {
             {!correct && (
               <span>
                 {' '}
-                {multi ? 'The answers are' : 'The answer is'}:
+                {multi ? 'The answers are' : 'The answer is'}:{' '}
                 {correctChoices(question)
                   .map((choice) => choice.text)
                   .join('; ')}
@@ -200,6 +201,7 @@ export function Practice() {
             )}
           </div>
         ) : null}
+        {checked && <Explanation question={question} />}
 
         <div className="row" style={{ justifyContent: 'flex-end' }}>
           {checked ? (
@@ -216,6 +218,7 @@ export function Practice() {
         </div>
       </div>
       <p className="faint small keys-hint">Keys: 1–{question.choices.length} to answer, Enter to continue.</p>
+      <p className="faint small footnote">{EXPLANATION_NOTE}</p>
     </div>
   )
 }
@@ -270,6 +273,7 @@ function Results({ module, results, backLink }: { module: Module; results: Resul
                     .map((choice) => choice.text)
                     .join('; ')}
                 </p>
+                <Explanation question={question} />
               </div>
             ))}
           </div>

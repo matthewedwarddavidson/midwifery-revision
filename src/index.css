@@ -867,3 +867,24 @@ a {
 .session-row + .session-row {
   border-top: 1px solid var(--border);
 }
+
+/* Explanations */
+
+.explanation {
+  margin: 0;
+  padding: 12px 14px;
+  border-left: 3px solid var(--accent);
+  background: var(--surface-muted);
+  border-radius: 0 var(--radius-small) var(--radius-small) 0;
+  line-height: 1.55;
+}
+
+.answer-list + .explanation,
+.review-item .explanation {
+  margin-top: 12px;
+}
+
+.footnote {
+  text-align: center;
+  margin-top: 4px;
+}

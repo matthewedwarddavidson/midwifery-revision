@@ -12,6 +12,8 @@ export interface Question {
   topic: string
   prompt: string
   choices: Choice[]
+  /** Why the answer is right, written for this app rather than by the quiz's author. */
+  explanation?: string
 }
 
 export interface Topic {

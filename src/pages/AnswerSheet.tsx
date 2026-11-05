@@ -1,4 +1,5 @@
 import { Link, useParams, useSearchParams } from 'react-router'
+import { Explanation, EXPLANATION_NOTE } from '../components/Explanation'
 import { Icon } from '../components/Icon'
 import { findModule, moduleQuestions } from '../content'
 import { questionStatus } from '../lib/stats'
@@ -28,6 +29,7 @@ export function AnswerSheet() {
         <div className="eyebrow">{module.code}</div>
         <h1>Answer sheet</h1>
         <p>Every question with the correct answer ticked.</p>
+        <p className="small">{EXPLANATION_NOTE}</p>
       </header>
 
       <div className="chips" style={{ marginBottom: 24 }}>
@@ -72,6 +74,7 @@ export function AnswerSheet() {
                         </li>
                       ))}
                     </ul>
+                    <Explanation question={question} />
                   </div>
                 )
               })}
