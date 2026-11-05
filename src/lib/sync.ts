@@ -6,7 +6,7 @@ import { useSyncExternalStore } from 'react'
 import type { Auth, User } from 'firebase/auth'
 import { getFirebaseAuth, getFirebaseDb, isFirebaseConfigured } from './firebase'
 import { mergeStates } from './merge'
-import { applySynced, getState, subscribeToState, withDefaults, type AppState } from './store'
+import { applySynced, clearLocalData, getState, subscribeToState, withDefaults, type AppState } from './store'
 
 const CHUNK_BYTES = 900_000
 const PUSH_DELAY_MS = 5000
@@ -27,6 +27,8 @@ let currentUser: User | undefined
 let lastSyncedUpdate: string | undefined
 let pushTimer: ReturnType<typeof setTimeout> | undefined
 let syncing: Promise<void> | undefined
+/** Set while deleting an account, so sync can't write back the data being deleted. */
+let deleting = false
 
 function setStatus(changes: Partial<SyncStatus>) {
   status = { ...status, ...changes }
@@ -99,7 +101,7 @@ async function writeRemote(uid: string, state: AppState) {
 
 /** Pulls the copy in the cloud, merges it with this device's progress, and saves the result in both places. */
 export function syncNow(): Promise<void> {
-  if (!currentUser) return Promise.resolve()
+  if (!currentUser || deleting) return Promise.resolve()
   syncing ??= runSync(currentUser.uid).finally(() => {
     syncing = undefined
   })
@@ -124,7 +126,7 @@ async function runSync(uid: string) {
 }
 
 function schedulePush() {
-  if (!currentUser || getState().updatedAt === lastSyncedUpdate) return
+  if (!currentUser || deleting || getState().updatedAt === lastSyncedUpdate) return
   clearTimeout(pushTimer)
   pushTimer = setTimeout(syncNow, PUSH_DELAY_MS)
 }
@@ -150,6 +152,39 @@ export async function signOut() {
   const [{ signOut: firebaseSignOut }, auth] = await Promise.all([import('firebase/auth'), getFirebaseAuth()])
   await firebaseSignOut(auth)
   rememberSignedIn(false)
+}
+
+async function deleteRemote(uid: string) {
+  const [{ collection, getDocs, writeBatch }, db] = await Promise.all([import('firebase/firestore'), getFirebaseDb()])
+  const documents = await getDocs(collection(db, folder(uid)))
+  const batch = writeBatch(db)
+  documents.forEach((document) => batch.delete(document.ref))
+  await batch.commit()
+}
+
+/**
+ * Deletes this person's synced progress and their account, then clears this device.
+ * Google asks them to sign in again first, as deleting an account needs a recent sign-in.
+ */
+export async function deleteAccount() {
+  if (!currentUser) return
+  if (!preparedAuth) await prepareSignIn()
+  const { module } = preparedAuth!
+  const user = currentUser
+  await module.reauthenticateWithPopup(user, new module.GoogleAuthProvider())
+  deleting = true
+  clearTimeout(pushTimer)
+  try {
+    // Let a sync that's already running finish, so it can't recreate the data afterwards.
+    await syncing
+    await deleteRemote(user.uid)
+    await module.deleteUser(user)
+    currentUser = undefined
+    rememberSignedIn(false)
+    clearLocalData()
+  } finally {
+    deleting = false
+  }
 }
 
 function rememberSignedIn(signedIn: boolean) {

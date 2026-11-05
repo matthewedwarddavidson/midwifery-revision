@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router'
 import { prepareSignIn, signIn, signOut, syncNow, useSyncStatus } from '../lib/sync'
 
 function formatTime(iso: string): string {
@@ -11,8 +12,9 @@ export function Account({ compact = false }: { compact?: boolean }) {
   const [error, setError] = useState<string>()
 
   useEffect(() => {
-    if (status.available && !status.user) void prepareSignIn()
-  }, [status.available, status.user])
+    // Loading Firebase early lets the sign-in popup open straight away; browsers block late popups.
+    if (status.available) void prepareSignIn()
+  }, [status.available])
 
   if (!status.available) return null
 
@@ -29,7 +31,9 @@ export function Account({ compact = false }: { compact?: boolean }) {
     if (compact && status.phase === 'signed-out')
       return (
         <div className="card row between">
-          <span className="muted">Sign in to keep your progress on every device.</span>
+          <span className="muted">
+            Sign in to keep your progress on every device. <Link to="/privacy">What's stored</Link>
+          </span>
           <button className="btn primary" onClick={handleSignIn}>
             Sign in with Google
           </button>
@@ -37,7 +41,9 @@ export function Account({ compact = false }: { compact?: boolean }) {
       )
     return (
       <div className="stack">
-        <p className="muted">Sign in to keep your progress on your phone, tablet and laptop.</p>
+        <p className="muted">
+          Sign in to keep your progress on your phone, tablet and laptop. <Link to="/privacy">What's stored</Link>
+        </p>
         <div>
           <button className="btn primary" onClick={handleSignIn}>
             Sign in with Google

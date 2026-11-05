@@ -6,6 +6,7 @@ import { AnswerSheet } from './pages/AnswerSheet'
 import { Home } from './pages/Home'
 import { ModulePage } from './pages/Module'
 import { Practice } from './pages/Practice'
+import { Privacy } from './pages/Privacy'
 import { Progress } from './pages/Progress'
 import { Settings } from './pages/Settings'
 
@@ -68,6 +69,7 @@ export default function App() {
             <Route path="/m/:moduleId/practice" element={<Fresh page={Practice} />} />
             <Route path="/progress" element={<Progress />} />
             <Route path="/settings" element={<Settings />} />
+            <Route path="/privacy" element={<Privacy />} />
             <Route path="*" element={<Home />} />
           </Routes>
         </main>

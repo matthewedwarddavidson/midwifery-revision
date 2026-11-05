@@ -109,6 +109,17 @@ export function resetProgress() {
   update({ attempts: [], sessions: [], resetAt: new Date().toISOString() })
 }
 
+/** Forgets everything stored on this device, settings included. */
+export function clearLocalData() {
+  try {
+    localStorage.removeItem(STORAGE_KEY)
+  } catch {
+    // Nothing stored to remove.
+  }
+  state = withDefaults({})
+  listeners.forEach((listener) => listener())
+}
+
 /** Replaces the state with one merged from the cloud. */
 export function applySynced(next: AppState) {
   save(next)
