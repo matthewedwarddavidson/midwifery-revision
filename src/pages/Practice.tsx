@@ -3,7 +3,7 @@ import { Link, useParams, useSearchParams } from 'react-router'
 import { Explanation, EXPLANATION_NOTE } from '../components/Explanation'
 import { Icon } from '../components/Icon'
 import { ProgressBar } from '../components/ProgressBar'
-import { findModule, moduleQuestions, topicTitle } from '../content'
+import { findModule, findSet, moduleQuestions, setQuestions, topicTitle } from '../content'
 import type { Module, Question } from '../content/types'
 import { useKeyHandler } from '../lib/hooks'
 import {
@@ -36,6 +36,12 @@ function buildPlan(module: Module, params: URLSearchParams): Plan {
       return { label: 'All questions', questions: order(all) }
     case 'missed':
       return { label: 'Missed questions', questions: order(missedQuestions(all, records)) }
+    case 'collection': {
+      const set = findSet(module, params.get('collection'))
+      return set
+        ? { label: set.title, questions: order(setQuestions(module, set)) }
+        : { label: 'Not found', questions: [] }
+    }
     case 'topic': {
       const topicId = params.get('topic') ?? ''
       return {

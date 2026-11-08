@@ -1,7 +1,9 @@
 import { Link, useParams, useSearchParams } from 'react-router'
 import { Explanation, EXPLANATION_NOTE } from '../components/Explanation'
 import { Icon } from '../components/Icon'
-import { findModule, moduleQuestions } from '../content'
+import { findModule, findSet, moduleQuestions, setQuestions } from '../content'
+import type { Question } from '../content/types'
+import type { QuestionRecord } from '../lib/stats'
 import { questionStatus } from '../lib/stats'
 import { useRecords } from '../lib/useRecords'
 import { NotFound } from './NotFound'
@@ -14,6 +16,33 @@ export function AnswerSheet() {
   const [params, setParams] = useSearchParams()
   const records = useRecords()
   if (!module) return <NotFound />
+
+  const set = findSet(module, params.get('collection'))
+  if (set) {
+    return (
+      <div className="page">
+        <Link to={`/m/${module.id}`} className="back-link">
+          ← {module.code}: {module.title}
+        </Link>
+        <header className="page-header">
+          <div className="eyebrow">{module.code} · Answer sheet</div>
+          <h1>{set.title}</h1>
+          <p>{set.description}</p>
+          <p className="small">{EXPLANATION_NOTE}</p>
+        </header>
+        <div className="row" style={{ marginBottom: 16 }}>
+          <Link to={`/m/${module.id}/practice?set=collection&collection=${set.id}`} className="btn primary">
+            Practise these
+          </Link>
+        </div>
+        <div className="stack">
+          {setQuestions(module, set).map((question) => (
+            <AnswerCard key={question.id} question={question} records={records} />
+          ))}
+        </div>
+      </div>
+    )
+  }
 
   const topicId = params.get('topic')
   const questions = moduleQuestions(module)
@@ -58,29 +87,33 @@ export function AnswerSheet() {
           <div className="stack">
             {questions
               .filter((question) => question.topic === topic.id)
-              .map((question) => {
-                const status = questionStatus(records.get(question.id))
-                return (
-                  <div key={question.id} className="card">
-                    <div className="row between" style={{ alignItems: 'flex-start', flexWrap: 'nowrap' }}>
-                      <p className="prompt-small">{question.prompt}</p>
-                      <span className={`pill ${STATUS_PILL[status]}`}>{status}</span>
-                    </div>
-                    <ul className="answer-list">
-                      {question.choices.map((choice, index) => (
-                        <li key={index} className={choice.correct ? 'good-text' : 'muted'}>
-                          {choice.correct ? <Icon name="check" size={16} /> : <span className="answer-spacer" />}
-                          {choice.text}
-                        </li>
-                      ))}
-                    </ul>
-                    <Explanation question={question} />
-                  </div>
-                )
-              })}
+              .map((question) => (
+                <AnswerCard key={question.id} question={question} records={records} />
+              ))}
           </div>
         </section>
       ))}
+    </div>
+  )
+}
+
+function AnswerCard({ question, records }: { question: Question; records: Map<string, QuestionRecord> }) {
+  const status = questionStatus(records.get(question.id))
+  return (
+    <div className="card">
+      <div className="row between" style={{ alignItems: 'flex-start', flexWrap: 'nowrap' }}>
+        <p className="prompt-small">{question.prompt}</p>
+        <span className={`pill ${STATUS_PILL[status]}`}>{status}</span>
+      </div>
+      <ul className="answer-list">
+        {question.choices.map((choice, index) => (
+          <li key={index} className={choice.correct ? 'good-text' : 'muted'}>
+            {choice.correct ? <Icon name="check" size={16} /> : <span className="answer-spacer" />}
+            {choice.text}
+          </li>
+        ))}
+      </ul>
+      <Explanation question={question} />
     </div>
   )
 }

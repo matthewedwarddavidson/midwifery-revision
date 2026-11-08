@@ -1,6 +1,6 @@
 // All revision content. To add a module, create a folder under src/content and list it here.
 
-import type { Diagram, Module, Question } from './types'
+import type { Diagram, Module, Question, QuestionSet } from './types'
 import { UMC_DIAGRAMS } from './umc/diagrams'
 import umcExplanations from './umc/explanations.json'
 import umcQuestionsAndAnswers from './umc/questions-and-answers.json'
@@ -55,6 +55,32 @@ const umc: Module = {
     },
     ...UMC_DIAGRAMS,
   ],
+  sets: [
+    {
+      id: 'percentages',
+      title: 'Percentages',
+      description: 'Every question whose answer is a percentage.',
+      questionIds: ['umc-017', 'umc-076', 'umc-079'],
+    },
+    {
+      id: 'numbers',
+      title: 'Numbers to remember',
+      description: 'Questions whose answer is a number: measurements, timings and counts.',
+      questionIds: [
+        'umc-006',
+        'umc-028',
+        'umc-029',
+        'umc-052',
+        'umc-075',
+        'umc2-051',
+        'umc2-052',
+        'umc2-058',
+        'umc2-064',
+        'umc2-065',
+        'umc2-110',
+      ],
+    },
+  ],
 }
 
 export const MODULES: Module[] = [umc]
@@ -65,6 +91,16 @@ export function findModule(moduleId: string | undefined): Module | undefined {
 
 export function moduleQuestions(module: Module): Question[] {
   return module.resources.flatMap((resource) => (resource.kind === 'quiz' ? resource.questions : []))
+}
+
+export function findSet(module: Module, setId: string | null): QuestionSet | undefined {
+  return module.sets?.find((set) => set.id === setId)
+}
+
+/** The set's questions, in the set's order. */
+export function setQuestions(module: Module, set: QuestionSet): Question[] {
+  const byId = new Map(moduleQuestions(module).map((question) => [question.id, question]))
+  return set.questionIds.flatMap((id) => byId.get(id) ?? [])
 }
 
 export function moduleDiagrams(module: Module): Diagram[] {

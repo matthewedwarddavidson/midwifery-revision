@@ -55,6 +55,14 @@ export interface Diagram {
 
 export type Resource = Quiz | Diagram
 
+/** A hand-picked group of questions from the module's quizzes, such as all the percentages. */
+export interface QuestionSet {
+  id: string
+  title: string
+  description: string
+  questionIds: string[]
+}
+
 export interface Module {
   id: string
   code: string
@@ -62,4 +70,5 @@ export interface Module {
   description: string
   topics: Topic[]
   resources: Resource[]
+  sets?: QuestionSet[]
 }

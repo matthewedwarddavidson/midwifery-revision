@@ -1,7 +1,7 @@
 import { Link, useParams } from 'react-router'
 import { Icon } from '../components/Icon'
 import { BarKey, SummaryBar } from '../components/SummaryBar'
-import { findModule, moduleDiagrams, moduleQuestions, topicTitle } from '../content'
+import { findModule, moduleDiagrams, moduleQuestions, setQuestions, topicTitle } from '../content'
 import { labelIds } from '../lib/diagrams'
 import { describeSummary, summarise } from '../lib/stats'
 import { useRecords } from '../lib/useRecords'
@@ -53,6 +53,38 @@ export function ModulePage() {
           </Link>
         </div>
       </div>
+
+      {module.sets && module.sets.length > 0 && (
+        <div className="section">
+          <div className="section-title">Focused sets</div>
+          <div className="card topic-list">
+            {module.sets.map((set) => {
+              const setSummary = summarise(setQuestions(module, set), records)
+              return (
+                <div key={set.id} className="topic-row">
+                  <div>
+                    <div className="topic-title">{set.title}</div>
+                    <div className="faint small">
+                      {setSummary.total} questions · {describeSummary(setSummary)}
+                    </div>
+                  </div>
+                  <div className="topic-bar">
+                    <SummaryBar summary={setSummary} showLegend={false} />
+                  </div>
+                  <div className="row" style={{ gap: 8 }}>
+                    <Link to={`/m/${module.id}/answers?collection=${set.id}`} className="btn small ghost">
+                      Answers
+                    </Link>
+                    <Link to={practiceLink(`set=collection&collection=${set.id}`)} className="btn small">
+                      Practise
+                    </Link>
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      )}
 
       <div className="section">
         <div className="section-title">Topics</div>

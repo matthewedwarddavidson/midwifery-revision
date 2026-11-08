@@ -34,6 +34,13 @@ describe('content', () => {
       }
     })
 
+    it(`${module.code}: every question set lists real questions`, () => {
+      const ids = new Set(questions.map((question) => question.id))
+      for (const set of module.sets ?? []) {
+        for (const id of set.questionIds) expect(ids, `${set.id}: ${id}`).toContain(id)
+      }
+    })
+
     it(`${module.code}: question ids are unique`, () => {
       const ids = questions.map((question) => question.id)
       expect(new Set(ids).size).toBe(ids.length)
