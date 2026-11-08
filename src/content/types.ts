@@ -47,7 +47,8 @@ export interface Diagram {
   topic: string
   /** File in public/diagrams. */
   image: string
-  credit: { author: string; licence: string; licenceUrl: string; sourceUrl: string }
+  /** Where the drawing came from; absent for diagrams drawn for this app. */
+  credit?: { author: string; licence: string; licenceUrl: string; sourceUrl: string; changes?: string }
   /** The labels to ask; numbers on the image that aren't listed are left out. */
   labels: DiagramLabel[]
 }

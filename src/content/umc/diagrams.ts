@@ -1,10 +1,12 @@
-// Numbered diagrams from Wikimedia Commons. Each label's answer was checked against the image;
-// numbers whose source legend was doubtful are left out.
+// Numbered diagrams. Most are from Wikimedia Commons, either already numbered or numbered here with
+// scripts/number-diagram.mjs. Each label's answer was checked against the image; numbers whose source
+// legend was doubtful are left out.
 
 import type { Diagram } from '../types'
 
 const CC_BY_SA_3 = 'https://creativecommons.org/licenses/by-sa/3.0/'
 const CC_BY_SA_4 = 'https://creativecommons.org/licenses/by-sa/4.0/'
+const CC_BY_4 = 'https://creativecommons.org/licenses/by/4.0/'
 const COMMONS = 'https://commons.wikimedia.org/wiki/File:'
 
 export const UMC_DIAGRAMS: Diagram[] = [
@@ -91,6 +93,77 @@ export const UMC_DIAGRAMS: Diagram[] = [
       { number: '6', answer: 'Acetabulum' },
       { number: '7', answer: 'Obturator foramen' },
       { number: '8', answer: 'Coccyx' },
+    ],
+  },
+  {
+    kind: 'diagram',
+    id: 'umc-pelvis-superior',
+    title: 'The female pelvis from above',
+    topic: 'pelvis',
+    image: 'pelvis-superior.svg',
+    credit: {
+      author: 'DataBase Center for Life Science (DBCLS)',
+      licence: 'CC BY 4.0',
+      licenceUrl: CC_BY_4,
+      sourceUrl: `${COMMONS}202201_Superior_view_of_female_pelvis.svg`,
+      changes: 'numbers added',
+    },
+    labels: [
+      { number: '1', answer: 'Sacral promontory', aliases: ['Promontory of the sacrum'] },
+      { number: '2', answer: 'Sacral ala', aliases: ['Ala of the sacrum', 'Wing of the sacrum'] },
+      { number: '3', answer: 'Sacroiliac joint' },
+      { number: '4', answer: 'Iliac crest' },
+      { number: '5', answer: 'Iliac fossa' },
+      { number: '6', answer: 'Anterior superior iliac spine', aliases: ['ASIS'] },
+      { number: '7', answer: 'Ischial spine' },
+      { number: '8', answer: 'Pelvic brim', aliases: ['Iliopectineal line', 'Linea terminalis', 'Brim'] },
+      { number: '9', answer: 'Superior pubic ramus', aliases: ['Pubic ramus', 'Superior ramus of the pubis'] },
+      { number: '10', answer: 'Symphysis pubis', aliases: ['Pubic symphysis'] },
+      { number: '11', answer: 'Coccyx' },
+    ],
+  },
+  {
+    kind: 'diagram',
+    id: 'umc-fetal-skull',
+    title: 'The fetal skull from above',
+    topic: 'fetal-skull',
+    image: 'fetal-skull.svg',
+    labels: [
+      { number: '1', answer: 'Frontal bone' },
+      { number: '2', answer: 'Frontal suture', aliases: ['Metopic suture'] },
+      { number: '3', answer: 'Anterior fontanelle', aliases: ['Bregma'] },
+      { number: '4', answer: 'Coronal suture' },
+      { number: '5', answer: 'Parietal bone' },
+      { number: '6', answer: 'Vertex' },
+      { number: '7', answer: 'Parietal eminence', aliases: ['Parietal tuberosity'] },
+      { number: '8', answer: 'Sagittal suture' },
+      { number: '9', answer: 'Posterior fontanelle', aliases: ['Lambda'] },
+      { number: '10', answer: 'Lambdoidal suture', aliases: ['Lambdoid suture'] },
+      { number: '11', answer: 'Occipital bone', aliases: ['Occiput'] },
+    ],
+  },
+  {
+    kind: 'diagram',
+    id: 'umc-endocrine',
+    title: 'The endocrine system',
+    topic: 'endocrine',
+    image: 'endocrine.svg',
+    credit: {
+      author: 'OpenStax, Tomáš Kebert and umimet',
+      licence: 'CC BY-SA 4.0',
+      licenceUrl: CC_BY_SA_4,
+      sourceUrl: `${COMMONS}Human_endocrine_male_%26_female_svg_no_labels.svg`,
+      changes: 'cropped, numbers added',
+    },
+    labels: [
+      { number: '1', answer: 'Pineal gland', aliases: ['Pineal'] },
+      { number: '2', answer: 'Pituitary gland', aliases: ['Pituitary', 'Hypophysis'] },
+      { number: '3', answer: 'Thyroid gland', aliases: ['Thyroid'] },
+      { number: '4', answer: 'Parathyroid glands', aliases: ['Parathyroid gland', 'Parathyroids', 'Parathyroid'] },
+      { number: '5', answer: 'Thymus' },
+      { number: '6', answer: 'Adrenal gland', aliases: ['Adrenal', 'Suprarenal gland'] },
+      { number: '7', answer: 'Pancreas' },
+      { number: '8', answer: 'Ovary', aliases: ['Ovaries'] },
     ],
   },
   {

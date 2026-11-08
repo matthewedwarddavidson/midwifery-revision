@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="580" height="480" viewBox="-90 0 580 480">
+<rect x="-90" y="0" width="580" height="480" fill="#fff"/>
+<svg x="0" y="0" width="400" height="480" viewBox="0 0 400 480">
+  <!-- Fetal skull seen from above (vertex view), forehead at the top. Schematic, drawn for this app. -->
+  <defs>
+    <radialGradient id="bone" cx="50%" cy="45%" r="60%">
+      <stop offset="0" stop-color="#f7ecd9"/>
+      <stop offset="1" stop-color="#e6d3b3"/>
+    </radialGradient>
+  </defs>
+  <!-- Skull outline -->
+  <ellipse cx="200" cy="250" rx="135" ry="185" fill="url(#bone)" stroke="#8a6d45" stroke-width="3"/>
+  <!-- Anterior fontanelle (diamond) -->
+  <path d="M200 132 L232 176 L200 222 L168 176 Z" fill="#f3d9cf" stroke="#8a6d45" stroke-width="2"/>
+  <!-- Posterior fontanelle (triangle, apex forwards) -->
+  <path d="M200 348 L220 374 L180 374 Z" fill="#f3d9cf" stroke="#8a6d45" stroke-width="2"/>
+  <g fill="none" stroke="#8a6d45" stroke-width="2.5" stroke-linecap="round">
+    <!-- Frontal suture: front of skull to anterior fontanelle -->
+    <path d="M200 66 L200 132"/>
+    <!-- Coronal sutures: anterior fontanelle to the sides -->
+    <path d="M168 176 Q120 172 78 186"/>
+    <path d="M232 176 Q280 172 322 186"/>
+    <!-- Sagittal suture: between the fontanelles -->
+    <path d="M200 222 L200 348"/>
+    <!-- Lambdoidal sutures: posterior fontanelle to the sides -->
+    <path d="M180 374 Q150 392 118 402"/>
+    <path d="M220 374 Q250 392 282 402"/>
+  </g>
+  <!-- Parietal eminences -->
+  <g fill="none" stroke="#a88a5f" stroke-width="1.5">
+    <circle cx="112" cy="282" r="14"/>
+    <circle cx="112" cy="282" r="6"/>
+    <circle cx="288" cy="282" r="14"/>
+    <circle cx="288" cy="282" r="6"/>
+  </g>
+  <!-- Orientation -->
+  <text x="200" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#6b5a44">Front (face)</text>
+  <text x="200" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#6b5a44">Back</text>
+</svg>
+<g><line x1="-55" y1="110" x2="140" y2="120" stroke="#2b2b2b" stroke-width="1.6"/><circle cx="140" cy="120" r="2.6" fill="#2b2b2b"/><circle cx="-55" cy="110" r="12" fill="#fff" stroke="#2b2b2b" stroke-width="1.6"/><text x="-55" y="110" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="13" fill="#2b2b2b">1</text><line x1="455" y1="90" x2="200" y2="100" stroke="#2b2b2b" stroke-width="1.6"/><circle cx="200" cy="100" r="2.6" fill="#2b2b2b"/><circle cx="455" cy="90" r="12" fill="#fff" stroke="#2b2b2b" stroke-width="1.6"/><text x="455" y="90" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="13" fill="#2b2b2b">2</text><line x1="455" y1="155" x2="200" y2="176" stroke="#2b2b2b" stroke-width="1.6"/><circle cx="200" cy="176" r="2.6" fill="#2b2b2b"/><circle cx="455" cy="155" r="12" fill="#fff" stroke="#2b2b2b" stroke-width="1.6"/><text x="455" y="155" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="13" fill="#2b2b2b">3</text><line x1="-55" y1="185" x2="121" y2="176" stroke="#2b2b2b" stroke-width="1.6"/><circle cx="121" cy="176" r="2.6" fill="#2b2b2b"/><circle cx="-55" cy="185" r="12" fill="#fff" stroke="#2b2b2b" stroke-width="1.6"/><text x="-55" y="185" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="13" fill="#2b2b2b">4</text><line x1="-55" y1="245" x2="150" y2="245" stroke="#2b2b2b" stroke-width="1.6"/><circle cx="150" cy="245" r="2.6" fill="#2b2b2b"/><circle cx="-55" cy="245" r="12" fill="#fff" stroke="#2b2b2b" stroke-width="1.6"/><text x="-55" y="245" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="13" fill="#2b2b2b">5</text><line x1="455" y1="215" x2="232" y2="262" stroke="#2b2b2b" stroke-width="1.6"/><circle cx="232" cy="262" r="2.6" fill="#2b2b2b"/><circle cx="455" cy="215" r="12" fill="#fff" stroke="#2b2b2b" stroke-width="1.6"/><text x="455" y="215" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="13" fill="#2b2b2b">6</text><line x1="455" y1="270" x2="288" y2="282" stroke="#2b2b2b" stroke-width="1.6"/><circle cx="288" cy="282" r="2.6" fill="#2b2b2b"/><circle cx="455" cy="270" r="12" fill="#fff" stroke="#2b2b2b" stroke-width="1.6"/><text x="455" y="270" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="13" fill="#2b2b2b">7</text><line x1="455" y1="330" x2="200" y2="320" stroke="#2b2b2b" stroke-width="1.6"/><circle cx="200" cy="320" r="2.6" fill="#2b2b2b"/><circle cx="455" cy="330" r="12" fill="#fff" stroke="#2b2b2b" stroke-width="1.6"/><text x="455" y="330" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="13" fill="#2b2b2b">8</text><line x1="455" y1="385" x2="200" y2="366" stroke="#2b2b2b" stroke-width="1.6"/><circle cx="200" cy="366" r="2.6" fill="#2b2b2b"/><circle cx="455" cy="385" r="12" fill="#fff" stroke="#2b2b2b" stroke-width="1.6"/><text x="455" y="385" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="13" fill="#2b2b2b">9</text><line x1="-55" y1="395" x2="150" y2="390" stroke="#2b2b2b" stroke-width="1.6"/><circle cx="150" cy="390" r="2.6" fill="#2b2b2b"/><circle cx="-55" cy="395" r="12" fill="#fff" stroke="#2b2b2b" stroke-width="1.6"/><text x="-55" y="395" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="13" fill="#2b2b2b">10</text><line x1="-55" y1="445" x2="200" y2="420" stroke="#2b2b2b" stroke-width="1.6"/><circle cx="200" cy="420" r="2.6" fill="#2b2b2b"/><circle cx="-55" cy="445" r="12" fill="#fff" stroke="#2b2b2b" stroke-width="1.6"/><text x="-55" y="445" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="13" fill="#2b2b2b">11</text></g>
+</svg>

@@ -6,9 +6,13 @@ import type { Diagram, DiagramLabel, Module } from '../content/types'
 import { diagramAnswers, isLabelCorrect, labelId } from '../lib/diagrams'
 import { shuffled } from '../lib/stats'
 import { recordAttempt } from '../lib/store'
+import { useTermDrag } from '../lib/useTermDrag'
 import { NotFound } from './NotFound'
 
-type Mode = 'pick' | 'type'
+type Mode = 'drag' | 'type'
+
+/** What has been given for each label, keyed by its number. */
+type Answers = Record<string, string>
 
 export function DiagramPage() {
   const { moduleId, diagramId } = useParams()
@@ -19,18 +23,17 @@ export function DiagramPage() {
 }
 
 function DiagramQuiz({ module, diagram }: { module: Module; diagram: Diagram }) {
-  const [mode, setMode] = useState<Mode>('pick')
-  const [given, setGiven] = useState<Record<string, string>>({})
+  const [mode, setMode] = useState<Mode>('drag')
+  const [given, setGiven] = useState<Answers>({})
   const [checked, setChecked] = useState(false)
-  // A new order each round, so the list position doesn't give the answer away.
-  const [options, setOptions] = useState(() => shuffled(diagramAnswers(diagram)))
+  // A new order each round, so a term's place in the bank doesn't give the answer away.
+  const [terms, setTerms] = useState(() => shuffled(diagramAnswers(diagram)))
 
-  const score = diagram.labels.filter((label) => isLabelCorrect(label, given[label.number] ?? '')).length
+  const isCorrect = (label: DiagramLabel) => isLabelCorrect(label, given[label.number] ?? '')
+  const score = diagram.labels.filter(isCorrect).length
 
   function check() {
-    for (const label of diagram.labels) {
-      recordAttempt(labelId(diagram, label), isLabelCorrect(label, given[label.number] ?? ''))
-    }
+    for (const label of diagram.labels) recordAttempt(labelId(diagram, label), isCorrect(label))
     setChecked(true)
   }
 
@@ -38,7 +41,7 @@ function DiagramQuiz({ module, diagram }: { module: Module; diagram: Diagram }) 
     setMode(nextMode)
     setGiven({})
     setChecked(false)
-    setOptions(shuffled(diagramAnswers(diagram)))
+    setTerms(shuffled(diagramAnswers(diagram)))
   }
 
   return (
@@ -53,49 +56,26 @@ function DiagramQuiz({ module, diagram }: { module: Module; diagram: Diagram }) 
       </header>
 
       <div className="row" role="group" aria-label="How to answer">
-        <button
-          className={`btn small ${mode === 'pick' ? 'primary' : ''}`}
-          onClick={() => startAgain('pick')}
-          aria-pressed={mode === 'pick'}
-        >
-          Pick from a list
-        </button>
-        <button
-          className={`btn small ${mode === 'type' ? 'primary' : ''}`}
-          onClick={() => startAgain('type')}
-          aria-pressed={mode === 'type'}
-        >
-          Type the name
-        </button>
+        <ModeButton active={mode === 'drag'} onClick={() => startAgain('drag')}>
+          Drag the terms
+        </ModeButton>
+        <ModeButton active={mode === 'type'} onClick={() => startAgain('type')}>
+          Type the names
+        </ModeButton>
       </div>
 
       <div className="diagram-layout">
         <figure className="card diagram-figure">
           <DiagramImage diagram={diagram} />
-          <figcaption className="faint small">
-            <a href={diagram.credit.sourceUrl} target="_blank" rel="noreferrer">
-              Diagram
-            </a>{' '}
-            by {diagram.credit.author},{' '}
-            <a href={diagram.credit.licenceUrl} target="_blank" rel="noreferrer">
-              {diagram.credit.licence}
-            </a>
-            , via Wikimedia Commons
-          </figcaption>
+          <Credit diagram={diagram} />
         </figure>
 
         <div className="card stack">
-          {diagram.labels.map((label) => (
-            <LabelRow
-              key={label.number}
-              label={label}
-              mode={mode}
-              options={options}
-              value={given[label.number] ?? ''}
-              checked={checked}
-              onChange={(value) => setGiven((current) => ({ ...current, [label.number]: value }))}
-            />
-          ))}
+          {mode === 'drag' ? (
+            <DragBoard diagram={diagram} terms={terms} given={given} checked={checked} onChange={setGiven} />
+          ) : (
+            <TypeBoard diagram={diagram} given={given} checked={checked} onChange={setGiven} />
+          )}
           {checked ? (
             <div className="row between">
               <strong className={score === diagram.labels.length ? 'good-text' : ''}>
@@ -116,58 +96,156 @@ function DiagramQuiz({ module, diagram }: { module: Module; diagram: Diagram }) 
   )
 }
 
-function LabelRow({
-  label,
-  mode,
-  options,
-  value,
-  checked,
-  onChange,
-}: {
-  label: DiagramLabel
-  mode: Mode
-  options: string[]
-  value: string
-  checked: boolean
-  onChange: (value: string) => void
-}) {
-  const correct = isLabelCorrect(label, value)
-  const state = checked ? (correct ? 'correct' : 'wrong') : ''
-  const fieldLabel = `Part ${label.number}`
+function ModeButton({ active, onClick, children }: { active: boolean; onClick: () => void; children: string }) {
   return (
-    <div className={`label-row ${state}`}>
-      <span className="label-number" aria-hidden="true">
-        {label.number}
-      </span>
-      {mode === 'pick' ? (
-        <select
-          className="field"
-          value={value}
-          onChange={(event) => onChange(event.target.value)}
-          disabled={checked}
-          aria-label={fieldLabel}
-        >
-          <option value="">Choose…</option>
-          {options.map((option) => (
-            <option key={option} value={option}>
-              {option}
-            </option>
-          ))}
-        </select>
-      ) : (
-        <input
-          className="field"
-          value={value}
-          onChange={(event) => onChange(event.target.value)}
-          disabled={checked}
-          aria-label={fieldLabel}
-          autoComplete="off"
-          autoCapitalize="off"
-          spellCheck={false}
-        />
+    <button className={`btn small ${active ? 'primary' : ''}`} onClick={onClick} aria-pressed={active}>
+      {children}
+    </button>
+  )
+}
+
+interface BoardProps {
+  diagram: Diagram
+  given: Answers
+  checked: boolean
+  onChange: (given: Answers) => void
+}
+
+/** A bank of terms to drag (or tap, then tap a number) into the numbered slots. */
+function DragBoard({ diagram, terms, given, checked, onChange }: BoardProps & { terms: string[] }) {
+  const [selected, setSelected] = useState<string | null>(null)
+  const { drag, dragHandlers, wasDrag } = useTermDrag(dropTerm)
+  const placedTerms = new Set(Object.values(given))
+  const bank = terms.filter((term) => !placedTerms.has(term))
+
+  /** Puts a term in a slot, taking it out of any other slot; a term already in that slot goes back to the bank. */
+  function place(term: string, number: string) {
+    const next = Object.fromEntries(Object.entries(given).filter(([, placed]) => placed !== term))
+    onChange({ ...next, [number]: term })
+    setSelected(null)
+  }
+
+  function returnToBank(term: string) {
+    onChange(Object.fromEntries(Object.entries(given).filter(([, placed]) => placed !== term)))
+    setSelected(null)
+  }
+
+  function dropTerm(term: string, target: Element | null) {
+    const slot = target?.closest('[data-slot]')?.getAttribute('data-slot')
+    if (slot) place(term, slot)
+    else if (target?.closest('[data-bank]')) returnToBank(term)
+  }
+
+  function tapTerm(term: string) {
+    if (wasDrag()) return
+    setSelected(selected === term ? null : term)
+  }
+
+  function tapSlot(number: string) {
+    if (wasDrag()) return
+    const current = given[number]
+    if (selected) place(selected, number)
+    else if (current) returnToBank(current)
+  }
+
+  return (
+    <>
+      {!checked && (
+        <div className="term-bank" data-bank>
+          <p className="faint small">Drag each term to its number, or tap a term and then a number.</p>
+          <div className="term-list">
+            {bank.map((term) => (
+              <button
+                key={term}
+                className={`term ${selected === term ? 'selected' : ''} ${drag?.term === term ? 'dragging' : ''}`}
+                onClick={() => tapTerm(term)}
+                aria-pressed={selected === term}
+                {...dragHandlers(term)}
+              >
+                {term}
+              </button>
+            ))}
+            {bank.length === 0 && <span className="faint small">All terms placed. Check your answers when ready.</span>}
+          </div>
+        </div>
       )}
-      {checked && !correct && <span className="label-correction small">{label.answer}</span>}
-    </div>
+
+      {diagram.labels.map((label) => {
+        const term = given[label.number]
+        const state = checked ? (isLabelCorrect(label, term ?? '') ? 'correct' : 'wrong') : ''
+        return (
+          <div key={label.number} className={`label-row ${state}`}>
+            <span className="label-number" aria-hidden="true">
+              {label.number}
+            </span>
+            <button
+              className={`slot ${term ? 'filled' : ''} ${selected ? 'ready' : ''}`}
+              data-slot={label.number}
+              onClick={() => tapSlot(label.number)}
+              disabled={checked}
+              aria-label={`Part ${label.number}: ${term ?? 'empty'}`}
+              {...(term && !checked ? dragHandlers(term) : {})}
+            >
+              {term ?? <span className="faint">Drop a term here</span>}
+            </button>
+            {state === 'wrong' && <span className="label-correction small">{label.answer}</span>}
+          </div>
+        )
+      })}
+
+      {drag && (
+        <div className="term drag-ghost" style={{ left: drag.x, top: drag.y }} aria-hidden="true">
+          {drag.term}
+        </div>
+      )}
+    </>
+  )
+}
+
+/** Typing each name: harder, as nothing is offered. */
+function TypeBoard({ diagram, given, checked, onChange }: BoardProps) {
+  return (
+    <>
+      {diagram.labels.map((label) => {
+        const value = given[label.number] ?? ''
+        const state = checked ? (isLabelCorrect(label, value) ? 'correct' : 'wrong') : ''
+        return (
+          <div key={label.number} className={`label-row ${state}`}>
+            <span className="label-number" aria-hidden="true">
+              {label.number}
+            </span>
+            <input
+              className="field"
+              value={value}
+              onChange={(event) => onChange({ ...given, [label.number]: event.target.value })}
+              disabled={checked}
+              aria-label={`Part ${label.number}`}
+              autoComplete="off"
+              autoCapitalize="off"
+              spellCheck={false}
+            />
+            {state === 'wrong' && <span className="label-correction small">{label.answer}</span>}
+          </div>
+        )
+      })}
+    </>
+  )
+}
+
+function Credit({ diagram }: { diagram: Diagram }) {
+  const { credit } = diagram
+  if (!credit) return <figcaption className="faint small">Schematic drawn for this app.</figcaption>
+  return (
+    <figcaption className="faint small">
+      <a href={credit.sourceUrl} target="_blank" rel="noreferrer">
+        Diagram
+      </a>{' '}
+      by {credit.author},{' '}
+      <a href={credit.licenceUrl} target="_blank" rel="noreferrer">
+        {credit.licence}
+      </a>
+      , via Wikimedia Commons{credit.changes ? `; ${credit.changes}` : ''}
+    </figcaption>
   )
 }
 

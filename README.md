@@ -20,7 +20,9 @@ Then set each question's `topic` and add the quiz to the module. Re-importing ke
 
 ### Diagrams
 
-Labelling diagrams are numbered images from Wikimedia Commons, stored in `public/diagrams` and defined in `src/content/<module>/diagrams.ts`. Each label is tracked like a question (id `<diagram id>-<number>`), so never renumber them. Check every answer against the image: Commons legends contain mistakes.
+Labelling diagrams are numbered images, stored in `public/diagrams` and defined in `src/content/<module>/diagrams.ts`. Each label is tracked like a question (id `<diagram id>-<number>`), so never renumber them. Check every answer against the image: Commons legends contain mistakes.
+
+To number an unlabelled drawing, put it in `scripts/diagram-sources`, list the markers (point, number position, optional crop and white masks) in `scripts/diagram-markers/<name>.json`, then run `node scripts/number-diagram.mjs scripts/diagram-markers/<name>.json`. Coordinates are in the source's pixel space.
 
 Credits (each is also shown under its diagram):
 
@@ -29,6 +31,9 @@ Credits (each is also shown under its diagram):
 - Pelvis: Fred the Oyster, CC BY-SA 4.0
 - Breast; ovary and fallopian tube: US National Cancer Institute (SEER Training), public domain
 - Kidney: Piotr Michał Jaworski, CC BY-SA 3.0
+- Female pelvis from above: DataBase Center for Life Science (DBCLS), CC BY 4.0; numbers added
+- Endocrine system: OpenStax, Tomáš Kebert and umimet, CC BY-SA 4.0; cropped, numbers added
+- Fetal skull: schematic drawn for this app
 
 ## Firebase settings
 
