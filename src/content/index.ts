@@ -3,6 +3,7 @@
 import type { Diagram, Module, Question, QuestionSet } from './types'
 import { UMC_DIAGRAMS } from './umc/diagrams'
 import umcExplanations from './umc/explanations.json'
+import umcOwnQuestions from './umc/own-questions.json'
 import umcQuestionsAndAnswers from './umc/questions-and-answers.json'
 import umcRevisionQuiz from './umc/revision-quiz.json'
 
@@ -53,6 +54,14 @@ const umc: Module = {
       source: 'the course (author not named)',
       questions: withExplanations(umcQuestionsAndAnswers as Question[], umcExplanations),
     },
+    {
+      kind: 'quiz',
+      id: 'umc-own-questions',
+      title: 'Facts from your notes',
+      description: 'Questions written for this app from your own revision notes: mostly percentages and numbers.',
+      source: 'you (written up from your notes)',
+      questions: withExplanations(umcOwnQuestions as Question[], umcExplanations),
+    },
     ...UMC_DIAGRAMS,
   ],
   sets: [
@@ -60,7 +69,7 @@ const umc: Module = {
       id: 'percentages',
       title: 'Percentages',
       description: 'Every question whose answer is a percentage.',
-      questionIds: ['umc-017', 'umc-076', 'umc-079'],
+      questionIds: ['umc-017', 'umc-076', 'umc-079', 'umc3-001', 'umc3-002', 'umc3-003', 'umc3-004', 'umc3-005'],
     },
     {
       id: 'numbers',
@@ -78,6 +87,22 @@ const umc: Module = {
         'umc2-064',
         'umc2-065',
         'umc2-110',
+        'umc3-006',
+        'umc3-007',
+        'umc3-008',
+        'umc3-009',
+        'umc3-010',
+        'umc3-011',
+        'umc3-012',
+        'umc3-013',
+        'umc3-014',
+        'umc3-015',
+        'umc3-016',
+        'umc3-017',
+        'umc3-018',
+        'umc3-019',
+        'umc3-020',
+        'umc3-021',
       ],
     },
   ],

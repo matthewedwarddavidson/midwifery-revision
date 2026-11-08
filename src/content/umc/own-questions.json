@@ -1,0 +1,485 @@
+[
+  {
+    "id": "umc3-001",
+    "topic": "respiratory",
+    "prompt": "By about what percentage does tidal volume increase in pregnancy?",
+    "choices": [
+      {
+        "text": "10–15%",
+        "correct": false
+      },
+      {
+        "text": "30–40%",
+        "correct": true
+      },
+      {
+        "text": "60–70%",
+        "correct": false
+      },
+      {
+        "text": "80–100%",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-002",
+    "topic": "blood",
+    "prompt": "By about what percentage does plasma volume increase in pregnancy?",
+    "choices": [
+      {
+        "text": "10%",
+        "correct": false
+      },
+      {
+        "text": "25%",
+        "correct": false
+      },
+      {
+        "text": "50%",
+        "correct": true
+      },
+      {
+        "text": "100%",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-003",
+    "topic": "blood",
+    "prompt": "By about what percentage does red cell mass increase in pregnancy?",
+    "choices": [
+      {
+        "text": "20–30%",
+        "correct": true
+      },
+      {
+        "text": "50–60%",
+        "correct": false
+      },
+      {
+        "text": "5–10%",
+        "correct": false
+      },
+      {
+        "text": "70–80%",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-004",
+    "topic": "cardiovascular",
+    "prompt": "About what percentage of the body's blood is in the veins at any one time?",
+    "choices": [
+      {
+        "text": "10–20%",
+        "correct": false
+      },
+      {
+        "text": "30–40%",
+        "correct": false
+      },
+      {
+        "text": "85–95%",
+        "correct": false
+      },
+      {
+        "text": "60–70%",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc3-005",
+    "topic": "respiratory",
+    "prompt": "By about what percentage does oxygen consumption rise in pregnancy?",
+    "choices": [
+      {
+        "text": "5%",
+        "correct": false
+      },
+      {
+        "text": "20%",
+        "correct": true
+      },
+      {
+        "text": "50%",
+        "correct": false
+      },
+      {
+        "text": "75%",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-006",
+    "topic": "cardiovascular",
+    "prompt": "By roughly how much does circulating blood volume increase in pregnancy?",
+    "choices": [
+      {
+        "text": "250 ml",
+        "correct": false
+      },
+      {
+        "text": "0.5 litres",
+        "correct": false
+      },
+      {
+        "text": "1.5 litres",
+        "correct": true
+      },
+      {
+        "text": "3 litres",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-007",
+    "topic": "embryology",
+    "prompt": "Edwards' syndrome is a trisomy of which chromosome?",
+    "choices": [
+      {
+        "text": "13",
+        "correct": false
+      },
+      {
+        "text": "18",
+        "correct": true
+      },
+      {
+        "text": "21",
+        "correct": false
+      },
+      {
+        "text": "16",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-008",
+    "topic": "embryology",
+    "prompt": "Down's syndrome is a trisomy of which chromosome?",
+    "choices": [
+      {
+        "text": "13",
+        "correct": false
+      },
+      {
+        "text": "18",
+        "correct": false
+      },
+      {
+        "text": "21",
+        "correct": true
+      },
+      {
+        "text": "16",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-009",
+    "topic": "embryology",
+    "prompt": "Patau's syndrome is a trisomy of which chromosome?",
+    "choices": [
+      {
+        "text": "13",
+        "correct": true
+      },
+      {
+        "text": "18",
+        "correct": false
+      },
+      {
+        "text": "21",
+        "correct": false
+      },
+      {
+        "text": "16",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-010",
+    "topic": "placenta",
+    "prompt": "At term, about how much blood flows to the uterus and placenta each minute?",
+    "choices": [
+      {
+        "text": "50–75 ml",
+        "correct": false
+      },
+      {
+        "text": "150–250 ml",
+        "correct": false
+      },
+      {
+        "text": "500–750 ml",
+        "correct": true
+      },
+      {
+        "text": "1.5–2 litres",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-011",
+    "topic": "cardiovascular",
+    "prompt": "By about how much does the heart rate rise in pregnancy?",
+    "choices": [
+      {
+        "text": "10–20 beats per minute",
+        "correct": true
+      },
+      {
+        "text": "30–40 beats per minute",
+        "correct": false
+      },
+      {
+        "text": "2–5 beats per minute",
+        "correct": false
+      },
+      {
+        "text": "50–60 beats per minute",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-012",
+    "topic": "cardiovascular",
+    "prompt": "About how much blood does the heart pump with each beat at rest (the stroke volume)?",
+    "choices": [
+      {
+        "text": "7 ml",
+        "correct": false
+      },
+      {
+        "text": "20 ml",
+        "correct": false
+      },
+      {
+        "text": "150 ml",
+        "correct": false
+      },
+      {
+        "text": "70 ml",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc3-013",
+    "topic": "respiratory",
+    "prompt": "By about how much does the growing uterus push the diaphragm up?",
+    "choices": [
+      {
+        "text": "1 cm",
+        "correct": false
+      },
+      {
+        "text": "4 cm",
+        "correct": true
+      },
+      {
+        "text": "10 cm",
+        "correct": false
+      },
+      {
+        "text": "15 cm",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-014",
+    "topic": "fetal-skull",
+    "prompt": "When does the posterior fontanelle close?",
+    "choices": [
+      {
+        "text": "6–8 weeks after birth",
+        "correct": true
+      },
+      {
+        "text": "6–8 months after birth",
+        "correct": false
+      },
+      {
+        "text": "18 months after birth",
+        "correct": false
+      },
+      {
+        "text": "3 years after birth",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-015",
+    "topic": "fetal-skull",
+    "prompt": "When does the anterior fontanelle close?",
+    "choices": [
+      {
+        "text": "6–8 weeks after birth",
+        "correct": false
+      },
+      {
+        "text": "6 months after birth",
+        "correct": false
+      },
+      {
+        "text": "18 months after birth",
+        "correct": true
+      },
+      {
+        "text": "5 years after birth",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-016",
+    "topic": "fetal-skull",
+    "prompt": "What is the bitemporal diameter of the fetal skull?",
+    "choices": [
+      {
+        "text": "9.5 cm",
+        "correct": false
+      },
+      {
+        "text": "8.2 cm",
+        "correct": true
+      },
+      {
+        "text": "11.5 cm",
+        "correct": false
+      },
+      {
+        "text": "13.5 cm",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-017",
+    "topic": "fetal-skull",
+    "prompt": "What is the biparietal diameter of the fetal skull?",
+    "choices": [
+      {
+        "text": "8.2 cm",
+        "correct": false
+      },
+      {
+        "text": "11.5 cm",
+        "correct": false
+      },
+      {
+        "text": "13.5 cm",
+        "correct": false
+      },
+      {
+        "text": "9.5 cm",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc3-018",
+    "topic": "postnatal",
+    "prompt": "After birth, about how fast does the uterus shrink?",
+    "choices": [
+      {
+        "text": "1 mm a day",
+        "correct": false
+      },
+      {
+        "text": "5 cm a day",
+        "correct": false
+      },
+      {
+        "text": "1 cm a day",
+        "correct": true
+      },
+      {
+        "text": "3 cm a day",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-019",
+    "topic": "postnatal",
+    "prompt": "By when can the uterus usually no longer be felt through the abdomen after birth?",
+    "choices": [
+      {
+        "text": "10–14 days",
+        "correct": true
+      },
+      {
+        "text": "24–48 hours",
+        "correct": false
+      },
+      {
+        "text": "3–4 days",
+        "correct": false
+      },
+      {
+        "text": "6–8 weeks",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-020",
+    "topic": "newborn",
+    "prompt": "When does the baby's umbilical cord stump usually come away?",
+    "choices": [
+      {
+        "text": "24–48 hours",
+        "correct": false
+      },
+      {
+        "text": "3–4 weeks",
+        "correct": false
+      },
+      {
+        "text": "5–15 days",
+        "correct": true
+      },
+      {
+        "text": "6–8 weeks",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-021",
+    "topic": "embryology",
+    "prompt": "In which embryonic week does gastrulation happen?",
+    "choices": [
+      {
+        "text": "Week 1",
+        "correct": false
+      },
+      {
+        "text": "Week 3",
+        "correct": true
+      },
+      {
+        "text": "Week 5",
+        "correct": false
+      },
+      {
+        "text": "Week 8",
+        "correct": false
+      }
+    ]
+  }
+]
