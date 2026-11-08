@@ -927,6 +927,21 @@ a {
   top: 16px;
 }
 
+.diagram-image.loading,
+.diagram-image.failed {
+  display: grid;
+  place-items: center;
+  min-height: 320px;
+}
+
+.diagram-image.loading img,
+.diagram-image.failed img {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
 .diagram-figure img {
   display: block;
   width: 100%;

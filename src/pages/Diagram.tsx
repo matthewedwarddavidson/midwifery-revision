@@ -71,10 +71,7 @@ function DiagramQuiz({ module, diagram }: { module: Module; diagram: Diagram }) 
 
       <div className="diagram-layout">
         <figure className="card diagram-figure">
-          <img
-            src={`${import.meta.env.BASE_URL}diagrams/${diagram.image}`}
-            alt={`Numbered diagram: ${diagram.title}`}
-          />
+          <DiagramImage diagram={diagram} />
           <figcaption className="faint small">
             <a href={diagram.credit.sourceUrl} target="_blank" rel="noreferrer">
               Diagram
@@ -170,6 +167,27 @@ function LabelRow({
         />
       )}
       {checked && !correct && <span className="label-correction small">{label.answer}</span>}
+    </div>
+  )
+}
+
+type ImageState = 'loading' | 'loaded' | 'failed'
+
+/** The diagram, with a placeholder holding its space until it arrives. */
+function DiagramImage({ diagram }: { diagram: Diagram }) {
+  const [state, setState] = useState<ImageState>('loading')
+  return (
+    <div className={`diagram-image ${state}`}>
+      {state === 'loading' && <span className="faint small">Loading diagram…</span>}
+      {state === 'failed' && (
+        <span className="bad-text small">The diagram didn't load. Refresh the page to try again.</span>
+      )}
+      <img
+        src={`${import.meta.env.BASE_URL}diagrams/${diagram.image}`}
+        alt={`Numbered diagram: ${diagram.title}`}
+        onLoad={() => setState('loaded')}
+        onError={() => setState('failed')}
+      />
     </div>
   )
 }
