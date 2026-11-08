@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { MODULES, moduleQuestions } from '.'
 import umcExplanations from './umc/explanations.json'
+import umcQuestionsAndAnswers from './umc/questions-and-answers.json'
 import umcRevisionQuiz from './umc/revision-quiz.json'
 
 describe('content', () => {
@@ -26,7 +27,7 @@ describe('content', () => {
   }
 
   it('UMC: every explanation belongs to a question, and every question has one', () => {
-    const ids = umcRevisionQuiz.map((question) => question.id).sort()
+    const ids = [...umcRevisionQuiz, ...umcQuestionsAndAnswers].map((question) => question.id).sort()
     expect(Object.keys(umcExplanations).sort()).toEqual(ids)
   })
 })

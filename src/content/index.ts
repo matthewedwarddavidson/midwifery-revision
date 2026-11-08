@@ -2,6 +2,7 @@
 
 import type { Module, Question } from './types'
 import umcExplanations from './umc/explanations.json'
+import umcQuestionsAndAnswers from './umc/questions-and-answers.json'
 import umcRevisionQuiz from './umc/revision-quiz.json'
 
 /** Adds explanations, kept in their own file so re-importing a quiz doesn't overwrite them. */
@@ -16,6 +17,7 @@ const umc: Module = {
   description: 'The body systems in pregnancy, labour and the postnatal period.',
   topics: [
     { id: 'reproduction', title: 'Reproduction and the menstrual cycle' },
+    { id: 'endocrine', title: 'Endocrine system' },
     { id: 'cardiovascular', title: 'Cardiovascular system' },
     { id: 'respiratory', title: 'Respiratory system' },
     { id: 'fetal-skull', title: 'The fetal skull' },
@@ -24,6 +26,7 @@ const umc: Module = {
     { id: 'labour', title: 'Labour and birth' },
     { id: 'placenta', title: 'Placenta and cord' },
     { id: 'postnatal', title: 'Postnatal recovery' },
+    { id: 'newborn', title: 'The newborn' },
     { id: 'nervous', title: 'Nervous system' },
     { id: 'musculoskeletal', title: 'Musculoskeletal system' },
     { id: 'digestive', title: 'Digestive system' },
@@ -40,6 +43,14 @@ const umc: Module = {
       description: 'Multiple choice and true or false questions across the module.',
       source: 'Holly, UMC tutor',
       questions: withExplanations(umcRevisionQuiz as Question[], umcExplanations),
+    },
+    {
+      kind: 'quiz',
+      id: 'umc-questions-and-answers',
+      title: 'UMC questions and answers',
+      description: 'A second set of multiple choice questions across the module.',
+      source: 'the course (author not named)',
+      questions: withExplanations(umcQuestionsAndAnswers as Question[], umcExplanations),
     },
   ],
 }

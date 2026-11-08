@@ -1,0 +1,3187 @@
+[
+  {
+    "id": "umc2-001",
+    "topic": "reproduction",
+    "prompt": "What are the 2 phases of the ovarian cycle?",
+    "choices": [
+      {
+        "text": "follicular and luteal",
+        "correct": true
+      },
+      {
+        "text": "preparatory and degenerative",
+        "correct": false
+      },
+      {
+        "text": "menstruation and ovulation",
+        "correct": false
+      },
+      {
+        "text": "follicular and ovulation",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-002",
+    "topic": "reproduction",
+    "prompt": "After ovulation, what glandular body does the empty follicle become?",
+    "choices": [
+      {
+        "text": "endometrium",
+        "correct": false
+      },
+      {
+        "text": "secondary oocyte",
+        "correct": false
+      },
+      {
+        "text": "corpus luteum",
+        "correct": true
+      },
+      {
+        "text": "primordial follicle",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-003",
+    "topic": "reproduction",
+    "prompt": "What are the 3 phases of the uterine cycle?",
+    "choices": [
+      {
+        "text": "follicular phase, proliferative phase, luteal phase",
+        "correct": false
+      },
+      {
+        "text": "menstruation, follicular phase, luteal phase",
+        "correct": false
+      },
+      {
+        "text": "menstruation, proliferative phase, secretory phase",
+        "correct": true
+      },
+      {
+        "text": "1st, 2nd and 3rd stage",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-004",
+    "topic": "reproduction",
+    "prompt": "Which hormone is secreted by the corpus luteum if an oocyte is fertilised, until the placenta takes over?",
+    "choices": [
+      {
+        "text": "gonadotrophin releasing hormone",
+        "correct": false
+      },
+      {
+        "text": "oestrogen",
+        "correct": false
+      },
+      {
+        "text": "follicle stimulating hormone",
+        "correct": false
+      },
+      {
+        "text": "Progesterone",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-005",
+    "topic": "reproduction",
+    "prompt": "Which of these is a haploid cell?",
+    "choices": [
+      {
+        "text": "trophoblast",
+        "correct": false
+      },
+      {
+        "text": "zygote",
+        "correct": false
+      },
+      {
+        "text": "sperm",
+        "correct": true
+      },
+      {
+        "text": "zona pellucida",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-006",
+    "topic": "reproduction",
+    "prompt": "Which of these is NOT involved in the menstrual cycle?",
+    "choices": [
+      {
+        "text": "uterus",
+        "correct": false
+      },
+      {
+        "text": "hypothalamus",
+        "correct": false
+      },
+      {
+        "text": "thymus",
+        "correct": true
+      },
+      {
+        "text": "pituitary gland",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-007",
+    "topic": "reproduction",
+    "prompt": "Which of these is NOT a layer of the uterus?",
+    "choices": [
+      {
+        "text": "exometrium",
+        "correct": true
+      },
+      {
+        "text": "myometrium",
+        "correct": false
+      },
+      {
+        "text": "endometrium",
+        "correct": false
+      },
+      {
+        "text": "Perimetrium",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-008",
+    "topic": "reproduction",
+    "prompt": "Which structures of the female genitalia partly cover the clitoris anteriorly and join to form the fourchette posteriorly?",
+    "choices": [
+      {
+        "text": "mons pubis",
+        "correct": false
+      },
+      {
+        "text": "labia majora",
+        "correct": false
+      },
+      {
+        "text": "labia minora",
+        "correct": true
+      },
+      {
+        "text": "Vestibule",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-009",
+    "topic": "endocrine",
+    "prompt": "When a hormone acts to cause another hormone to be released, this is known as?",
+    "choices": [
+      {
+        "text": "hormonal cascade",
+        "correct": true
+      },
+      {
+        "text": "hormonal process",
+        "correct": false
+      },
+      {
+        "text": "homeostasis",
+        "correct": false
+      },
+      {
+        "text": "reflex action",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-010",
+    "topic": "endocrine",
+    "prompt": "With which other body system does the endocrine system work closely to maintain homeostasis in response to the internal and external environment?",
+    "choices": [
+      {
+        "text": "Nervous system",
+        "correct": true
+      },
+      {
+        "text": "Digestive system",
+        "correct": false
+      },
+      {
+        "text": "Cardiovascular system",
+        "correct": false
+      },
+      {
+        "text": "Renal system",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-011",
+    "topic": "endocrine",
+    "prompt": "Hormones are secreted by?",
+    "choices": [
+      {
+        "text": "cells",
+        "correct": false
+      },
+      {
+        "text": "glands",
+        "correct": true
+      },
+      {
+        "text": "organs",
+        "correct": false
+      },
+      {
+        "text": "Muscles",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-012",
+    "topic": "endocrine",
+    "prompt": "Where are hormone receptors found?",
+    "choices": [
+      {
+        "text": "in the brain",
+        "correct": false
+      },
+      {
+        "text": "within cells or on the surface of cells",
+        "correct": true
+      },
+      {
+        "text": "on specific glands",
+        "correct": false
+      },
+      {
+        "text": "in the blood",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-013",
+    "topic": "endocrine",
+    "prompt": "Where in the body is the thyroid gland found?",
+    "choices": [
+      {
+        "text": "in the brain",
+        "correct": false
+      },
+      {
+        "text": "to the right of the heart",
+        "correct": false
+      },
+      {
+        "text": "above the kidneys",
+        "correct": false
+      },
+      {
+        "text": "In the neck",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-014",
+    "topic": "endocrine",
+    "prompt": "Where in the body is the pineal gland found?",
+    "choices": [
+      {
+        "text": "in the brain",
+        "correct": true
+      },
+      {
+        "text": "to the right of the heart",
+        "correct": false
+      },
+      {
+        "text": "above the kidneys",
+        "correct": false
+      },
+      {
+        "text": "In the neck",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-015",
+    "topic": "endocrine",
+    "prompt": "What is another name for Epinephrine?",
+    "choices": [
+      {
+        "text": "Adrenaline",
+        "correct": true
+      },
+      {
+        "text": "Adiponectin",
+        "correct": false
+      },
+      {
+        "text": "Anti-diuretic hormone",
+        "correct": false
+      },
+      {
+        "text": "Aldosterone",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-016",
+    "topic": "endocrine",
+    "prompt": "What is another name for Vasopressin?",
+    "choices": [
+      {
+        "text": "Aldosterone",
+        "correct": false
+      },
+      {
+        "text": "Anti-diuretic hormone",
+        "correct": true
+      },
+      {
+        "text": "Adiponectin",
+        "correct": false
+      },
+      {
+        "text": "Adrenaline",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-017",
+    "topic": "lactation",
+    "prompt": "Which of these hormones is not involved in breastfeeding?",
+    "choices": [
+      {
+        "text": "luteinizing hormone",
+        "correct": true
+      },
+      {
+        "text": "prolactin",
+        "correct": false
+      },
+      {
+        "text": "feedback inhibitor of lactation",
+        "correct": false
+      },
+      {
+        "text": "oxytocin",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-018",
+    "topic": "reproduction",
+    "prompt": "Which of these hormones is involved in the menstrual cycle?",
+    "choices": [
+      {
+        "text": "gonadotrophin releasing hormone",
+        "correct": true
+      },
+      {
+        "text": "insulin",
+        "correct": false
+      },
+      {
+        "text": "thyroid stimulating hormone",
+        "correct": false
+      },
+      {
+        "text": "prolactin",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-019",
+    "topic": "reproduction",
+    "prompt": "A surge of which hormone causes ovulation to occur?",
+    "choices": [
+      {
+        "text": "follicle stimulating hormone",
+        "correct": false
+      },
+      {
+        "text": "gonadotrophin releasing hormone",
+        "correct": false
+      },
+      {
+        "text": "oestrogen",
+        "correct": false
+      },
+      {
+        "text": "luteinizing hormone",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-020",
+    "topic": "endocrine",
+    "prompt": "Oxytocin is also known as?",
+    "choices": [
+      {
+        "text": "The love hormone",
+        "correct": true
+      },
+      {
+        "text": "The birth hormone",
+        "correct": false
+      },
+      {
+        "text": "The pain hormone",
+        "correct": false
+      },
+      {
+        "text": "The sleep hormone",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-021",
+    "topic": "lactation",
+    "prompt": "What is the main function of prolactin?",
+    "choices": [
+      {
+        "text": "Stimulate breastmilk production",
+        "correct": true
+      },
+      {
+        "text": "Inhibit breastmilk production",
+        "correct": false
+      },
+      {
+        "text": "Stimulate the milk ejection reflex",
+        "correct": false
+      },
+      {
+        "text": "Stimulate contractions",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-022",
+    "topic": "endocrine",
+    "prompt": "Which hormone is responsible for relaxation of smooth muscle around the airways and blood vessels?",
+    "choices": [
+      {
+        "text": "relaxin",
+        "correct": false
+      },
+      {
+        "text": "prolactin",
+        "correct": false
+      },
+      {
+        "text": "progesterone",
+        "correct": true
+      },
+      {
+        "text": "oestrogen",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-023",
+    "topic": "cardiovascular",
+    "prompt": "Deoxygenated blood is pumped from the heart to the lungs via which blood vessels?",
+    "choices": [
+      {
+        "text": "pulmonary veins",
+        "correct": false
+      },
+      {
+        "text": "aorta",
+        "correct": false
+      },
+      {
+        "text": "pulmonary arteries",
+        "correct": true
+      },
+      {
+        "text": "vena cava",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-024",
+    "topic": "cardiovascular",
+    "prompt": "Which of these vessels is likely to contain the highest volume of blood due to having the widest lumen?",
+    "choices": [
+      {
+        "text": "venule",
+        "correct": false
+      },
+      {
+        "text": "vein",
+        "correct": true
+      },
+      {
+        "text": "artery",
+        "correct": false
+      },
+      {
+        "text": "Arteriole",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-025",
+    "topic": "cardiovascular",
+    "prompt": "Blood moves from the left atrium to the left ventricle through which valve?",
+    "choices": [
+      {
+        "text": "aortic",
+        "correct": false
+      },
+      {
+        "text": "tricuspid",
+        "correct": false
+      },
+      {
+        "text": "mitral (bicuspid)",
+        "correct": true
+      },
+      {
+        "text": "Pulmonic",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-026",
+    "topic": "cardiovascular",
+    "prompt": "What is the correct definition of stroke volume?",
+    "choices": [
+      {
+        "text": "the volume of blood pumped by the whole heart per minute",
+        "correct": false
+      },
+      {
+        "text": "the volume of blood received by the heart from the lower body",
+        "correct": false
+      },
+      {
+        "text": "the volume of blood pumped from the left ventricle per beat",
+        "correct": true
+      },
+      {
+        "text": "the volume of blood received by the heart from the lungs",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-027",
+    "topic": "cardiovascular",
+    "prompt": "Which of these is not an adaptation of the cardiovascular system in pregnancy?",
+    "choices": [
+      {
+        "text": "increased blood volume",
+        "correct": false
+      },
+      {
+        "text": "increased cardiac output",
+        "correct": false
+      },
+      {
+        "text": "decreased heart rate",
+        "correct": true
+      },
+      {
+        "text": "cardiac muscle hypertrophy",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-028",
+    "topic": "cardiovascular",
+    "prompt": "The increased plasma volume in pregnancy decreases the viscosity of the blood, improving blood flow through capillaries. What is one advantage of this?",
+    "choices": [
+      {
+        "text": "fluctuating blood pressure",
+        "correct": false
+      },
+      {
+        "text": "reduced oedema",
+        "correct": false
+      },
+      {
+        "text": "additional blood available to supply the fetal circulation",
+        "correct": false
+      },
+      {
+        "text": "improved perfusion of the placenta",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-029",
+    "topic": "cardiovascular",
+    "prompt": "What is one way in which the cardiovascular system changes to cope with the inevitable blood loss at the time of birth?",
+    "choices": [
+      {
+        "text": "decreased cardiac output",
+        "correct": false
+      },
+      {
+        "text": "increased white cell count",
+        "correct": false
+      },
+      {
+        "text": "increased blood volume",
+        "correct": true
+      },
+      {
+        "text": "haemodilution of pregnancy",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-030",
+    "topic": "blood",
+    "prompt": "Pregnant and postnatal women are in which state?",
+    "choices": [
+      {
+        "text": "hypercoagulable",
+        "correct": true
+      },
+      {
+        "text": "Hypo-coagulable",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-031",
+    "topic": "cardiovascular",
+    "prompt": "In pregnancy it is normal for the heart rate to",
+    "choices": [
+      {
+        "text": "stay the same",
+        "correct": false
+      },
+      {
+        "text": "increase",
+        "correct": true
+      },
+      {
+        "text": "Decrease",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-032",
+    "topic": "cardiovascular",
+    "prompt": "The pulse rate is felt by palpating which type of vessel?",
+    "choices": [
+      {
+        "text": "sinus",
+        "correct": false
+      },
+      {
+        "text": "artery",
+        "correct": true
+      },
+      {
+        "text": "vein",
+        "correct": false
+      },
+      {
+        "text": "Capillary",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-033",
+    "topic": "cardiovascular",
+    "prompt": "Which of the following descriptions is not correct?",
+    "choices": [
+      {
+        "text": "diastolic blood pressure is the pressure between beats, when the heart is resting and FILLING with blood",
+        "correct": false
+      },
+      {
+        "text": "systolic blood pressure is the pressure measured when the muscle contracting to pump blood OUT of the heart",
+        "correct": false
+      },
+      {
+        "text": "blood pressure is usually described as \"systolic/diastolic\"",
+        "correct": false
+      },
+      {
+        "text": "blood pressure is usually described as \"diastolic/systolic”",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-034",
+    "topic": "cardiovascular",
+    "prompt": "Which of the following does not affect blood pressure?",
+    "choices": [
+      {
+        "text": "position of the patient",
+        "correct": false
+      },
+      {
+        "text": "pregnancy",
+        "correct": false
+      },
+      {
+        "text": "heart rate",
+        "correct": true
+      },
+      {
+        "text": "Hormones",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-035",
+    "topic": "cardiovascular",
+    "prompt": "What is blood pressure?",
+    "choices": [
+      {
+        "text": "the pressure needed to move blood through veins to return to the heart",
+        "correct": false
+      },
+      {
+        "text": "a measure of the force exerted by the blood on the walls of the blood vessels",
+        "correct": true
+      },
+      {
+        "text": "the rate at which the heart is beating measured over 1 minute",
+        "correct": false
+      },
+      {
+        "text": "the movement of blood through valves in the heart",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-036",
+    "topic": "respiratory",
+    "prompt": "Which of the following muscles are involved in breathing?",
+    "choices": [
+      {
+        "text": "myometrium",
+        "correct": false
+      },
+      {
+        "text": "intercostals",
+        "correct": true
+      },
+      {
+        "text": "vastus lateralis",
+        "correct": false
+      },
+      {
+        "text": "brachialis",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-037",
+    "topic": "respiratory",
+    "prompt": "Which of the following is not part of the upper airway?",
+    "choices": [
+      {
+        "text": "bronchi",
+        "correct": true
+      },
+      {
+        "text": "pharynx",
+        "correct": false
+      },
+      {
+        "text": "larynx",
+        "correct": false
+      },
+      {
+        "text": "Sinuses",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-038",
+    "topic": "respiratory",
+    "prompt": "When inhaling, the diaphragm moves",
+    "choices": [
+      {
+        "text": "posteriorly",
+        "correct": false
+      },
+      {
+        "text": "anteriorly",
+        "correct": false
+      },
+      {
+        "text": "downwards",
+        "correct": true
+      },
+      {
+        "text": "upwards",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-039",
+    "topic": "respiratory",
+    "prompt": "Which part of the bronchial tree is the largest?",
+    "choices": [
+      {
+        "text": "trachea",
+        "correct": true
+      },
+      {
+        "text": "bronchi",
+        "correct": false
+      },
+      {
+        "text": "alveoli",
+        "correct": false
+      },
+      {
+        "text": "bronchiole",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-040",
+    "topic": "respiratory",
+    "prompt": "Which of these adaptations to the respiratory system occur in pregnancy?",
+    "choices": [
+      {
+        "text": "increase in tidal volume only",
+        "correct": false
+      },
+      {
+        "text": "increase in minute ventilation only",
+        "correct": false
+      },
+      {
+        "text": "increase in respiratory rate only",
+        "correct": false
+      },
+      {
+        "text": "increase in both tidal volume and minute ventilation",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-041",
+    "topic": "respiratory",
+    "prompt": "Which of these is not a mechanical change in pregnancy?",
+    "choices": [
+      {
+        "text": "lung capacity reduces",
+        "correct": false
+      },
+      {
+        "text": "lower ribs flare",
+        "correct": false
+      },
+      {
+        "text": "increased blood flow to the lungs",
+        "correct": false
+      },
+      {
+        "text": "diaphragm thickens",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-042",
+    "topic": "respiratory",
+    "prompt": "During pregnancy the maternal demand for oxygen",
+    "choices": [
+      {
+        "text": "increases",
+        "correct": true
+      },
+      {
+        "text": "remains stable",
+        "correct": false
+      },
+      {
+        "text": "increases then decreases",
+        "correct": false
+      },
+      {
+        "text": "decreases",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-043",
+    "topic": "respiratory",
+    "prompt": "What is the correct definition of apnoea?",
+    "choices": [
+      {
+        "text": "absence of breathing",
+        "correct": true
+      },
+      {
+        "text": "breathing too slow",
+        "correct": false
+      },
+      {
+        "text": "breathing shallowly",
+        "correct": false
+      },
+      {
+        "text": "breathing to fast",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-044",
+    "topic": "respiratory",
+    "prompt": "Dyspnoea in pregnancy is",
+    "choices": [
+      {
+        "text": "only relevant in women with asthma",
+        "correct": false
+      },
+      {
+        "text": "common and does not necessarily indicate respiratory disease",
+        "correct": true
+      },
+      {
+        "text": "always related to hormone changes",
+        "correct": false
+      },
+      {
+        "text": "uncommon and usually indicates underlying respiratory disease",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-045",
+    "topic": "respiratory",
+    "prompt": "The action of progesterone on the smooth muscle of the airways will cause them to",
+    "choices": [
+      {
+        "text": "relax",
+        "correct": true
+      },
+      {
+        "text": "contract",
+        "correct": false
+      },
+      {
+        "text": "lengthen",
+        "correct": false
+      },
+      {
+        "text": "become oedematous",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-046",
+    "topic": "pelvis",
+    "prompt": "Which bony projections of the pelvis can a midwife use on vaginal examination to determine the station of the presenting part?",
+    "choices": [
+      {
+        "text": "ischial tuberosities",
+        "correct": false
+      },
+      {
+        "text": "pelvic brim",
+        "correct": false
+      },
+      {
+        "text": "acetabulum",
+        "correct": false
+      },
+      {
+        "text": "ischial spines",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-047",
+    "topic": "pelvis",
+    "prompt": "Which wedge-shaped bone forms the majority of the posterior part of the pelvis?",
+    "choices": [
+      {
+        "text": "ischium",
+        "correct": false
+      },
+      {
+        "text": "pubis",
+        "correct": false
+      },
+      {
+        "text": "coccyx",
+        "correct": false
+      },
+      {
+        "text": "sacrum",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-048",
+    "topic": "pelvis",
+    "prompt": "Which of these best describes the symphysis pubis?",
+    "choices": [
+      {
+        "text": "the junction of the 2 pubic bones, separated by a pad of cartilage",
+        "correct": true
+      },
+      {
+        "text": "a bony prominence on the sacrum",
+        "correct": false
+      },
+      {
+        "text": "the socket for the ball joint of the hip",
+        "correct": false
+      },
+      {
+        "text": "another name for the pubic arch",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-049",
+    "topic": "pelvis",
+    "prompt": "Which is NOT the shape of the pelvis?",
+    "choices": [
+      {
+        "text": "anthropoid",
+        "correct": false
+      },
+      {
+        "text": "gynaecoid",
+        "correct": false
+      },
+      {
+        "text": "hymenoid",
+        "correct": true
+      },
+      {
+        "text": "Android",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-050",
+    "topic": "pelvis",
+    "prompt": "What is the most common pelvic shape for females?",
+    "choices": [
+      {
+        "text": "gynaecoid",
+        "correct": true
+      },
+      {
+        "text": "platypelloid",
+        "correct": false
+      },
+      {
+        "text": "anthropoid",
+        "correct": false
+      },
+      {
+        "text": "android",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-051",
+    "topic": "pelvis",
+    "prompt": "In centimetres, what is the TRANSVERSE diameter of the gynaecoid pelvis at the BRIM?",
+    "choices": [
+      {
+        "text": "12",
+        "correct": false
+      },
+      {
+        "text": "10",
+        "correct": false
+      },
+      {
+        "text": "11",
+        "correct": false
+      },
+      {
+        "text": "13",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-052",
+    "topic": "pelvis",
+    "prompt": "In centimetres, what is the TRANSVERSE diameter of the gynecoid pelvis at the OUTLET?",
+    "choices": [
+      {
+        "text": "11",
+        "correct": true
+      },
+      {
+        "text": "13",
+        "correct": false
+      },
+      {
+        "text": "10",
+        "correct": false
+      },
+      {
+        "text": "12",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-053",
+    "topic": "pelvis",
+    "prompt": "What is the axis of the birth canal (the bend the fetus has to move around) also known as?",
+    "choices": [
+      {
+        "text": "station",
+        "correct": false
+      },
+      {
+        "text": "pelvic brim",
+        "correct": false
+      },
+      {
+        "text": "ischial spines",
+        "correct": false
+      },
+      {
+        "text": "curve of carus",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-054",
+    "topic": "newborn",
+    "prompt": "Caput succedaneum is",
+    "choices": [
+      {
+        "text": "a collection of blood between the skull and the periosteum",
+        "correct": false
+      },
+      {
+        "text": "an emergency finding",
+        "correct": false
+      },
+      {
+        "text": "oedema of the scalp often caused by pressure from the cervix during labour",
+        "correct": true
+      },
+      {
+        "text": "overlap of the skull bones to allow the baby to pass through the birth canal",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-055",
+    "topic": "newborn",
+    "prompt": "What is the proper name for the hole visible at the opening of the ear?",
+    "choices": [
+      {
+        "text": "external auditory meatus",
+        "correct": true
+      },
+      {
+        "text": "tragus",
+        "correct": false
+      },
+      {
+        "text": "helix",
+        "correct": false
+      },
+      {
+        "text": "internal auditory meatus",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-056",
+    "topic": "newborn",
+    "prompt": "When would a cleft palate not be diagnosed?",
+    "choices": [
+      {
+        "text": "during a NIPE",
+        "correct": false
+      },
+      {
+        "text": "on digital examination",
+        "correct": false
+      },
+      {
+        "text": "on visual inspection",
+        "correct": false
+      },
+      {
+        "text": "on ultrasound in pregnancy",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-057",
+    "topic": "newborn",
+    "prompt": "By which process does the umbilical cord stump detach?",
+    "choices": [
+      {
+        "text": "granulomatosis",
+        "correct": false
+      },
+      {
+        "text": "sepsis",
+        "correct": false
+      },
+      {
+        "text": "dry gangrene",
+        "correct": true
+      },
+      {
+        "text": "umbilical maturation",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-058",
+    "topic": "newborn",
+    "prompt": "Which of these is another name for Edward's Syndrome?",
+    "choices": [
+      {
+        "text": "Trisomy 18",
+        "correct": true
+      },
+      {
+        "text": "Trisomy 21",
+        "correct": false
+      },
+      {
+        "text": "Trisomy 12",
+        "correct": false
+      },
+      {
+        "text": "Trisomy 13",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-059",
+    "topic": "newborn",
+    "prompt": "Polydactyly means",
+    "choices": [
+      {
+        "text": "missing digits",
+        "correct": false
+      },
+      {
+        "text": "curving of the digits",
+        "correct": false
+      },
+      {
+        "text": "fusion of the digits",
+        "correct": false
+      },
+      {
+        "text": "extra digits",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-060",
+    "topic": "newborn",
+    "prompt": "Which of these statements about vernix caseosa is not true?",
+    "choices": [
+      {
+        "text": "it must be removed as soon as possible",
+        "correct": true
+      },
+      {
+        "text": "the quality is usually reduced by term gestation",
+        "correct": false
+      },
+      {
+        "text": "it is white in colour",
+        "correct": false
+      },
+      {
+        "text": "it protects the skin in utero",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-061",
+    "topic": "newborn",
+    "prompt": "Which of these statements about milia is correct?",
+    "choices": [
+      {
+        "text": "no treatment is required",
+        "correct": true
+      },
+      {
+        "text": "they are commonly referred to as \"cradle cap\"",
+        "correct": false
+      },
+      {
+        "text": "they are usually surrounded by red erythema",
+        "correct": false
+      },
+      {
+        "text": "parents should be advised to pick them",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-062",
+    "topic": "newborn",
+    "prompt": "Which feature of the fetal circulatory system allows blood to move between the pulmonary artery and descending aorta?",
+    "choices": [
+      {
+        "text": "foramen ovale",
+        "correct": false
+      },
+      {
+        "text": "aortic valve",
+        "correct": false
+      },
+      {
+        "text": "ductus venosus",
+        "correct": false
+      },
+      {
+        "text": "ductus arteriosus",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-063",
+    "topic": "newborn",
+    "prompt": "The ductus venosus",
+    "choices": [
+      {
+        "text": "allows blood to move between the right and left atria",
+        "correct": false
+      },
+      {
+        "text": "is a precursor to the bile duct",
+        "correct": false
+      },
+      {
+        "text": "closes within 5 minutes of birth",
+        "correct": false
+      },
+      {
+        "text": "allows blood to enter the inferior vena cava from the umbilical vein",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-064",
+    "topic": "newborn",
+    "prompt": "When should the first assessment of the APGAR score be performed?",
+    "choices": [
+      {
+        "text": "only on a baby that is born in poor condition",
+        "correct": false
+      },
+      {
+        "text": "at the time of birth",
+        "correct": false
+      },
+      {
+        "text": "at 1 minute of life",
+        "correct": true
+      },
+      {
+        "text": "after the first breath",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-065",
+    "topic": "embryology",
+    "prompt": "At approximately what gestation does a fetus start to produce erythrocytes in the bone marrow rather than the liver?",
+    "choices": [
+      {
+        "text": "12-14 weeks",
+        "correct": false
+      },
+      {
+        "text": "16-18 weeks",
+        "correct": false
+      },
+      {
+        "text": "9-12 weeks",
+        "correct": true
+      },
+      {
+        "text": "24 weeks",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-066",
+    "topic": "newborn",
+    "prompt": "Which of these conditions screened for as part of the newborn blood spot test is not an inherited metabolic disorder?",
+    "choices": [
+      {
+        "text": "phenylketonuria",
+        "correct": false
+      },
+      {
+        "text": "maple syrup urine disease",
+        "correct": false
+      },
+      {
+        "text": "cystic fibrosis",
+        "correct": true
+      },
+      {
+        "text": "medium-chain acyl-CoA dehydrogenase deficiency",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-067",
+    "topic": "fetal-skull",
+    "prompt": "What process is completed after birth, resulting in the membranous sutures and fontanelles of the fetal skull becoming bony as the baby ages?",
+    "choices": [
+      {
+        "text": "ossification",
+        "correct": true
+      },
+      {
+        "text": "hardening",
+        "correct": false
+      },
+      {
+        "text": "moulding",
+        "correct": false
+      },
+      {
+        "text": "healing",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-068",
+    "topic": "lactation",
+    "prompt": "What is the name of the milk producing cells?",
+    "choices": [
+      {
+        "text": "Lacto cells",
+        "correct": false
+      },
+      {
+        "text": "myometrial cells",
+        "correct": false
+      },
+      {
+        "text": "Acini cells",
+        "correct": true
+      },
+      {
+        "text": "dendrites",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-069",
+    "topic": "lactation",
+    "prompt": "What are the tubes that bring milk to the openings in the nipple called?",
+    "choices": [
+      {
+        "text": "areolar ducts",
+        "correct": false
+      },
+      {
+        "text": "Montgomery's tubercles",
+        "correct": false
+      },
+      {
+        "text": "Bartholin's tubules",
+        "correct": false
+      },
+      {
+        "text": "lactiferous ducts",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-070",
+    "topic": "lactation",
+    "prompt": "When a baby begins feeding, the sensory messages from the nipple cause which hormone to be secreted by the posterior pituitary?",
+    "choices": [
+      {
+        "text": "progesterone",
+        "correct": false
+      },
+      {
+        "text": "oxytocin",
+        "correct": true
+      },
+      {
+        "text": "prolactin",
+        "correct": false
+      },
+      {
+        "text": "oestrogen",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-071",
+    "topic": "lactation",
+    "prompt": "When a baby begins feeding, the sensory messages from the nipple cause which hormone to be secreted by the anterior pituitary?",
+    "choices": [
+      {
+        "text": "oestrogen",
+        "correct": false
+      },
+      {
+        "text": "progesterone",
+        "correct": false
+      },
+      {
+        "text": "oxytocin",
+        "correct": false
+      },
+      {
+        "text": "prolactin",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-072",
+    "topic": "lactation",
+    "prompt": "Which hormone is responsible for the \"let down\" or \"milk ejection reflex\"?",
+    "choices": [
+      {
+        "text": "prolactin",
+        "correct": false
+      },
+      {
+        "text": "oxytocin",
+        "correct": true
+      },
+      {
+        "text": "adrenaline",
+        "correct": false
+      },
+      {
+        "text": "cortisol",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-073",
+    "topic": "lactation",
+    "prompt": "Which two proteins are present in both breastmilk and infant formula?",
+    "choices": [
+      {
+        "text": "lactoferrin and albumin",
+        "correct": false
+      },
+      {
+        "text": "albumin and whey",
+        "correct": false
+      },
+      {
+        "text": "caesin and whey",
+        "correct": true
+      },
+      {
+        "text": "caesin and lactoferrin",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-074",
+    "topic": "lactation",
+    "prompt": "Which of these has no relationship with breast size?",
+    "choices": [
+      {
+        "text": "genetic inheritance",
+        "correct": false
+      },
+      {
+        "text": "the ability of the breasts to make sufficient milk",
+        "correct": true
+      },
+      {
+        "text": "completion of puberty",
+        "correct": false
+      },
+      {
+        "text": "amount of adipose tissue in the breast",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-075",
+    "topic": "lactation",
+    "prompt": "When a baby is feeding, at which point during the suck cycle is the vacuum at its peak?",
+    "choices": [
+      {
+        "text": "when the tongue is at it's lowest point",
+        "correct": true
+      },
+      {
+        "text": "when the jaw begins to drop",
+        "correct": false
+      },
+      {
+        "text": "when the milk enters the pharynx",
+        "correct": false
+      },
+      {
+        "text": "when the tongue is at its highest point",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-076",
+    "topic": "lactation",
+    "prompt": "Which of the following is not a benefit of biological nurturing?",
+    "choices": [
+      {
+        "text": "the breasts are positioned so that the nipples will not be inverted",
+        "correct": true
+      },
+      {
+        "text": "it stimulates innate feeding reflexes in the neonate",
+        "correct": false
+      },
+      {
+        "text": "it promotes plenty of skin to skin contact",
+        "correct": false
+      },
+      {
+        "text": "the maternal position reduces pressure on the perineum, which may be sore",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-077",
+    "topic": "lactation",
+    "prompt": "What is the role of transfer factors in breastmilk?",
+    "choices": [
+      {
+        "text": "aid the absorption of nutrients",
+        "correct": true
+      },
+      {
+        "text": "Help milk to move more easily through the gut",
+        "correct": false
+      },
+      {
+        "text": "act as metabolic regulators",
+        "correct": false
+      },
+      {
+        "text": "provide some immune defence",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-078",
+    "topic": "blood",
+    "prompt": "Blood is a type of",
+    "choices": [
+      {
+        "text": "tissue",
+        "correct": true
+      },
+      {
+        "text": "cell",
+        "correct": false
+      },
+      {
+        "text": "organ",
+        "correct": false
+      },
+      {
+        "text": "gland",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-079",
+    "topic": "blood",
+    "prompt": "Platelets are involved in",
+    "choices": [
+      {
+        "text": "phagocytosis",
+        "correct": false
+      },
+      {
+        "text": "blood clotting",
+        "correct": true
+      },
+      {
+        "text": "oxygen transportation",
+        "correct": false
+      },
+      {
+        "text": "immune response",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-080",
+    "topic": "blood",
+    "prompt": "Which of the following are considered to be a living component of blood?",
+    "choices": [
+      {
+        "text": "hormones",
+        "correct": false
+      },
+      {
+        "text": "electrolytes",
+        "correct": false
+      },
+      {
+        "text": "antibodies",
+        "correct": false
+      },
+      {
+        "text": "erythrocytes",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-081",
+    "topic": "blood",
+    "prompt": "Anaemia is commonly experienced in pregnancy as a result of which physiological adaptation?",
+    "choices": [
+      {
+        "text": "increased clotting factors",
+        "correct": false
+      },
+      {
+        "text": "decreased erythropoietin production",
+        "correct": false
+      },
+      {
+        "text": "decreased vascular resistance",
+        "correct": false
+      },
+      {
+        "text": "haemodilution due to the increase in plasma volume",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-082",
+    "topic": "blood",
+    "prompt": "Sickle Cell Disease affects which type of blood cells?",
+    "choices": [
+      {
+        "text": "lymphocytes",
+        "correct": false
+      },
+      {
+        "text": "erythrocytes",
+        "correct": true
+      },
+      {
+        "text": "platelets",
+        "correct": false
+      },
+      {
+        "text": "phagocytes",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-083",
+    "topic": "blood",
+    "prompt": "Josie has type A blood. Which of the following statements about Josie is true?",
+    "choices": [
+      {
+        "text": "Josie can receive a blood transfusion of type AB",
+        "correct": false
+      },
+      {
+        "text": "Josie has A antigens on her red blood cells",
+        "correct": true
+      },
+      {
+        "text": "Josie has A antibodies in her blood",
+        "correct": false
+      },
+      {
+        "text": "Josie's children will have type A blood",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-084",
+    "topic": "blood",
+    "prompt": "Which of these combinations of mother and baby blood groups is most significantly at risk of Rhesus disease in the fetus and newborn?",
+    "choices": [
+      {
+        "text": "mother RhD negative & baby RhD positive",
+        "correct": true
+      },
+      {
+        "text": "mother RhD positive & baby RhD negative",
+        "correct": false
+      },
+      {
+        "text": "mother & baby both Rh D negative",
+        "correct": false
+      },
+      {
+        "text": "mother and baby both RhD positive",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-085",
+    "topic": "blood",
+    "prompt": "Which of the following contributes to the increased risk of thromboembolism in pregnancy and the puerperium?",
+    "choices": [
+      {
+        "text": "decrease in fibrinogen",
+        "correct": false
+      },
+      {
+        "text": "decreased vascular resistance",
+        "correct": false
+      },
+      {
+        "text": "increased clotting factors",
+        "correct": true
+      },
+      {
+        "text": "increased plasma volume",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-086",
+    "topic": "embryology",
+    "prompt": "Which layer of the trilaminar disc gives rise to the muscles, bones and circulatory system?",
+    "choices": [
+      {
+        "text": "ectoderm",
+        "correct": false
+      },
+      {
+        "text": "epiblast",
+        "correct": false
+      },
+      {
+        "text": "mesoderm",
+        "correct": true
+      },
+      {
+        "text": "endoderm",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-087",
+    "topic": "embryology",
+    "prompt": "What is the name given to the rapidly dividing ball of cells after the ovum is fertilised?",
+    "choices": [
+      {
+        "text": "zygote",
+        "correct": false
+      },
+      {
+        "text": "trophoblast",
+        "correct": false
+      },
+      {
+        "text": "blastocyst",
+        "correct": true
+      },
+      {
+        "text": "pellucida",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-088",
+    "topic": "embryology",
+    "prompt": "In embryology, which of these does the term \"neurulation\" best describe?",
+    "choices": [
+      {
+        "text": "formation of the gut",
+        "correct": false
+      },
+      {
+        "text": "formation of the respiratory tract",
+        "correct": false
+      },
+      {
+        "text": "formation of the heart",
+        "correct": false
+      },
+      {
+        "text": "formation of the notochord",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-089",
+    "topic": "embryology",
+    "prompt": "The period of development after 9 weeks is known as which stage?",
+    "choices": [
+      {
+        "text": "embryonic",
+        "correct": false
+      },
+      {
+        "text": "fetal",
+        "correct": true
+      },
+      {
+        "text": "germinal",
+        "correct": false
+      },
+      {
+        "text": "final",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-090",
+    "topic": "embryology",
+    "prompt": "Beyond 31 weeks gestation what are the main areas of focus for fetal development?",
+    "choices": [
+      {
+        "text": "limb development and shedding of lanugo",
+        "correct": false
+      },
+      {
+        "text": "heart and lung development",
+        "correct": false
+      },
+      {
+        "text": "sexual differentiation and growth",
+        "correct": false
+      },
+      {
+        "text": "growth and weight gain",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-091",
+    "topic": "embryology",
+    "prompt": "What is mitosis?",
+    "choices": [
+      {
+        "text": "replication of identical cells",
+        "correct": false
+      },
+      {
+        "text": "division of 1 cell into 4 daughter cells with half the number of chromosomes as the parent cell",
+        "correct": false
+      },
+      {
+        "text": "fusing of 2 haploid cells",
+        "correct": false
+      },
+      {
+        "text": "division of 1 cell into 2 daughter cells identical to the parent cell and each other",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-092",
+    "topic": "placenta",
+    "prompt": "Which maternal blood vessels supply the pools of blood which the villi of the syncitiotrophoblast (of the placenta) project into, creating the site where gases and nutrients exchange?",
+    "choices": [
+      {
+        "text": "uterine veins",
+        "correct": false
+      },
+      {
+        "text": "uterine arteries",
+        "correct": false
+      },
+      {
+        "text": "placental arteries",
+        "correct": false
+      },
+      {
+        "text": "spiral arteries",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-093",
+    "topic": "embryology",
+    "prompt": "What kind of cell is a zygote?",
+    "choices": [
+      {
+        "text": "diploid",
+        "correct": true
+      },
+      {
+        "text": "haploid",
+        "correct": false
+      },
+      {
+        "text": "meiotic",
+        "correct": false
+      },
+      {
+        "text": "reproductive",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-094",
+    "topic": "nervous",
+    "prompt": "Along with which other system does the nervous system work closely to maintain homeostasis?",
+    "choices": [
+      {
+        "text": "lymphatic",
+        "correct": false
+      },
+      {
+        "text": "endocrine",
+        "correct": true
+      },
+      {
+        "text": "respiratory",
+        "correct": false
+      },
+      {
+        "text": "renal",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-095",
+    "topic": "nervous",
+    "prompt": "Which of these is not managed by the autonomic nervous system?",
+    "choices": [
+      {
+        "text": "resting heartbeat",
+        "correct": false
+      },
+      {
+        "text": "nerves that sense pain stimulus",
+        "correct": true
+      },
+      {
+        "text": "digestion",
+        "correct": false
+      },
+      {
+        "text": "response to perceived threat",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-096",
+    "topic": "nervous",
+    "prompt": "which of these is not a part of the central nervous system?",
+    "choices": [
+      {
+        "text": "peripheral nerves",
+        "correct": true
+      },
+      {
+        "text": "grey matter in the brain",
+        "correct": false
+      },
+      {
+        "text": "spinal cord",
+        "correct": false
+      },
+      {
+        "text": "white matter in the brain",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-097",
+    "topic": "nervous",
+    "prompt": "In which part of a neuron will the nucleus be found?",
+    "choices": [
+      {
+        "text": "cell body",
+        "correct": true
+      },
+      {
+        "text": "dendrite",
+        "correct": false
+      },
+      {
+        "text": "node of ranvier",
+        "correct": false
+      },
+      {
+        "text": "axon",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-098",
+    "topic": "nervous",
+    "prompt": "Which aspect of the autonomic nervous system is associated with the \"fight or flight\" response?",
+    "choices": [
+      {
+        "text": "sympathetic",
+        "correct": true
+      },
+      {
+        "text": "somatic",
+        "correct": false
+      },
+      {
+        "text": "dendratic",
+        "correct": false
+      },
+      {
+        "text": "parasympathetic",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-099",
+    "topic": "pain",
+    "prompt": "What is being referred to if pain is described as visceral?",
+    "choices": [
+      {
+        "text": "tissue damage to organs",
+        "correct": true
+      },
+      {
+        "text": "injury to bones",
+        "correct": false
+      },
+      {
+        "text": "injury to ligaments",
+        "correct": false
+      },
+      {
+        "text": "damage to a nerve itself",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-100",
+    "topic": "pain",
+    "prompt": "Which of these is a naturally occurring opiate that may act to provide endogenous pain relief in labour?",
+    "choices": [
+      {
+        "text": "beta-endorphin",
+        "correct": true
+      },
+      {
+        "text": "oxytocin",
+        "correct": false
+      },
+      {
+        "text": "adrenaline",
+        "correct": false
+      },
+      {
+        "text": "glutamate",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-101",
+    "topic": "pain",
+    "prompt": "Which of these best describes \"thermoception\"",
+    "choices": [
+      {
+        "text": "the sensation of temperature",
+        "correct": true
+      },
+      {
+        "text": "the sense of position and movement",
+        "correct": false
+      },
+      {
+        "text": "the sense of balance",
+        "correct": false
+      },
+      {
+        "text": "the sensation of pain",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-102",
+    "topic": "pain",
+    "prompt": "What is a \"nociceptor\"?",
+    "choices": [
+      {
+        "text": "the coating of the axon in a neuron",
+        "correct": false
+      },
+      {
+        "text": "pain-creating hormone",
+        "correct": false
+      },
+      {
+        "text": "free nerve ending activated by noxious stimuli",
+        "correct": true
+      },
+      {
+        "text": "sense of touch, pressure and vibration",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-103",
+    "topic": "postnatal",
+    "prompt": "Which of these is a normal event for the renal system in the first 2 days postnatally?",
+    "choices": [
+      {
+        "text": "urine retention",
+        "correct": false
+      },
+      {
+        "text": "reduction in bladder capacity",
+        "correct": false
+      },
+      {
+        "text": "impaired glomerular filtration",
+        "correct": false
+      },
+      {
+        "text": "significant diuresis",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-104",
+    "topic": "postnatal",
+    "prompt": "Which of these are common in the postnatal period?",
+    "choices": [
+      {
+        "text": "haemorrhoids",
+        "correct": true
+      },
+      {
+        "text": "wound dehiscence",
+        "correct": false
+      },
+      {
+        "text": "acid reflux",
+        "correct": false
+      },
+      {
+        "text": "diarrhoea",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-105",
+    "topic": "postnatal",
+    "prompt": "Women experience altered coagulation in pregnancy. What happens after birth?",
+    "choices": [
+      {
+        "text": "clotting factors return to normal within 24 hours",
+        "correct": false
+      },
+      {
+        "text": "altered coagulation persists during the puerperium",
+        "correct": true
+      },
+      {
+        "text": "coagulation remain altered for the rest of the person's life",
+        "correct": false
+      },
+      {
+        "text": "clotting factors return to normal within 7 days",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-106",
+    "topic": "postnatal",
+    "prompt": "Diastasis recti affects which area of the body?",
+    "choices": [
+      {
+        "text": "rectum",
+        "correct": false
+      },
+      {
+        "text": "diaphragm",
+        "correct": false
+      },
+      {
+        "text": "anal sphincter",
+        "correct": false
+      },
+      {
+        "text": "abdominal muscles",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-139",
+    "topic": "labour",
+    "prompt": "How does the volume of blood circulating to the uterus change at the end of the 3rd stage of labour?",
+    "choices": [
+      {
+        "text": "it reduces",
+        "correct": true
+      },
+      {
+        "text": "it stays the same",
+        "correct": false
+      },
+      {
+        "text": "it increases",
+        "correct": false
+      },
+      {
+        "text": "it clots",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-107",
+    "topic": "postnatal",
+    "prompt": "Day 1 following birth, at what level would you expect to palpate the uterus?",
+    "choices": [
+      {
+        "text": "level with the umbilicus",
+        "correct": true
+      },
+      {
+        "text": "5cm above the symphysis pubis",
+        "correct": false
+      },
+      {
+        "text": "level with the symphysis pubis",
+        "correct": false
+      },
+      {
+        "text": "5cm above the umbilicus",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-108",
+    "topic": "postnatal",
+    "prompt": "Which is the first stage of wound healing?",
+    "choices": [
+      {
+        "text": "inflammation",
+        "correct": false
+      },
+      {
+        "text": "proliferation",
+        "correct": false
+      },
+      {
+        "text": "haemostasis",
+        "correct": true
+      },
+      {
+        "text": "remodelling",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-109",
+    "topic": "postnatal",
+    "prompt": "What name is given to lochia that is pink/brown in colour?",
+    "choices": [
+      {
+        "text": "alba",
+        "correct": false
+      },
+      {
+        "text": "rubra",
+        "correct": false
+      },
+      {
+        "text": "marrona",
+        "correct": false
+      },
+      {
+        "text": "serosa",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-110",
+    "topic": "postnatal",
+    "prompt": "What is the average duration of the puerperium?",
+    "choices": [
+      {
+        "text": "10 weeks",
+        "correct": false
+      },
+      {
+        "text": "8 weeks",
+        "correct": false
+      },
+      {
+        "text": "4 weeks",
+        "correct": false
+      },
+      {
+        "text": "6 weeks",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-111",
+    "topic": "postnatal",
+    "prompt": "What happens to the amount of relaxin in the body during the puerperium?",
+    "choices": [
+      {
+        "text": "fluctuates randomly",
+        "correct": false
+      },
+      {
+        "text": "stays the same",
+        "correct": false
+      },
+      {
+        "text": "decreases",
+        "correct": true
+      },
+      {
+        "text": "increases",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-112",
+    "topic": "postnatal",
+    "prompt": "Which of these statements regarding breastfeeding and uterine involution is true?",
+    "choices": [
+      {
+        "text": "breastfeeding has no effect on uterine involution",
+        "correct": false
+      },
+      {
+        "text": "breastfeeding should be avoided whilst the uterus involutes",
+        "correct": false
+      },
+      {
+        "text": "the involution of the uterus allows increased prolactin production, increasing milk supply",
+        "correct": false
+      },
+      {
+        "text": "breastfeeding stimulates production of oxytocin, aiding uterine involution",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-113",
+    "topic": "musculoskeletal",
+    "prompt": "Which of these is NOT considered a part of the musculoskeletal system?",
+    "choices": [
+      {
+        "text": "ligament",
+        "correct": false
+      },
+      {
+        "text": "tendon",
+        "correct": false
+      },
+      {
+        "text": "sclera",
+        "correct": true
+      },
+      {
+        "text": "bursa",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-114",
+    "topic": "musculoskeletal",
+    "prompt": "In what part of the musculoskeletal system are new blood cells made?",
+    "choices": [
+      {
+        "text": "bone marrow",
+        "correct": true
+      },
+      {
+        "text": "bursae",
+        "correct": false
+      },
+      {
+        "text": "cartilage",
+        "correct": false
+      },
+      {
+        "text": "muscles",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-115",
+    "topic": "musculoskeletal",
+    "prompt": "In which of these is smooth muscle NOT found?",
+    "choices": [
+      {
+        "text": "bronchi",
+        "correct": false
+      },
+      {
+        "text": "uterus",
+        "correct": false
+      },
+      {
+        "text": "large intestine",
+        "correct": false
+      },
+      {
+        "text": "heart",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-116",
+    "topic": "musculoskeletal",
+    "prompt": "Which of these structures contains several cartilaginous joints?",
+    "choices": [
+      {
+        "text": "leg",
+        "correct": false
+      },
+      {
+        "text": "arm",
+        "correct": false
+      },
+      {
+        "text": "skull",
+        "correct": false
+      },
+      {
+        "text": "pelvis",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-117",
+    "topic": "musculoskeletal",
+    "prompt": "What is the name given to the increase in muscle mass, such as that which the cardiac muscle undergoes in pregnancy?",
+    "choices": [
+      {
+        "text": "hypertrophy",
+        "correct": true
+      },
+      {
+        "text": "hypermusculus",
+        "correct": false
+      },
+      {
+        "text": "hyperemesis gravidarum",
+        "correct": false
+      },
+      {
+        "text": "hypermusculature",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-118",
+    "topic": "musculoskeletal",
+    "prompt": "Which of these best describes a tendon?",
+    "choices": [
+      {
+        "text": "cords of connective tissues linking skeletal muscles to bones",
+        "correct": true
+      },
+      {
+        "text": "mixed cords of muscle and fibrous tissue",
+        "correct": false
+      },
+      {
+        "text": "cords of fibrous tissue linking bones to other bones",
+        "correct": false
+      },
+      {
+        "text": "cords of tissue that link smooth muscle to adjacent soft tissue",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-119",
+    "topic": "blood",
+    "prompt": "What is haematopoiesis?",
+    "choices": [
+      {
+        "text": "destruction of worn out blood cells",
+        "correct": false
+      },
+      {
+        "text": "creating white blood cells",
+        "correct": false
+      },
+      {
+        "text": "creating cellular components of blood",
+        "correct": true
+      },
+      {
+        "text": "creating red blood cells",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-120",
+    "topic": "musculoskeletal",
+    "prompt": "Which of these is NOT an effect of progesterone on smooth muscle?",
+    "choices": [
+      {
+        "text": "slower gut transit",
+        "correct": false
+      },
+      {
+        "text": "uterus does not contract in early pregnancy",
+        "correct": false
+      },
+      {
+        "text": "increased vascular resistance",
+        "correct": true
+      },
+      {
+        "text": "decreased airway resistance",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-121",
+    "topic": "musculoskeletal",
+    "prompt": "Which of these is NOT an effect of relaxin in the perinatal period?",
+    "choices": [
+      {
+        "text": "increased moulding of the fetal skull",
+        "correct": true
+      },
+      {
+        "text": "increased flexibility of the pelvis during labour",
+        "correct": false
+      },
+      {
+        "text": "muscle healing",
+        "correct": false
+      },
+      {
+        "text": "pelvic girdle pain",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-122",
+    "topic": "musculoskeletal",
+    "prompt": "Which of these posture changes DOES occur in pregnancy?",
+    "choices": [
+      {
+        "text": "outward turning of the knees",
+        "correct": false
+      },
+      {
+        "text": "posterior tilt to pelvis",
+        "correct": false
+      },
+      {
+        "text": "increased lumbar lordosis",
+        "correct": true
+      },
+      {
+        "text": "there are no posture changes in pregnancy",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-123",
+    "topic": "renal",
+    "prompt": "Which of these is NOT a function of the renal system in pregnancy?",
+    "choices": [
+      {
+        "text": "filtration of waste products",
+        "correct": false
+      },
+      {
+        "text": "production of erythropoietin",
+        "correct": false
+      },
+      {
+        "text": "regulation of electrolyte balance",
+        "correct": false
+      },
+      {
+        "text": "regulation of uterine contractions",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-124",
+    "topic": "renal",
+    "prompt": "Which change is a normal adaptation of pregnancy?",
+    "choices": [
+      {
+        "text": "decreased plasma volume",
+        "correct": false
+      },
+      {
+        "text": "increased renal blood flow",
+        "correct": true
+      },
+      {
+        "text": "ureters shorten",
+        "correct": false
+      },
+      {
+        "text": "decreased likelihood of UTI",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-125",
+    "topic": "renal",
+    "prompt": "Which of these statements regarding a urine dipstick test in pregnancy is TRUE?",
+    "choices": [
+      {
+        "text": "nitrates in the urine does not require further investigation",
+        "correct": false
+      },
+      {
+        "text": "glycosuria will not occur in gestational diabetes",
+        "correct": false
+      },
+      {
+        "text": "2+ proteinuria is abnormal",
+        "correct": true
+      },
+      {
+        "text": "2+ haematuria is normal",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-126",
+    "topic": "renal",
+    "prompt": "on a urine dipstick test in pregnancy, which of these is NOT an indication of potential urinary tract infection (UTI)?",
+    "choices": [
+      {
+        "text": "white blood cells (leukocytes)",
+        "correct": false
+      },
+      {
+        "text": "glucose",
+        "correct": true
+      },
+      {
+        "text": "blood",
+        "correct": false
+      },
+      {
+        "text": "nitrates",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-127",
+    "topic": "renal",
+    "prompt": "Which of these contributes to an increase in renal blood flow in pregnancy?",
+    "choices": [
+      {
+        "text": "increased metabolic demand of the fetus",
+        "correct": false
+      },
+      {
+        "text": "increased urinary stasis",
+        "correct": false
+      },
+      {
+        "text": "decreased production of progesterone",
+        "correct": false
+      },
+      {
+        "text": "increased blood plasma volume",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc2-128",
+    "topic": "renal",
+    "prompt": "Which of these is the outer part of the kidney?",
+    "choices": [
+      {
+        "text": "cortex",
+        "correct": true
+      },
+      {
+        "text": "pyramid",
+        "correct": false
+      },
+      {
+        "text": "calyx",
+        "correct": false
+      },
+      {
+        "text": "medulla",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-129",
+    "topic": "renal",
+    "prompt": "Which of these is the best definition of a ureter?",
+    "choices": [
+      {
+        "text": "duct connecting the kidney to the bladder",
+        "correct": true
+      },
+      {
+        "text": "duct through which urine is passed during urination",
+        "correct": false
+      },
+      {
+        "text": "vessel connecting the kidney to the renal vein",
+        "correct": false
+      },
+      {
+        "text": "functional unit of the kidney",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-130",
+    "topic": "renal",
+    "prompt": "What is the acronym for the system in which blood pressure is controlled (in which the kidneys play a key role)?",
+    "choices": [
+      {
+        "text": "KBPS",
+        "correct": false
+      },
+      {
+        "text": "RAAS",
+        "correct": true
+      },
+      {
+        "text": "KAAS",
+        "correct": false
+      },
+      {
+        "text": "RBPS",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-131",
+    "topic": "renal",
+    "prompt": "What does GFR stand for?",
+    "choices": [
+      {
+        "text": "growth factor reduction",
+        "correct": false
+      },
+      {
+        "text": "glomerular filtration rate",
+        "correct": true
+      },
+      {
+        "text": "greater filtration - renal",
+        "correct": false
+      },
+      {
+        "text": "glucose filtration ratio",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-132",
+    "topic": "renal",
+    "prompt": "Which of these describes a urinary tract infection which may develop into acute pyelonephritis if left unidentified?",
+    "choices": [
+      {
+        "text": "group B streptococcus",
+        "correct": false
+      },
+      {
+        "text": "asymptomatic bacteriuria",
+        "correct": true
+      },
+      {
+        "text": "candida albicans",
+        "correct": false
+      },
+      {
+        "text": "group A streptococcus",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-133",
+    "topic": "blood",
+    "prompt": "What is the primary function of antibodies in the immune system?",
+    "choices": [
+      {
+        "text": "neutralise and eliminate pathogens",
+        "correct": true
+      },
+      {
+        "text": "activation of inflammation",
+        "correct": false
+      },
+      {
+        "text": "regulate cytokine production",
+        "correct": false
+      },
+      {
+        "text": "phagocytosis of pathogens",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-134",
+    "topic": "blood",
+    "prompt": "Which is an example of passive immunity?",
+    "choices": [
+      {
+        "text": "activation of memory B cells",
+        "correct": false
+      },
+      {
+        "text": "transfer of maternal antibodies through breastmilk",
+        "correct": true
+      },
+      {
+        "text": "vaccination",
+        "correct": false
+      },
+      {
+        "text": "exposure to a previously unknown pathogen",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-135",
+    "topic": "blood",
+    "prompt": "Which of these is characteristic of the innate immune response?",
+    "choices": [
+      {
+        "text": "production of antibodies",
+        "correct": false
+      },
+      {
+        "text": "rapid but non-specific response",
+        "correct": true
+      },
+      {
+        "text": "specific recognition of pathogens involved",
+        "correct": false
+      },
+      {
+        "text": "memory of previous exposure",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-136",
+    "topic": "blood",
+    "prompt": "Which cells are primarily responsible for the adaptive (acquired) immune response?",
+    "choices": [
+      {
+        "text": "macrophages",
+        "correct": false
+      },
+      {
+        "text": "neutrophils",
+        "correct": false
+      },
+      {
+        "text": "B cells and T cells",
+        "correct": true
+      },
+      {
+        "text": "natural killer cells",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-137",
+    "topic": "blood",
+    "prompt": "Which of the following is NOT a physical barrier of the innate immune system?",
+    "choices": [
+      {
+        "text": "skin",
+        "correct": false
+      },
+      {
+        "text": "fever",
+        "correct": true
+      },
+      {
+        "text": "mucous",
+        "correct": false
+      },
+      {
+        "text": "gastric acid",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc2-138",
+    "topic": "blood",
+    "prompt": "Which of these is NOT normal in pregnancy?",
+    "choices": [
+      {
+        "text": "generalised increased in white blood cells",
+        "correct": false
+      },
+      {
+        "text": "suppressed immunological response to avoid rejection of the fetus",
+        "correct": false
+      },
+      {
+        "text": "decreased susceptibility to vulval yeast infection",
+        "correct": true
+      },
+      {
+        "text": "increased susceptibility to viruses",
+        "correct": false
+      }
+    ]
+  }
+]

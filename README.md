@@ -10,7 +10,7 @@ It uses the same template as [deutsch-lernen](https://github.com/matthewedwardda
 
 Content lives in `src/content`. Each module has topics and resources (quizzes so far), listed in `src/content/index.ts`.
 
-To import a Word quiz where correct options are highlighted:
+To import a Word quiz where correct options are highlighted, or marked with ✅ (detected automatically):
 
 ```sh
 node scripts/import-quiz.mjs "quiz.docx" src/content/<module>/<quiz>.json --prefix <module>
