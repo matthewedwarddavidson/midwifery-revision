@@ -1,9 +1,9 @@
 import { Link, useParams } from 'react-router'
 import { Icon } from '../components/Icon'
-import { SummaryBar } from '../components/SummaryBar'
+import { BarKey, SummaryBar } from '../components/SummaryBar'
 import { findModule, moduleDiagrams, moduleQuestions, topicTitle } from '../content'
 import { labelIds } from '../lib/diagrams'
-import { summarise } from '../lib/stats'
+import { describeSummary, summarise } from '../lib/stats'
 import { useRecords } from '../lib/useRecords'
 import { NotFound } from './NotFound'
 
@@ -56,6 +56,7 @@ export function ModulePage() {
 
       <div className="section">
         <div className="section-title">Topics</div>
+        <BarKey />
         <div className="card topic-list">
           {module.topics.map((topic) => {
             const topicSummary = summarise(
@@ -68,7 +69,7 @@ export function ModulePage() {
                 <div>
                   <div className="topic-title">{topic.title}</div>
                   <div className="faint small">
-                    {topicSummary.known} of {topicSummary.total} known
+                    {topicSummary.total} questions · {describeSummary(topicSummary)}
                   </div>
                 </div>
                 <div className="topic-bar">
@@ -84,6 +85,7 @@ export function ModulePage() {
       {diagrams.length > 0 && (
         <div className="section">
           <div className="section-title">Label diagrams</div>
+          <BarKey />
           <div className="card topic-list">
             {diagrams.map((diagram) => {
               const diagramSummary = summarise(labelIds(diagram), records)
@@ -92,8 +94,8 @@ export function ModulePage() {
                   <div>
                     <div className="topic-title">{diagram.title}</div>
                     <div className="faint small">
-                      {topicTitle(module, diagram.topic)} · {diagramSummary.known} of {diagramSummary.total} labels
-                      known
+                      {topicTitle(module, diagram.topic)} · {diagramSummary.total} labels ·{' '}
+                      {describeSummary(diagramSummary)}
                     </div>
                   </div>
                   <div className="topic-bar">

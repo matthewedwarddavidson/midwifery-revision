@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { Question } from '../content/types'
-import { focusQuestions, isAnswerCorrect, questionRecords, questionStatus, summarise } from './stats'
+import { focusQuestions, isAnswerCorrect, questionRecords, questionStatus, summarise, describeSummary } from './stats'
 
 const question = (id: string, correct: number[] = [0]): Question => ({
   id,
@@ -59,5 +59,15 @@ describe('isAnswerCorrect', () => {
     expect(isAnswerCorrect(multi, new Set([0, 2]))).toBe(true)
     expect(isAnswerCorrect(multi, new Set([0]))).toBe(false)
     expect(isAnswerCorrect(multi, new Set([0, 1, 2]))).toBe(false)
+  })
+})
+
+describe('describeSummary', () => {
+  it('lists the non-zero counts, or says not started', () => {
+    expect(describeSummary({ total: 13, new: 13, learning: 0, known: 0, missed: 0 })).toBe('Not started')
+    expect(describeSummary({ total: 13, new: 2, learning: 9, known: 2, missed: 4 })).toBe(
+      '2 known · 9 learning · 2 new',
+    )
+    expect(describeSummary({ total: 8, new: 0, learning: 0, known: 8, missed: 0 })).toBe('8 known')
   })
 })

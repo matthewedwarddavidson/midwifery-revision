@@ -62,6 +62,17 @@ export function summarise(questions: { id: string }[], records: Map<string, Ques
   return summary
 }
 
+/** A short description such as "2 known · 9 learning · 2 new", or "Not started". */
+export function describeSummary(summary: Summary): string {
+  if (summary.new === summary.total) return 'Not started'
+  const parts = [
+    summary.known > 0 && `${summary.known} known`,
+    summary.learning > 0 && `${summary.learning} learning`,
+    summary.new > 0 && `${summary.new} new`,
+  ]
+  return parts.filter(Boolean).join(' · ')
+}
+
 /** Questions whose latest answer was wrong. */
 export function missedQuestions(questions: Question[], records: Map<string, QuestionRecord>): Question[] {
   return questions.filter((question) => records.get(question.id)?.lastCorrect === false)

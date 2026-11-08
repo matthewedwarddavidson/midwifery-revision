@@ -33,7 +33,9 @@ function DiagramQuiz({ module, diagram }: { module: Module; diagram: Diagram }) 
   const score = diagram.labels.filter(isCorrect).length
 
   function check() {
-    for (const label of diagram.labels) recordAttempt(labelId(diagram, label), isCorrect(label))
+    // Blank slots aren't attempts, so they don't count against progress.
+    const answered = diagram.labels.filter((label) => (given[label.number] ?? '').trim())
+    for (const label of answered) recordAttempt(labelId(diagram, label), isCorrect(label))
     setChecked(true)
   }
 
