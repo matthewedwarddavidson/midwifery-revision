@@ -5,7 +5,7 @@
 // - source: a drawing in scripts/diagram-sources, either SVG or a raster image (JPEG or PNG, embedded)
 // - imageSize: [width, height] for a raster source, in the coordinates the markers use (usually the
 //   original image's pixels, so a shrunk copy still lines up)
-// - output: the file to write in public/diagrams
+// - output: the file to write in scripts/diagram-output (then run scripts/render-diagrams.mjs)
 // - crop: [x, y, width, height]
 // - masks: optional white boxes [x, y, width, height], e.g. to hide a figure's text labels
 // - markerScale: optional size multiplier for the markers
@@ -65,5 +65,5 @@ const output = [
   `</svg>`,
 ].join('\n')
 
-writeFileSync(`public/diagrams/${config.output}`, output + '\n')
-console.log(`Wrote public/diagrams/${config.output} with ${config.markers.length} markers`)
+writeFileSync(`scripts/diagram-output/${config.output}`, output + '\n')
+console.log(`Wrote scripts/diagram-output/${config.output} with ${config.markers.length} markers`)

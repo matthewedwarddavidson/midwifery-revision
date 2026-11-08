@@ -2,6 +2,35 @@
 
 import type { Diagram, DiagramLabel } from '../content/types'
 
+export function diagramUrl(diagram: Diagram): string {
+  return `${import.meta.env.BASE_URL}diagrams/${diagram.image}`
+}
+
+/**
+ * Downloads the diagrams in the background once the page has settled, so opening one is instant.
+ * One at a time and at low priority, so a diagram she opens meanwhile isn't slowed down.
+ * Skipped when the browser asks to save data.
+ */
+export function prefetchDiagrams(diagrams: Diagram[]): () => void {
+  const connection = (navigator as Navigator & { connection?: { saveData?: boolean } }).connection
+  if (connection?.saveData || diagrams.length === 0) return () => {}
+  let stopped = false
+  const queue = [...diagrams]
+  function next() {
+    const diagram = queue.shift()
+    if (stopped || !diagram) return
+    const image = new Image()
+    image.fetchPriority = 'low'
+    image.onload = image.onerror = next
+    image.src = diagramUrl(diagram)
+  }
+  const timer = window.setTimeout(next, 1500)
+  return () => {
+    stopped = true
+    window.clearTimeout(timer)
+  }
+}
+
 export function labelId(diagram: Diagram, label: DiagramLabel): string {
   return `${diagram.id}-${label.number}`
 }

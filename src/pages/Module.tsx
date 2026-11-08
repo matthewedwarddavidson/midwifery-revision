@@ -1,8 +1,9 @@
+import { useEffect } from 'react'
 import { Link, useParams } from 'react-router'
 import { Icon } from '../components/Icon'
 import { BarKey, SummaryBar } from '../components/SummaryBar'
 import { findModule, moduleDiagrams, moduleQuestions, setQuestions, topicTitle } from '../content'
-import { labelIds } from '../lib/diagrams'
+import { labelIds, prefetchDiagrams } from '../lib/diagrams'
 import { describeSummary, summarise } from '../lib/stats'
 import { useRecords } from '../lib/useRecords'
 import { NotFound } from './NotFound'
@@ -10,6 +11,7 @@ import { NotFound } from './NotFound'
 export function ModulePage() {
   const module = findModule(useParams().moduleId)
   const records = useRecords()
+  useEffect(() => (module ? prefetchDiagrams(moduleDiagrams(module)) : undefined), [module])
   if (!module) return <NotFound />
 
   const questions = moduleQuestions(module)

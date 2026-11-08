@@ -20,7 +20,7 @@ Then set each question's `topic` and add the quiz to the module. Re-importing ke
 
 ### Diagrams
 
-Labelling diagrams are numbered images (numbers run 1 to n with no gaps), stored in `public/diagrams` and defined in `src/content/<module>/diagrams.ts`. Each label is tracked like a question (id `<diagram id>-<number>`), so never renumber them. Check every answer against the image: Commons legends contain mistakes.
+Labelling diagrams are numbered images (numbers run 1 to n with no gaps), defined in `src/content/<module>/diagrams.ts`. Their SVGs live in `scripts/diagram-output`; the app loads WebP renders of them from `public/diagrams`, which are far smaller and quicker to decode. After changing a diagram, run `node scripts/render-diagrams.mjs` (it needs Playwright's Chromium: `npx playwright install chromium-headless-shell`). Each label is tracked like a question (id `<diagram id>-<number>`), so never renumber them. Check every answer against the image: Commons legends contain mistakes.
 
 To number an unlabelled drawing, put it in `scripts/diagram-sources`, list the markers (point, number position, optional crop and white masks) in `scripts/diagram-markers/<name>.json`, then run `node scripts/number-diagram.mjs scripts/diagram-markers/<name>.json`. Coordinates are in the source's pixel space. For a labelled figure (e.g. OpenStax), cover each text label with a mask and put its number, without `at`, on the end of the figure's own leader line. Raster sources need `imageSize` (the original pixel size).
 

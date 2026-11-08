@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router'
 import { Icon } from '../components/Icon'
 import { findDiagram, findModule, topicTitle } from '../content'
 import type { Diagram, DiagramLabel, Module } from '../content/types'
-import { diagramAnswers, isLabelCorrect, labelId } from '../lib/diagrams'
+import { diagramAnswers, diagramUrl, isLabelCorrect, labelId } from '../lib/diagrams'
 import { shuffled } from '../lib/stats'
 import { recordAttempt } from '../lib/store'
 import { useTermDrag } from '../lib/useTermDrag'
@@ -263,7 +263,7 @@ function DiagramImage({ diagram }: { diagram: Diagram }) {
         <span className="bad-text small">The diagram didn't load. Refresh the page to try again.</span>
       )}
       <img
-        src={`${import.meta.env.BASE_URL}diagrams/${diagram.image}`}
+        src={diagramUrl(diagram)}
         alt={`Numbered diagram: ${diagram.title}`}
         onLoad={() => setState('loaded')}
         onError={() => setState('failed')}

@@ -16,7 +16,7 @@ export const UMC_DIAGRAMS: Diagram[] = [
     id: 'umc-heart',
     title: 'The heart',
     topic: 'cardiovascular',
-    image: 'heart.svg',
+    image: 'heart.webp',
     credit: {
       author: 'MesserWoland, after Wapcaplet',
       licence: 'CC BY-SA 3.0',
@@ -44,7 +44,7 @@ export const UMC_DIAGRAMS: Diagram[] = [
     id: 'umc-respiratory-system',
     title: 'The respiratory system',
     topic: 'respiratory',
-    image: 'respiratory-system.svg',
+    image: 'respiratory-system.webp',
     credit: {
       author: 'OpenStax College, Anatomy and Physiology',
       licence: 'CC BY 3.0',
@@ -71,7 +71,7 @@ export const UMC_DIAGRAMS: Diagram[] = [
     id: 'umc-pelvis',
     title: 'The pelvis',
     topic: 'pelvis',
-    image: 'pelvis.svg',
+    image: 'pelvis.webp',
     credit: {
       author: 'Fred the Oyster',
       licence: 'CC BY-SA 4.0',
@@ -94,7 +94,7 @@ export const UMC_DIAGRAMS: Diagram[] = [
     id: 'umc-pelvis-superior',
     title: 'The female pelvis from above',
     topic: 'pelvis',
-    image: 'pelvis-superior.svg',
+    image: 'pelvis-superior.webp',
     credit: {
       author: 'DataBase Center for Life Science (DBCLS)',
       licence: 'CC BY 4.0',
@@ -121,7 +121,7 @@ export const UMC_DIAGRAMS: Diagram[] = [
     id: 'umc-fetal-skull-vertex',
     title: 'The fetal skull from above',
     topic: 'fetal-skull',
-    image: 'fetal-skull.svg',
+    image: 'fetal-skull.webp',
     credit: {
       author: 'Henry Gray, Anatomy of the Human Body (1918)',
       licence: 'Public domain',
@@ -147,7 +147,7 @@ export const UMC_DIAGRAMS: Diagram[] = [
     id: 'umc-endocrine',
     title: 'The endocrine system',
     topic: 'endocrine',
-    image: 'endocrine.svg',
+    image: 'endocrine.webp',
     credit: {
       author: 'OpenStax, Tomáš Kebert and umimet',
       licence: 'CC BY-SA 4.0',
@@ -171,7 +171,7 @@ export const UMC_DIAGRAMS: Diagram[] = [
     id: 'umc-breast',
     title: 'The breast',
     topic: 'lactation',
-    image: 'breast.png',
+    image: 'breast.webp',
     credit: {
       author: 'US National Cancer Institute (SEER Training)',
       licence: 'Public domain',
@@ -194,7 +194,7 @@ export const UMC_DIAGRAMS: Diagram[] = [
     id: 'umc-uterus-tubes-ovaries',
     title: 'The uterus, uterine tubes and ovaries',
     topic: 'reproduction',
-    image: 'uterus.svg',
+    image: 'uterus.webp',
     credit: {
       author: 'OpenStax College, Anatomy and Physiology; Armenian edition by GgGevorg',
       licence: 'CC BY 3.0',
@@ -228,7 +228,7 @@ export const UMC_DIAGRAMS: Diagram[] = [
     id: 'umc-kidney-section-openstax',
     title: 'The kidney',
     topic: 'renal',
-    image: 'kidney.svg',
+    image: 'kidney.webp',
     credit: {
       author: 'OpenStax College, Anatomy and Physiology',
       licence: 'CC BY 3.0',
