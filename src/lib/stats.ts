@@ -51,7 +51,8 @@ export interface Summary {
   missed: number
 }
 
-export function summarise(questions: Question[], records: Map<string, QuestionRecord>): Summary {
+/** Works for anything tracked by id: questions and diagram labels. */
+export function summarise(questions: { id: string }[], records: Map<string, QuestionRecord>): Summary {
   const summary: Summary = { total: questions.length, new: 0, learning: 0, known: 0, missed: 0 }
   for (const question of questions) {
     const record = records.get(question.id)

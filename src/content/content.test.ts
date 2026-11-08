@@ -1,5 +1,9 @@
 import { describe, expect, it } from 'vitest'
-import { MODULES, moduleQuestions } from '.'
+import { MODULES, moduleDiagrams, moduleQuestions } from '.'
+
+const diagramFiles = Object.keys(import.meta.glob('../../public/diagrams/*', { query: '?url', eager: true })).map(
+  (path) => path.split('/').pop(),
+)
 import umcExplanations from './umc/explanations.json'
 import umcQuestionsAndAnswers from './umc/questions-and-answers.json'
 import umcRevisionQuiz from './umc/revision-quiz.json'
@@ -17,6 +21,15 @@ describe('content', () => {
           question.choices.some((choice) => choice.correct),
           question.id,
         ).toBe(true)
+      }
+    })
+
+    it(`${module.code}: each diagram has a known topic, its image and distinct numbered labels`, () => {
+      for (const diagram of moduleDiagrams(module)) {
+        expect(topicIds, diagram.id).toContain(diagram.topic)
+        expect(diagramFiles, diagram.image).toContain(diagram.image)
+        const numbers = diagram.labels.map((label) => label.number)
+        expect(new Set(numbers).size, diagram.id).toBe(numbers.length)
       }
     })
 

@@ -1,5 +1,5 @@
 // The shape of revision content. A course has modules; each module has topics and resources.
-// Only quizzes exist so far; study guides and other resources can join the Resource union later.
+// Quizzes and diagrams so far; study guides and other resources can join the Resource union later.
 
 export interface Choice {
   text: string
@@ -31,7 +31,28 @@ export interface Quiz {
   questions: Question[]
 }
 
-export type Resource = Quiz
+export interface DiagramLabel {
+  /** The number printed on the image. */
+  number: string
+  answer: string
+  /** Other names accepted when typing. */
+  aliases?: string[]
+}
+
+/** A numbered diagram to label. Each label is tracked like a question, with the id `<diagram id>-<number>`. */
+export interface Diagram {
+  kind: 'diagram'
+  id: string
+  title: string
+  topic: string
+  /** File in public/diagrams. */
+  image: string
+  credit: { author: string; licence: string; licenceUrl: string; sourceUrl: string }
+  /** The labels to ask; numbers on the image that aren't listed are left out. */
+  labels: DiagramLabel[]
+}
+
+export type Resource = Quiz | Diagram
 
 export interface Module {
   id: string

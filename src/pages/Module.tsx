@@ -1,7 +1,8 @@
 import { Link, useParams } from 'react-router'
 import { Icon } from '../components/Icon'
 import { SummaryBar } from '../components/SummaryBar'
-import { findModule, moduleQuestions } from '../content'
+import { findModule, moduleDiagrams, moduleQuestions, topicTitle } from '../content'
+import { labelIds } from '../lib/diagrams'
 import { summarise } from '../lib/stats'
 import { useRecords } from '../lib/useRecords'
 import { NotFound } from './NotFound'
@@ -12,6 +13,7 @@ export function ModulePage() {
   if (!module) return <NotFound />
 
   const questions = moduleQuestions(module)
+  const diagrams = moduleDiagrams(module)
   const summary = summarise(questions, records)
   const practiceLink = (query: string) => `/m/${module.id}/practice?${query}`
 
@@ -79,17 +81,48 @@ export function ModulePage() {
         </div>
       </div>
 
+      {diagrams.length > 0 && (
+        <div className="section">
+          <div className="section-title">Label diagrams</div>
+          <div className="card topic-list">
+            {diagrams.map((diagram) => {
+              const diagramSummary = summarise(labelIds(diagram), records)
+              return (
+                <Link key={diagram.id} to={`/m/${module.id}/diagram/${diagram.id}`} className="topic-row">
+                  <div>
+                    <div className="topic-title">{diagram.title}</div>
+                    <div className="faint small">
+                      {topicTitle(module, diagram.topic)} · {diagramSummary.known} of {diagramSummary.total} labels
+                      known
+                    </div>
+                  </div>
+                  <div className="topic-bar">
+                    <SummaryBar summary={diagramSummary} showLegend={false} />
+                  </div>
+                  <span className="btn small">Label</span>
+                </Link>
+              )
+            })}
+          </div>
+        </div>
+      )}
+
       <div className="section">
         <div className="section-title">Resources</div>
-        {module.resources.map((resource) => (
-          <div key={resource.id} className="card">
-            <h3>{resource.title}</h3>
-            <p className="muted">{resource.description}</p>
-            <p className="faint small">
-              {resource.questions.length} questions · by {resource.source}
-            </p>
-          </div>
-        ))}
+        {module.resources.map((resource) =>
+          resource.kind === 'quiz' ? (
+            <div key={resource.id} className="card">
+              <h3>{resource.title}</h3>
+              <p className="muted">{resource.description}</p>
+              <p className="faint small">
+                {resource.questions.length} questions · by {resource.source}
+              </p>
+            </div>
+          ) : null,
+        )}
+        {diagrams.length > 0 && (
+          <p className="faint small">Diagrams are from Wikimedia Commons; each one credits its author and licence.</p>
+        )}
       </div>
     </div>
   )

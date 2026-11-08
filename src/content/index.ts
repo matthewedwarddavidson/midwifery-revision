@@ -1,6 +1,7 @@
 // All revision content. To add a module, create a folder under src/content and list it here.
 
-import type { Module, Question } from './types'
+import type { Diagram, Module, Question } from './types'
+import { UMC_DIAGRAMS } from './umc/diagrams'
 import umcExplanations from './umc/explanations.json'
 import umcQuestionsAndAnswers from './umc/questions-and-answers.json'
 import umcRevisionQuiz from './umc/revision-quiz.json'
@@ -52,6 +53,7 @@ const umc: Module = {
       source: 'the course (author not named)',
       questions: withExplanations(umcQuestionsAndAnswers as Question[], umcExplanations),
     },
+    ...UMC_DIAGRAMS,
   ],
 }
 
@@ -63,6 +65,14 @@ export function findModule(moduleId: string | undefined): Module | undefined {
 
 export function moduleQuestions(module: Module): Question[] {
   return module.resources.flatMap((resource) => (resource.kind === 'quiz' ? resource.questions : []))
+}
+
+export function moduleDiagrams(module: Module): Diagram[] {
+  return module.resources.filter((resource): resource is Diagram => resource.kind === 'diagram')
+}
+
+export function findDiagram(module: Module, diagramId: string | undefined): Diagram | undefined {
+  return moduleDiagrams(module).find((diagram) => diagram.id === diagramId)
 }
 
 export function topicTitle(module: Module, topicId: string): string {

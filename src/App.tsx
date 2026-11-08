@@ -3,6 +3,7 @@ import { HashRouter, NavLink, Route, Routes, useLocation } from 'react-router'
 import { Icon, type IconName } from './components/Icon'
 import { useAppState } from './lib/store'
 import { AnswerSheet } from './pages/AnswerSheet'
+import { DiagramPage } from './pages/Diagram'
 import { Home } from './pages/Home'
 import { ModulePage } from './pages/Module'
 import { Practice } from './pages/Practice'
@@ -67,6 +68,7 @@ export default function App() {
             <Route path="/m/:moduleId" element={<ModulePage />} />
             <Route path="/m/:moduleId/answers" element={<AnswerSheet />} />
             <Route path="/m/:moduleId/practice" element={<Fresh page={Practice} />} />
+            <Route path="/m/:moduleId/diagram/:diagramId" element={<DiagramPage />} />
             <Route path="/progress" element={<Progress />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="/privacy" element={<Privacy />} />
