@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="720" height="410" viewBox="-60 55 720 410">
+<rect x="-60" y="55" width="720" height="410" fill="#fff"/>
+<svg x="0" y="0" width="600" height="470" viewBox="0 0 600 470">
+  <!-- Uterus, fallopian tubes and ovaries, front view in section. Schematic, drawn for this app. -->
+  <defs>
+    <g id="tube">
+      <!-- Ovarian ligament: ovary to uterus -->
+      <path d="M150 214 Q190 206 226 188" fill="none" stroke="#d6b07f" stroke-width="7" stroke-linecap="round"/>
+      <!-- Ovary, with follicles -->
+      <ellipse cx="116" cy="216" rx="35" ry="21" fill="#f1d3b3" stroke="#a4774a" stroke-width="2.5"/>
+      <circle cx="104" cy="210" r="5" fill="#fbeedd" stroke="#c49a6c" stroke-width="1.2"/>
+      <circle cx="124" cy="222" r="7" fill="#fbeedd" stroke="#c49a6c" stroke-width="1.2"/>
+      <circle cx="134" cy="208" r="3.5" fill="#fbeedd" stroke="#c49a6c" stroke-width="1.2"/>
+      <!-- Isthmus: narrow, straight -->
+      <path d="M214 145 L150 139" fill="none" stroke="#c7646e" stroke-width="9" stroke-linecap="round"/>
+      <!-- Ampulla: wider, curving -->
+      <path d="M152 134 C122 127 94 129 72 150 L86 166 C100 151 122 146 152 144 Z" fill="#e48c95" stroke="#a2454f" stroke-width="2"/>
+      <!-- Infundibulum: the funnel -->
+      <path d="M72 150 L46 168 L70 198 L86 166 Z" fill="#e48c95" stroke="#a2454f" stroke-width="2"/>
+      <!-- Fimbriae: finger-like fringes -->
+      <g stroke="#a2454f" stroke-width="3.5" stroke-linecap="round">
+        <path d="M48 171 L32 180"/>
+        <path d="M53 180 L37 195"/>
+        <path d="M59 188 L48 206"/>
+        <path d="M65 194 L60 212"/>
+        <path d="M70 198 L76 214"/>
+      </g>
+      <!-- Lumen of the tube -->
+      <path d="M262 172 L214 145 L150 139 C124 137 100 141 80 158" fill="none" stroke="#fff3f3" stroke-width="2"/>
+    </g>
+  </defs>
+
+  <!-- Vagina, with the cervix sitting in its vault -->
+  <path d="M252 318 C252 334 266 352 266 382 L264 452 L336 452 L334 382 C334 352 348 334 348 318 Z" fill="#f2b3b8" stroke="#a2454f" stroke-width="3"/>
+  <path d="M262 322 C266 340 280 352 282 382 L284 452 L316 452 L318 382 C320 352 334 340 338 322 Z" fill="#fff3f3"/>
+
+  <!-- Uterus: myometrium, outlined by the perimetrium -->
+  <path d="M300 104 C372 104 398 134 394 172 C390 230 350 268 332 298 L332 340 C332 352 268 352 268 340 L268 298 C250 268 210 230 206 172 C202 134 228 104 300 104 Z" fill="#e8a0a6" stroke="#9c3d48" stroke-width="5"/>
+  <!-- Endometrium -->
+  <path d="M300 148 C338 148 356 158 354 176 C348 212 320 246 306 272 L294 272 C280 246 252 212 246 176 C244 158 262 148 300 148 Z" fill="#f6c3c8" stroke="#c96b76" stroke-width="1.5"/>
+  <!-- Uterine cavity and cervical canal -->
+  <path d="M300 164 C326 164 338 171 336 180 C330 206 312 236 303 258 L303 346 L297 346 L297 258 C288 236 270 206 264 180 C262 171 274 164 300 164 Z" fill="#fff3f3"/>
+
+  <!-- Fallopian tubes and ovaries, mirrored -->
+  <use xlink:href="#tube"/>
+  <use xlink:href="#tube" transform="translate(600 0) scale(-1 1)"/>
+</svg>
+<g><line x1="-30" y1="255" x2="100" y2="228" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><circle cx="100" cy="228" r="3.9000000000000004" fill="#2b2b2b"/><circle cx="-30" cy="255" r="18" fill="#fff" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><text x="-30" y="255" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="19.5" fill="#2b2b2b">1</text><line x1="172" y1="258" x2="188" y2="207" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><circle cx="188" cy="207" r="3.9000000000000004" fill="#2b2b2b"/><circle cx="172" cy="258" r="18" fill="#fff" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><text x="172" y="258" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="19.5" fill="#2b2b2b">2</text><line x1="-30" y1="200" x2="40" y2="192" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><circle cx="40" cy="192" r="3.9000000000000004" fill="#2b2b2b"/><circle cx="-30" cy="200" r="18" fill="#fff" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><text x="-30" y="200" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="19.5" fill="#2b2b2b">3</text><line x1="-30" y1="145" x2="64" y2="168" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><circle cx="64" cy="168" r="3.9000000000000004" fill="#2b2b2b"/><circle cx="-30" cy="145" r="18" fill="#fff" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><text x="-30" y="145" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="19.5" fill="#2b2b2b">4</text><line x1="110" y1="78" x2="115" y2="136" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><circle cx="115" cy="136" r="3.9000000000000004" fill="#2b2b2b"/><circle cx="110" cy="78" r="18" fill="#fff" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><text x="110" y="78" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="19.5" fill="#2b2b2b">5</text><line x1="172" y1="78" x2="180" y2="142" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><circle cx="180" cy="142" r="3.9000000000000004" fill="#2b2b2b"/><circle cx="172" cy="78" r="18" fill="#fff" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><text x="172" y="78" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="19.5" fill="#2b2b2b">6</text><line x1="234" y1="78" x2="240" y2="157" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><circle cx="240" cy="157" r="3.9000000000000004" fill="#2b2b2b"/><circle cx="234" cy="78" r="18" fill="#fff" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><text x="234" y="78" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="19.5" fill="#2b2b2b">7</text><line x1="630" y1="95" x2="335" y2="120" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><circle cx="335" cy="120" r="3.9000000000000004" fill="#2b2b2b"/><circle cx="630" cy="95" r="18" fill="#fff" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><text x="630" y="95" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="19.5" fill="#2b2b2b">8</text><line x1="630" y1="165" x2="345" y2="186" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><circle cx="345" cy="186" r="3.9000000000000004" fill="#2b2b2b"/><circle cx="630" cy="165" r="18" fill="#fff" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><text x="630" y="165" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="19.5" fill="#2b2b2b">9</text><line x1="630" y1="290" x2="352" y2="244" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><circle cx="352" cy="244" r="3.9000000000000004" fill="#2b2b2b"/><circle cx="630" cy="290" r="18" fill="#fff" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><text x="630" y="290" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="19.5" fill="#2b2b2b">10</text><line x1="630" y1="345" x2="343" y2="280" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><circle cx="343" cy="280" r="3.9000000000000004" fill="#2b2b2b"/><circle cx="630" cy="345" r="18" fill="#fff" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><text x="630" y="345" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="19.5" fill="#2b2b2b">11</text><line x1="190" y1="305" x2="300" y2="215" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><circle cx="300" cy="215" r="3.9000000000000004" fill="#2b2b2b"/><circle cx="190" cy="305" r="18" fill="#fff" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><text x="190" y="305" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="19.5" fill="#2b2b2b">12</text><line x1="190" y1="350" x2="300" y2="268" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><circle cx="300" cy="268" r="3.9000000000000004" fill="#2b2b2b"/><circle cx="190" cy="350" r="18" fill="#fff" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><text x="190" y="350" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="19.5" fill="#2b2b2b">13</text><line x1="410" y1="375" x2="322" y2="318" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><circle cx="322" cy="318" r="3.9000000000000004" fill="#2b2b2b"/><circle cx="410" cy="375" r="18" fill="#fff" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><text x="410" y="375" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="19.5" fill="#2b2b2b">14</text><line x1="190" y1="395" x2="300" y2="346" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><circle cx="300" cy="346" r="3.9000000000000004" fill="#2b2b2b"/><circle cx="190" cy="395" r="18" fill="#fff" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><text x="190" y="395" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="19.5" fill="#2b2b2b">15</text><line x1="410" y1="435" x2="327" y2="425" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><circle cx="327" cy="425" r="3.9000000000000004" fill="#2b2b2b"/><circle cx="410" cy="435" r="18" fill="#fff" stroke="#2b2b2b" stroke-width="2.4000000000000004"/><text x="410" y="435" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="19.5" fill="#2b2b2b">16</text></g>
+</svg>

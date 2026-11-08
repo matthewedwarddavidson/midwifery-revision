@@ -24,12 +24,13 @@ describe('content', () => {
       }
     })
 
-    it(`${module.code}: each diagram has a known topic, its image and distinct numbered labels`, () => {
+    it(`${module.code}: each diagram has a known topic, its image and labels numbered 1 to n`, () => {
       for (const diagram of moduleDiagrams(module)) {
         expect(topicIds, diagram.id).toContain(diagram.topic)
         expect(diagramFiles, diagram.image).toContain(diagram.image)
+        // Numbers run 1, 2, 3… with no gaps, so every number on the image is asked.
         const numbers = diagram.labels.map((label) => label.number)
-        expect(new Set(numbers).size, diagram.id).toBe(numbers.length)
+        expect(numbers, diagram.id).toEqual(numbers.map((_, index) => String(index + 1)))
       }
     })
 

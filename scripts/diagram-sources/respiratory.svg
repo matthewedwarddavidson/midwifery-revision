@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="620" viewBox="0 0 580 620">
+  <!-- Respiratory tract, front view, schematic, drawn for this app. The person's right lung is on the viewer's left. -->
+
+  <!-- Lungs -->
+  <path d="M240 250 C200 248 150 280 112 340 C82 390 68 460 72 530 C74 554 100 562 140 558 C190 552 236 548 258 542 C262 480 262 400 258 300 C256 270 250 252 240 250 Z" fill="#f2aab1" stroke="#a3454f" stroke-width="3"/>
+  <path d="M322 250 C362 248 412 280 450 340 C480 390 494 460 490 530 C488 554 462 562 422 558 C380 554 352 550 334 545 C332 532 333 518 338 506 C346 494 360 488 358 466 C356 444 330 428 307 422 C304 380 304 340 304 300 C306 270 312 252 322 250 Z" fill="#f2aab1" stroke="#a3454f" stroke-width="3"/>
+
+  <!-- Fissures: right lung horizontal and oblique, left lung oblique -->
+  <g fill="none" stroke="#a3454f" stroke-width="2.5">
+    <path d="M258 388 C200 392 140 396 84 402"/>
+    <path d="M84 402 C120 440 176 500 218 550"/>
+    <path d="M468 384 C436 432 392 500 362 550"/>
+  </g>
+
+  <!-- Diaphragm -->
+  <path d="M48 592 C100 544 232 548 281 574 C330 548 462 544 514 592" fill="none" stroke="#8b5a3c" stroke-width="9" stroke-linecap="round"/>
+
+  <!-- Nasal cavity, with the conchae -->
+  <path d="M150 94 C150 62 176 44 214 44 L262 48 C274 50 280 62 278 78 L274 102 L160 102 Z" fill="#f6c9c9" stroke="#a3454f" stroke-width="2.5"/>
+  <g fill="none" stroke="#d58a92" stroke-width="2">
+    <path d="M182 60 Q222 54 262 62"/>
+    <path d="M176 74 Q222 68 266 76"/>
+    <path d="M172 88 Q222 82 268 90"/>
+  </g>
+
+  <!-- Pharynx -->
+  <path d="M266 100 L266 192 L296 192 L296 72 C290 62 282 58 276 60 L272 100 Z" fill="#f6c9c9" stroke="#a3454f" stroke-width="2.5"/>
+  <!-- Epiglottis -->
+  <path d="M268 194 C266 180 272 168 284 162 C282 174 278 184 278 194 Z" fill="#e48c95" stroke="#a3454f" stroke-width="1.5"/>
+  <!-- Larynx, with the thyroid cartilage -->
+  <rect x="266" y="192" width="30" height="58" fill="#f1d7c4" stroke="#a07a5a" stroke-width="2.5"/>
+  <path d="M268 196 L294 196 L291 216 L281 228 L271 216 Z" fill="#e3c19c" stroke="#a07a5a" stroke-width="1.5"/>
+
+  <!-- Trachea, with cartilage rings -->
+  <rect x="266" y="250" width="30" height="104" fill="#f1d7c4" stroke="#a07a5a" stroke-width="2.5"/>
+  <g stroke="#c9a585" stroke-width="2">
+    <path d="M268 262 H294"/><path d="M268 274 H294"/><path d="M268 286 H294"/><path d="M268 298 H294"/>
+    <path d="M268 310 H294"/><path d="M268 322 H294"/><path d="M268 334 H294"/><path d="M268 346 H294"/>
+  </g>
+
+  <!-- Main bronchi (right shorter, wider, steeper) and lobar branches -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M274 352 L232 394" stroke="#a07a5a" stroke-width="26"/>
+    <path d="M288 352 L346 384" stroke="#a07a5a" stroke-width="22"/>
+    <path d="M274 352 L232 394" stroke="#f1d7c4" stroke-width="20"/>
+    <path d="M288 352 L346 384" stroke="#f1d7c4" stroke-width="16"/>
+    <g stroke="#c98a6a" stroke-width="5">
+      <path d="M232 394 L180 336"/><path d="M232 394 L214 452"/><path d="M232 394 L170 492"/>
+      <path d="M346 384 L392 326"/><path d="M346 384 L410 486"/>
+    </g>
+  </g>
+
+  <!-- Close-up of a bronchiole ending in alveoli -->
+  <path d="M444 196 L444 452" fill="none" stroke="#777" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <circle cx="460" cy="122" r="76" fill="#fff" stroke="#555" stroke-width="2"/>
+  <path d="M404 176 C420 158 436 140 452 126" fill="none" stroke="#c98a6a" stroke-width="12" stroke-linecap="round"/>
+  <g fill="#f7c5c9" stroke="#c06a74" stroke-width="1.8">
+    <circle cx="466" cy="94" r="15"/>
+    <circle cx="490" cy="108" r="14"/>
+    <circle cx="474" cy="128" r="14"/>
+    <circle cx="450" cy="106" r="13"/>
+    <circle cx="494" cy="82" r="12"/>
+    <circle cx="470" cy="70" r="11"/>
+  </g>
+  <g fill="none" stroke-width="1.6">
+    <path d="M430 64 C452 52 486 48 512 70 C520 80 520 96 516 110" stroke="#c8343a"/>
+    <path d="M436 150 C460 160 492 156 512 132" stroke="#3f5fb5"/>
+  </g>
+</svg>

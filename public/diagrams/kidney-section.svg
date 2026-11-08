@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="560" height="540" viewBox="-20 20 560 540">
+<rect x="-20" y="20" width="560" height="540" fill="#fff"/>
+<svg x="0" y="0" width="520" height="560" viewBox="0 0 520 560">
+  <!-- Kidney in section, schematic, drawn for this app. -->
+  <!-- Renal artery and vein, entering at the hilum -->
+  <path d="M40 222 C120 222 170 226 240 232" fill="none" stroke="#c8343a" stroke-width="16" stroke-linecap="round"/>
+  <path d="M40 252 C120 252 170 254 240 256" fill="none" stroke="#3f5fb5" stroke-width="18" stroke-linecap="round"/>
+  <!-- Ureter, leaving at the hilum -->
+  <path d="M214 300 C192 360 188 440 198 545" fill="none" stroke="#e7cf6a" stroke-width="16" stroke-linecap="round"/>
+  <!-- Kidney: capsule (outline) and cortex (fill), with the hilum notch on the left -->
+  <path d="M300 60 C420 60 470 160 470 275 C470 400 410 490 300 490 C220 490 182 440 188 392 C192 356 214 336 214 306 L214 236 C214 206 192 186 188 150 C182 102 220 60 300 60 Z" fill="#cf8466" stroke="#6e2a20" stroke-width="5"/>
+  <!-- Renal sinus: fat around the calyces -->
+  <ellipse cx="282" cy="275" rx="82" ry="122" fill="#f4e6c8"/>
+  <path d="M258 212 L236 280" stroke="#efd77a" stroke-width="24" stroke-linecap="round"/>
+  <path d="M258 348 L236 280" stroke="#efd77a" stroke-width="24" stroke-linecap="round"/>
+  <path d="M276.8 187.1 L258 212" stroke="#efd77a" stroke-width="12" stroke-linecap="round"/>
+  <path d="M317 182.7 L258 212" stroke="#efd77a" stroke-width="12" stroke-linecap="round"/>
+  <path d="M346.6 223.6 L258 212" stroke="#efd77a" stroke-width="12" stroke-linecap="round"/>
+  <path d="M355 275 L236 280" stroke="#efd77a" stroke-width="12" stroke-linecap="round"/>
+  <path d="M346.6 326.4 L258 348" stroke="#efd77a" stroke-width="12" stroke-linecap="round"/>
+  <path d="M317 367.3 L258 348" stroke="#efd77a" stroke-width="12" stroke-linecap="round"/>
+  <path d="M276.8 362.9 L258 348" stroke="#efd77a" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="276.8" cy="187.1" r="13" fill="#efd77a" stroke="#c9ae4a" stroke-width="1.2"/>
+  <circle cx="317" cy="182.7" r="13" fill="#efd77a" stroke="#c9ae4a" stroke-width="1.2"/>
+  <circle cx="346.6" cy="223.6" r="13" fill="#efd77a" stroke="#c9ae4a" stroke-width="1.2"/>
+  <circle cx="355" cy="275" r="13" fill="#efd77a" stroke="#c9ae4a" stroke-width="1.2"/>
+  <circle cx="346.6" cy="326.4" r="13" fill="#efd77a" stroke="#c9ae4a" stroke-width="1.2"/>
+  <circle cx="317" cy="367.3" r="13" fill="#efd77a" stroke="#c9ae4a" stroke-width="1.2"/>
+  <circle cx="276.8" cy="362.9" r="13" fill="#efd77a" stroke="#c9ae4a" stroke-width="1.2"/>
+  <path d="M273.8 177.1 L210 133.3 Q236.1 93.9 275.7 92.8 Z" fill="#9b4436" stroke="#7a2f24" stroke-width="1.5"/>
+  <path d="M319.2 172.3 L307.3 90.3 Q346.7 85 376.2 119.8 Z" fill="#9b4436" stroke="#7a2f24" stroke-width="1.5"/>
+  <path d="M352.6 217.8 L395.5 139.7 Q428.2 169.1 433.9 220.9 Z" fill="#9b4436" stroke="#7a2f24" stroke-width="1.5"/>
+  <path d="M362 275 L435.2 227.1 Q451.2 275 435.2 322.9 Z" fill="#9b4436" stroke="#7a2f24" stroke-width="1.5"/>
+  <path d="M352.6 332.2 L433.9 329.1 Q428.2 380.9 395.5 410.3 Z" fill="#9b4436" stroke="#7a2f24" stroke-width="1.5"/>
+  <path d="M319.2 377.7 L376.2 430.2 Q346.7 465 307.3 459.7 Z" fill="#9b4436" stroke="#7a2f24" stroke-width="1.5"/>
+  <path d="M273.8 372.9 L275.7 457.2 Q236.1 456.1 210 416.7 Z" fill="#9b4436" stroke="#7a2f24" stroke-width="1.5"/>
+  <!-- Renal pelvis, funnelling into the ureter -->
+  <path d="M246 262 C232 262 214 274 208 300 L222 306 C228 292 240 298 250 306 Z" fill="#efd77a"/>
+  <circle cx="236" cy="280" r="25" fill="#efd77a" stroke="#c9ae4a" stroke-width="1.2"/>
+</svg>
+<g><line x1="508" y1="320" x2="469" y2="300" stroke="#2b2b2b" stroke-width="2"/><circle cx="469" cy="300" r="3.25" fill="#2b2b2b"/><circle cx="508" cy="320" r="15" fill="#fff" stroke="#2b2b2b" stroke-width="2"/><text x="508" y="320" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="16.25" fill="#2b2b2b">1</text><line x1="508" y1="95" x2="410" y2="120" stroke="#2b2b2b" stroke-width="2"/><circle cx="410" cy="120" r="3.25" fill="#2b2b2b"/><circle cx="508" cy="95" r="15" fill="#fff" stroke="#2b2b2b" stroke-width="2"/><text x="508" y="95" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="16.25" fill="#2b2b2b">2</text><line x1="508" y1="440" x2="371" y2="393" stroke="#2b2b2b" stroke-width="2"/><circle cx="371" cy="393" r="3.25" fill="#2b2b2b"/><circle cx="508" cy="440" r="15" fill="#fff" stroke="#2b2b2b" stroke-width="2"/><text x="508" y="440" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="16.25" fill="#2b2b2b">3</text><line x1="508" y1="250" x2="410" y2="275" stroke="#2b2b2b" stroke-width="2"/><circle cx="410" cy="275" r="3.25" fill="#2b2b2b"/><circle cx="508" cy="250" r="15" fill="#fff" stroke="#2b2b2b" stroke-width="2"/><text x="508" y="250" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="16.25" fill="#2b2b2b">4</text><line x1="508" y1="380" x2="358" y2="336" stroke="#2b2b2b" stroke-width="2"/><circle cx="358" cy="336" r="3.25" fill="#2b2b2b"/><circle cx="508" cy="380" r="15" fill="#fff" stroke="#2b2b2b" stroke-width="2"/><text x="508" y="380" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="16.25" fill="#2b2b2b">5</text><line x1="120" y1="140" x2="277" y2="187" stroke="#2b2b2b" stroke-width="2"/><circle cx="277" cy="187" r="3.25" fill="#2b2b2b"/><circle cx="120" cy="140" r="15" fill="#fff" stroke="#2b2b2b" stroke-width="2"/><text x="120" y="140" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="16.25" fill="#2b2b2b">6</text><line x1="120" y1="188" x2="258" y2="212" stroke="#2b2b2b" stroke-width="2"/><circle cx="258" cy="212" r="3.25" fill="#2b2b2b"/><circle cx="120" cy="188" r="15" fill="#fff" stroke="#2b2b2b" stroke-width="2"/><text x="120" y="188" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="16.25" fill="#2b2b2b">7</text><line x1="110" y1="305" x2="236" y2="280" stroke="#2b2b2b" stroke-width="2"/><circle cx="236" cy="280" r="3.25" fill="#2b2b2b"/><circle cx="110" cy="305" r="15" fill="#fff" stroke="#2b2b2b" stroke-width="2"/><text x="110" y="305" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="16.25" fill="#2b2b2b">8</text><line x1="110" y1="470" x2="196" y2="470" stroke="#2b2b2b" stroke-width="2"/><circle cx="196" cy="470" r="3.25" fill="#2b2b2b"/><circle cx="110" cy="470" r="15" fill="#fff" stroke="#2b2b2b" stroke-width="2"/><text x="110" y="470" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="16.25" fill="#2b2b2b">9</text><line x1="12" y1="222" x2="55" y2="222" stroke="#2b2b2b" stroke-width="2"/><circle cx="55" cy="222" r="3.25" fill="#2b2b2b"/><circle cx="12" cy="222" r="15" fill="#fff" stroke="#2b2b2b" stroke-width="2"/><text x="12" y="222" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="16.25" fill="#2b2b2b">10</text><line x1="12" y1="255" x2="55" y2="252" stroke="#2b2b2b" stroke-width="2"/><circle cx="55" cy="252" r="3.25" fill="#2b2b2b"/><circle cx="12" cy="255" r="15" fill="#fff" stroke="#2b2b2b" stroke-width="2"/><text x="12" y="255" dy="0.35em" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="16.25" fill="#2b2b2b">11</text></g>
+</svg>
