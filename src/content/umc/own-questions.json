@@ -481,5 +481,350 @@
         "correct": false
       }
     ]
+  },
+  {
+    "id": "umc3-022",
+    "topic": "cardiovascular",
+    "prompt": "What share of cardiac output does the uterus receive before pregnancy?",
+    "choices": [
+      {
+        "text": "1%",
+        "correct": false
+      },
+      {
+        "text": "2%",
+        "correct": true
+      },
+      {
+        "text": "10%",
+        "correct": false
+      },
+      {
+        "text": "20%",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-023",
+    "topic": "cardiovascular",
+    "prompt": "What share of cardiac output does the uterus receive by term?",
+    "choices": [
+      {
+        "text": "2%",
+        "correct": false
+      },
+      {
+        "text": "5%",
+        "correct": false
+      },
+      {
+        "text": "10%",
+        "correct": false
+      },
+      {
+        "text": "20%",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc3-024",
+    "topic": "endocrine",
+    "prompt": "By how much have uterine oxytocin receptors increased by the end of pregnancy?",
+    "choices": [
+      {
+        "text": "Twofold",
+        "correct": false
+      },
+      {
+        "text": "Twentyfold",
+        "correct": false
+      },
+      {
+        "text": "Two-hundredfold",
+        "correct": true
+      },
+      {
+        "text": "Two-thousandfold",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-025",
+    "topic": "renal",
+    "prompt": "What are the three stages of urine production?",
+    "choices": [
+      {
+        "text": "Filtration, storage and excretion",
+        "correct": false
+      },
+      {
+        "text": "Filtration, selective reabsorption and secretion",
+        "correct": true
+      },
+      {
+        "text": "Absorption, concentration and excretion",
+        "correct": false
+      },
+      {
+        "text": "Secretion, filtration and storage",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-026",
+    "topic": "renal",
+    "prompt": "What is the maximum amount of urine the bladder can hold?",
+    "choices": [
+      {
+        "text": "About 200 ml",
+        "correct": false
+      },
+      {
+        "text": "About 400 ml",
+        "correct": false
+      },
+      {
+        "text": "About 700 ml",
+        "correct": true
+      },
+      {
+        "text": "About 1,500 ml",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-027",
+    "topic": "renal",
+    "prompt": "On average, how much urine is passed at a time?",
+    "choices": [
+      {
+        "text": "50 ml to 150 ml",
+        "correct": false
+      },
+      {
+        "text": "150 ml to 250 ml",
+        "correct": false
+      },
+      {
+        "text": "300 ml to 700 ml",
+        "correct": true
+      },
+      {
+        "text": "800 ml to 1,000 ml",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-028",
+    "topic": "renal",
+    "prompt": "By about how much do the kidneys enlarge during pregnancy?",
+    "choices": [
+      {
+        "text": "0.5 cm",
+        "correct": false
+      },
+      {
+        "text": "1.5 cm",
+        "correct": true
+      },
+      {
+        "text": "3 cm",
+        "correct": false
+      },
+      {
+        "text": "5 cm",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-029",
+    "topic": "renal",
+    "prompt": "About how much more urine is produced during pregnancy?",
+    "choices": [
+      {
+        "text": "10%",
+        "correct": false
+      },
+      {
+        "text": "25%",
+        "correct": true
+      },
+      {
+        "text": "50%",
+        "correct": false
+      },
+      {
+        "text": "75%",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-030",
+    "topic": "renal",
+    "prompt": "When does the increase in urine production during pregnancy tend to peak?",
+    "choices": [
+      {
+        "text": "4–8 weeks",
+        "correct": false
+      },
+      {
+        "text": "9–16 weeks",
+        "correct": true
+      },
+      {
+        "text": "20–28 weeks",
+        "correct": false
+      },
+      {
+        "text": "36–40 weeks",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-031",
+    "topic": "renal",
+    "prompt": "What type of tissue lines the bladder?",
+    "choices": [
+      {
+        "text": "Stratified squamous epithelium",
+        "correct": false
+      },
+      {
+        "text": "Simple columnar epithelium",
+        "correct": false
+      },
+      {
+        "text": "Transitional epithelium",
+        "correct": true
+      },
+      {
+        "text": "Ciliated columnar epithelium",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-032",
+    "topic": "reproduction",
+    "prompt": "What is the mucus plug in the cervix also called?",
+    "choices": [
+      {
+        "text": "Operculum",
+        "correct": true
+      },
+      {
+        "text": "Decidua",
+        "correct": false
+      },
+      {
+        "text": "Chorion",
+        "correct": false
+      },
+      {
+        "text": "Corpus albicans",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-033",
+    "topic": "reproduction",
+    "prompt": "What is Goodell's sign?",
+    "choices": [
+      {
+        "text": "Bluish discolouration of the cervix",
+        "correct": false
+      },
+      {
+        "text": "Softening of the cervix",
+        "correct": true
+      },
+      {
+        "text": "Softening of the lower uterine segment",
+        "correct": false
+      },
+      {
+        "text": "Darkening of the areola",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-034",
+    "topic": "reproduction",
+    "prompt": "What is Chadwick's sign?",
+    "choices": [
+      {
+        "text": "Bluish discolouration of the cervix",
+        "correct": true
+      },
+      {
+        "text": "Softening of the cervix",
+        "correct": false
+      },
+      {
+        "text": "Softening of the lower uterine segment",
+        "correct": false
+      },
+      {
+        "text": "Darkening of the areola",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-035",
+    "topic": "reproduction",
+    "prompt": "Which is the widest part of the fallopian tube?",
+    "choices": [
+      {
+        "text": "Isthmus",
+        "correct": false
+      },
+      {
+        "text": "Interstitial part",
+        "correct": false
+      },
+      {
+        "text": "Ampulla",
+        "correct": true
+      },
+      {
+        "text": "Fimbriae",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc3-036",
+    "topic": "reproduction",
+    "prompt": "Which cells surround the oocyte?",
+    "choices": [
+      {
+        "text": "Theca cells",
+        "correct": false
+      },
+      {
+        "text": "Granulosa cells",
+        "correct": true
+      },
+      {
+        "text": "Sertoli cells",
+        "correct": false
+      },
+      {
+        "text": "Decidual cells",
+        "correct": false
+      }
+    ]
   }
 ]
