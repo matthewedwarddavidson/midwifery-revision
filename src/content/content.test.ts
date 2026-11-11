@@ -8,6 +8,7 @@ import umcExplanations from './umc/explanations.json'
 import umcOwnQuestions from './umc/own-questions.json'
 import umcQuestionsAndAnswers from './umc/questions-and-answers.json'
 import umcRevisionQuiz from './umc/revision-quiz.json'
+import umcThirdStageAndFetalCirculation from './umc/third-stage-and-fetal-circulation.json'
 
 describe('content', () => {
   for (const module of MODULES) {
@@ -49,7 +50,9 @@ describe('content', () => {
   }
 
   it('UMC: every explanation belongs to a question, and every question has one', () => {
-    const ids = [...umcRevisionQuiz, ...umcQuestionsAndAnswers, ...umcOwnQuestions].map((question) => question.id).sort()
+    const ids = [...umcRevisionQuiz, ...umcQuestionsAndAnswers, ...umcOwnQuestions, ...umcThirdStageAndFetalCirculation]
+      .map((question) => question.id)
+      .sort()
     expect(Object.keys(umcExplanations).sort()).toEqual(ids)
   })
 })

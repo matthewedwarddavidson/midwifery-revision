@@ -1,0 +1,638 @@
+[
+  {
+    "id": "umc4-001",
+    "topic": "labour",
+    "prompt": "Which physiological change does NOT contribute to achieving haemostasis in the third stage?",
+    "choices": [
+      {
+        "text": "uterine walls lay in apposition",
+        "correct": false
+      },
+      {
+        "text": "clotting over the placental site",
+        "correct": false
+      },
+      {
+        "text": "uterine atony",
+        "correct": true
+      },
+      {
+        "text": "myometrial thickening",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc4-002",
+    "topic": "labour",
+    "prompt": "Which of these mechanical changes to the birth canal is NOT a part of normal physiology in the second stage?",
+    "choices": [
+      {
+        "text": "bladder is displaced anteriorly and upward",
+        "correct": false
+      },
+      {
+        "text": "perineum is stretched",
+        "correct": false
+      },
+      {
+        "text": "levator ani muscles thicken",
+        "correct": true
+      },
+      {
+        "text": "rectum is flattened",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc4-003",
+    "topic": "labour",
+    "prompt": "Which of these is NOT suggestive of placental separation during a physiological third stage?",
+    "choices": [
+      {
+        "text": "fundus rises and becomes globular",
+        "correct": false
+      },
+      {
+        "text": "shortening of the cord",
+        "correct": true
+      },
+      {
+        "text": "gush of blood from the vagina",
+        "correct": false
+      },
+      {
+        "text": "urge to bear down",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc4-004",
+    "topic": "labour",
+    "prompt": "The third stage of labour begins with:",
+    "choices": [
+      {
+        "text": "Separation bleeding",
+        "correct": false
+      },
+      {
+        "text": "Expulsion of the placenta",
+        "correct": false
+      },
+      {
+        "text": "Full cervical dilation",
+        "correct": false
+      },
+      {
+        "text": "Birth of the baby",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc4-005",
+    "topic": "labour",
+    "prompt": "The Schultze mechanism of placental separation is characterized by:",
+    "choices": [
+      {
+        "text": "Membranes coming out first",
+        "correct": false
+      },
+      {
+        "text": "Placenta not separating",
+        "correct": false
+      },
+      {
+        "text": "Separation beginning at the margins",
+        "correct": false
+      },
+      {
+        "text": "Separation starting centrally, with fetal side delivered first",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc4-006",
+    "topic": "labour",
+    "prompt": "Which maternal behaviour promotes oxytocin release in the third stage?",
+    "choices": [
+      {
+        "text": "Skin-to-skin contact and breastfeeding",
+        "correct": true
+      },
+      {
+        "text": "Squatting",
+        "correct": false
+      },
+      {
+        "text": "Urination",
+        "correct": false
+      },
+      {
+        "text": "Keeping warm",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc4-007",
+    "topic": "labour",
+    "prompt": "What prevents blood loss from the placental site?",
+    "choices": [
+      {
+        "text": "Myometrial contraction compressing spiral arteries",
+        "correct": true
+      },
+      {
+        "text": "Cervical plug formation",
+        "correct": false
+      },
+      {
+        "text": "Platelet depletion",
+        "correct": false
+      },
+      {
+        "text": "Vasoconstriction",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc4-008",
+    "topic": "labour",
+    "prompt": "Which of the following is NOT a normal physiological event in the third stage?",
+    "choices": [
+      {
+        "text": "Cervical dilation",
+        "correct": true
+      },
+      {
+        "text": "Uterine contraction",
+        "correct": false
+      },
+      {
+        "text": "Placental separation",
+        "correct": false
+      },
+      {
+        "text": "Placental expulsion",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc4-009",
+    "topic": "labour",
+    "prompt": "Which clinical sign would suggest the placenta is ready for delivery?",
+    "choices": [
+      {
+        "text": "Fundus rises and becomes globular in shape",
+        "correct": false
+      },
+      {
+        "text": "Lengthening of the umbilical cord",
+        "correct": false
+      },
+      {
+        "text": "Small gush of blood per vaginum",
+        "correct": false
+      },
+      {
+        "text": "All of the above",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc4-010",
+    "topic": "labour",
+    "prompt": "What does the term \"living ligatures\" refer to in the third stage of labour?",
+    "choices": [
+      {
+        "text": "Myometrial muscle fibres that constrict blood vessels",
+        "correct": true
+      },
+      {
+        "text": "Sutures used to repair perineal tears",
+        "correct": false
+      },
+      {
+        "text": "Clots that seal off uterine vessels",
+        "correct": false
+      },
+      {
+        "text": "Walls of the uterus in apposition",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc4-011",
+    "topic": "labour",
+    "prompt": "What is the definition of haemostasis?",
+    "choices": [
+      {
+        "text": "The mechanism of breaking down clots",
+        "correct": false
+      },
+      {
+        "text": "The process that stops bleeding and maintains blood within the vessels",
+        "correct": true
+      },
+      {
+        "text": "The process of increasing blood pressure",
+        "correct": false
+      },
+      {
+        "text": "The filtration of plasma proteins",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc4-012",
+    "topic": "labour",
+    "prompt": "In physiological third stage management, the placenta is delivered:",
+    "choices": [
+      {
+        "text": "Spontaneously without intervention",
+        "correct": true
+      },
+      {
+        "text": "Immediately after oxytocin injection",
+        "correct": false
+      },
+      {
+        "text": "Using controlled cord traction",
+        "correct": false
+      },
+      {
+        "text": "By the midwife",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc4-013",
+    "topic": "labour",
+    "prompt": "Which of the following is a key component of active management?",
+    "choices": [
+      {
+        "text": "Delayed cord clamping",
+        "correct": false
+      },
+      {
+        "text": "Routine uterine massage after placental delivery",
+        "correct": false
+      },
+      {
+        "text": "Waiting for spontaneous placental delivery without assistance",
+        "correct": false
+      },
+      {
+        "text": "Prophylactic administration of uterotonic agents soon after birth",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc4-014",
+    "topic": "newborn",
+    "prompt": "Which structure in fetal circulation allows blood to bypass the liver?",
+    "choices": [
+      {
+        "text": "Umbilical artery",
+        "correct": false
+      },
+      {
+        "text": "Ductus venosus",
+        "correct": true
+      },
+      {
+        "text": "Foramen ovale",
+        "correct": false
+      },
+      {
+        "text": "Ductus arteriosus",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc4-015",
+    "topic": "newborn",
+    "prompt": "The foramen ovale is a fetal structure that connects:",
+    "choices": [
+      {
+        "text": "Right atrium and right ventricle",
+        "correct": false
+      },
+      {
+        "text": "Right atrium and left atrium",
+        "correct": true
+      },
+      {
+        "text": "Aorta and pulmonary artery",
+        "correct": false
+      },
+      {
+        "text": "Left ventricle and aorta",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc4-016",
+    "topic": "newborn",
+    "prompt": "Oxygenated blood is carried from the placenta to the fetus via:",
+    "choices": [
+      {
+        "text": "Two umbilical veins",
+        "correct": false
+      },
+      {
+        "text": "One umbilical vein",
+        "correct": true
+      },
+      {
+        "text": "Two umbilical arteries",
+        "correct": false
+      },
+      {
+        "text": "One umbilical artery",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc4-017",
+    "topic": "newborn",
+    "prompt": "What major physiological change occurs in the lungs at birth?",
+    "choices": [
+      {
+        "text": "Pulmonary vascular resistance decreases",
+        "correct": true
+      },
+      {
+        "text": "Alveoli collapse",
+        "correct": false
+      },
+      {
+        "text": "Gas exchange stops",
+        "correct": false
+      },
+      {
+        "text": "Surfactant is destroyed",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc4-018",
+    "topic": "newborn",
+    "prompt": "The ductus arteriosus shunts blood from:",
+    "choices": [
+      {
+        "text": "Right ventricle to pulmonary veins",
+        "correct": false
+      },
+      {
+        "text": "Right atrium to left atrium",
+        "correct": false
+      },
+      {
+        "text": "Pulmonary artery to aorta",
+        "correct": true
+      },
+      {
+        "text": "Aorta to pulmonary artery",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc4-019",
+    "topic": "newborn",
+    "prompt": "In fetal life, gas exchange occurs primarily through the:",
+    "choices": [
+      {
+        "text": "Alveoli",
+        "correct": false
+      },
+      {
+        "text": "Umbilical arteries",
+        "correct": false
+      },
+      {
+        "text": "Placenta",
+        "correct": true
+      },
+      {
+        "text": "Lungs",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc4-020",
+    "topic": "newborn",
+    "prompt": "At birth, the first breath helps to:",
+    "choices": [
+      {
+        "text": "Inflate the lungs and reduce pulmonary resistance",
+        "correct": true
+      },
+      {
+        "text": "Increase lung fluid",
+        "correct": false
+      },
+      {
+        "text": "Collapse the alveoli",
+        "correct": false
+      },
+      {
+        "text": "Increase pulmonary resistance",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc4-021",
+    "topic": "newborn",
+    "prompt": "Which of the following statements is true about fetal lungs?",
+    "choices": [
+      {
+        "text": "They are filled with air",
+        "correct": false
+      },
+      {
+        "text": "They receive high blood flow",
+        "correct": false
+      },
+      {
+        "text": "They function in gas exchange",
+        "correct": false
+      },
+      {
+        "text": "They secrete fluid",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc4-022",
+    "topic": "newborn",
+    "prompt": "Which is a normal cardiovascular adaptation after birth?",
+    "choices": [
+      {
+        "text": "Blood returns to the placenta",
+        "correct": false
+      },
+      {
+        "text": "Blood flow bypasses the lungs",
+        "correct": false
+      },
+      {
+        "text": "Foramen ovale and ductus arteriosus begin to close",
+        "correct": true
+      },
+      {
+        "text": "Fetal haemoglobin decreases immediately",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc4-023",
+    "topic": "newborn",
+    "prompt": "In fetal circulation, which organ is bypassed because it is non-functional for oxygen exchange?",
+    "choices": [
+      {
+        "text": "Lungs",
+        "correct": true
+      },
+      {
+        "text": "Heart",
+        "correct": false
+      },
+      {
+        "text": "Liver",
+        "correct": false
+      },
+      {
+        "text": "Kidneys",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc4-024",
+    "topic": "newborn",
+    "prompt": "The high oxygen affinity of fetal hemoglobin allows:",
+    "choices": [
+      {
+        "text": "More oxygen to stay in the mother's blood",
+        "correct": false
+      },
+      {
+        "text": "Faster oxygen breakdown",
+        "correct": false
+      },
+      {
+        "text": "Less oxygen to be delivered to fetal tissues",
+        "correct": false
+      },
+      {
+        "text": "The fetus to extract oxygen efficiently from maternal blood",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc4-025",
+    "topic": "lactation",
+    "prompt": "During pregnancy, high levels of which hormones inhibit milk secretion despite breast development?",
+    "choices": [
+      {
+        "text": "Prolactin and oxytocin",
+        "correct": false
+      },
+      {
+        "text": "LH and FSH",
+        "correct": false
+      },
+      {
+        "text": "Oestrogen and progesterone",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "id": "umc4-026",
+    "topic": "lactation",
+    "prompt": "What happens when milk remains in the breast for extended periods?",
+    "choices": [
+      {
+        "text": "The breast becomes inflamed",
+        "correct": false
+      },
+      {
+        "text": "FIL levels increase and suppress further milk secretion",
+        "correct": true
+      },
+      {
+        "text": "Oxytocin production increases",
+        "correct": false
+      },
+      {
+        "text": "More milk is produced",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc4-027",
+    "topic": "lactation",
+    "prompt": "Which of the following best describes the difference between lactocytes and myoepithelial cells?",
+    "choices": [
+      {
+        "text": "Lactocytes produce milk; myoepithelial cells eject it",
+        "correct": true
+      },
+      {
+        "text": "Lactocytes are large cells; myoepithelial cells are small cells",
+        "correct": false
+      },
+      {
+        "text": "Lactocytes store milk; myoepithelial cells digest it",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "id": "umc4-028",
+    "topic": "lactation",
+    "prompt": "Which glands within the areola secrete an oily substance to lubricate the nipple?",
+    "choices": [
+      {
+        "text": "Sebaceous glands",
+        "correct": false
+      },
+      {
+        "text": "Mammary glands",
+        "correct": false
+      },
+      {
+        "text": "Montgomery glands",
+        "correct": true
+      },
+      {
+        "text": "Sweat glands",
+        "correct": false
+      }
+    ]
+  }
+]

@@ -6,6 +6,7 @@ import umcExplanations from './umc/explanations.json'
 import umcOwnQuestions from './umc/own-questions.json'
 import umcQuestionsAndAnswers from './umc/questions-and-answers.json'
 import umcRevisionQuiz from './umc/revision-quiz.json'
+import umcThirdStageAndFetalCirculation from './umc/third-stage-and-fetal-circulation.json'
 
 /** Adds explanations, kept in their own file so re-importing a quiz doesn't overwrite them. */
 function withExplanations(questions: Question[], explanations: Record<string, string>): Question[] {
@@ -61,6 +62,14 @@ const umc: Module = {
       description: 'Questions written for this app from your own revision notes: mostly percentages and numbers.',
       source: 'you (written up from your notes)',
       questions: withExplanations(umcOwnQuestions as Question[], umcExplanations),
+    },
+    {
+      kind: 'quiz',
+      id: 'umc-third-stage-and-fetal-circulation',
+      title: 'Third stage, fetal circulation and lactation',
+      description: 'Multiple choice questions on the second and third stages, the newborn\'s circulation and lactation.',
+      source: 'the course (author not named)',
+      questions: withExplanations(umcThirdStageAndFetalCirculation as Question[], umcExplanations),
     },
     ...UMC_DIAGRAMS,
   ],
